@@ -1,0 +1,43 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:APOE a hetio:Gene ;
+    rdfs:label "APOE" ;
+    hetio:associatedWith ent:alzheimers_disease .
+
+ent:APP a hetio:Gene ;
+    rdfs:label "APP" ;
+    hetio:associatedWith ent:alzheimers_disease .
+
+ent:BIN1 a hetio:Gene ;
+    rdfs:label "BIN1" ;
+    hetio:associatedWith ent:alzheimers_disease .
+
+ent:CLU a hetio:Gene ;
+    rdfs:label "CLU" ;
+    hetio:associatedWith ent:alzheimers_disease .
+
+ent:PRNP a hetio:Gene ;
+    rdfs:label "PRNP" ;
+    hetio:associatedWith ent:alzheimers_disease .
+
+ent:PSEN1 a hetio:Gene ;
+    rdfs:label "PSEN1" ;
+    hetio:associatedWith ent:alzheimers_disease .
+
+ent:PSEN2 a hetio:Gene ;
+    rdfs:label "PSEN2" ;
+    hetio:associatedWith ent:alzheimers_disease .
+
+ent:TARDBP a hetio:Gene ;
+    rdfs:label "TARDBP" ;
+    hetio:associatedWith ent:alzheimers_disease .
+
+ent:TREM2 a hetio:Gene ;
+    rdfs:label "TREM2" ;
+    hetio:associatedWith ent:alzheimers_disease .
+
+ent:alzheimers_disease a hetio:Disease ;
+    rdfs:label "Alzheimer's disease" .
+

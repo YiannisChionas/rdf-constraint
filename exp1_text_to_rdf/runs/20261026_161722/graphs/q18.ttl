@@ -1,0 +1,104 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:barbiturates a hetio:Compound ;
+    rdfs:label "barbiturates" ;
+    hetio:treats ent:epilepsy .
+
+ent:benzodiazepines a hetio:Compound ;
+    rdfs:label "benzodiazepines" ;
+    hetio:treats ent:epilepsy .
+
+ent:cannabidiol a hetio:Compound ;
+    rdfs:label "cannabidiol" ;
+    hetio:binds ent:CB1,
+        ent:TRPV1 ;
+    hetio:treats ent:epilepsy .
+
+ent:carbamazepine a hetio:Compound ;
+    rdfs:label "carbamazepine" ;
+    hetio:binds ent:NAV11,
+        ent:NAV12,
+        ent:NAV13 ;
+    hetio:treats ent:epilepsy .
+
+ent:diazepam a hetio:Compound ;
+    rdfs:label "diazepam" ;
+    hetio:treats ent:epilepsy .
+
+ent:gabapentin a hetio:Compound ;
+    rdfs:label "gabapentin" ;
+    hetio:binds ent:ALPHA2DELTA ;
+    hetio:treats ent:epilepsy .
+
+ent:lamotrigine a hetio:Compound ;
+    rdfs:label "lamotrigine" ;
+    hetio:treats ent:epilepsy .
+
+ent:levetiracetam a hetio:Compound ;
+    rdfs:label "levetiracetam" ;
+    hetio:binds ent:SV2A ;
+    hetio:treats ent:epilepsy .
+
+ent:lorazepam a hetio:Compound ;
+    rdfs:label "lorazepam" ;
+    hetio:treats ent:epilepsy .
+
+ent:oxcarbazepine a hetio:Compound ;
+    rdfs:label "oxcarbazepine" ;
+    hetio:treats ent:epilepsy .
+
+ent:perampanel a hetio:Compound ;
+    rdfs:label "perampanel" ;
+    hetio:treats ent:epilepsy .
+
+ent:phenobarbital a hetio:Compound ;
+    rdfs:label "phenobarbital" ;
+    hetio:treats ent:epilepsy .
+
+ent:pregabalin a hetio:Compound ;
+    rdfs:label "pregabalin" ;
+    hetio:binds ent:ALPHA2DELTA ;
+    hetio:treats ent:epilepsy .
+
+ent:topiramate a hetio:Compound ;
+    rdfs:label "topiramate" ;
+    hetio:treats ent:epilepsy .
+
+ent:valproate a hetio:Compound ;
+    rdfs:label "valproate" ;
+    hetio:treats ent:epilepsy .
+
+ent:vigabatrin a hetio:Compound ;
+    rdfs:label "vigabatrin" ;
+    hetio:binds ent:GABA_TRANSAMINASE ;
+    hetio:treats ent:epilepsy .
+
+ent:CB1 a hetio:Gene ;
+    rdfs:label "CB1" .
+
+ent:GABA_TRANSAMINASE a hetio:Gene ;
+    rdfs:label "GABA transaminase" .
+
+ent:NAV11 a hetio:Gene ;
+    rdfs:label "Nav1.1" .
+
+ent:NAV12 a hetio:Gene ;
+    rdfs:label "Nav1.2" .
+
+ent:NAV13 a hetio:Gene ;
+    rdfs:label "Nav1.3" .
+
+ent:SV2A a hetio:Gene ;
+    rdfs:label "SV2A" .
+
+ent:TRPV1 a hetio:Gene ;
+    rdfs:label "TRPV1" .
+
+ent:ALPHA2DELTA a hetio:Gene ;
+    rdfs:label "alpha2delta" .
+
+ent:epilepsy a hetio:Disease ;
+    rdfs:label "epilepsy" .
+

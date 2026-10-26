@@ -1,0 +1,27 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:atorvastatin a hetio:Compound ;
+    rdfs:label "atorvastatin" ;
+    hetio:binds ent:HMGCR ;
+    hetio:treats ent:coronary_artery_disease,
+        ent:diabetes,
+        ent:familial_hypercholesterolemia,
+        ent:hyperlipidemia .
+
+ent:HMGCR a hetio:Gene ;
+    rdfs:label "HMGCR" .
+
+ent:coronary_artery_disease a hetio:Disease ;
+    rdfs:label "coronary artery disease" .
+
+ent:diabetes a hetio:Disease ;
+    rdfs:label "diabetes" .
+
+ent:familial_hypercholesterolemia a hetio:Disease ;
+    rdfs:label "familial hypercholesterolemia" .
+
+ent:hyperlipidemia a hetio:Disease ;
+    rdfs:label "hyperlipidemia" .
+

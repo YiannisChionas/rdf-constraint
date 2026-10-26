@@ -1,0 +1,5 @@
+requests
+rdflib
+jsonschema
+pyyaml
+pandas

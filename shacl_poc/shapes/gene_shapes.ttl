@@ -1,0 +1,109 @@
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix hetio:  <http://example.org/hetio/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+# ---------------------------------------------------------------------------
+# SHACL shapes for the Hetionet-derived schema used in exp1_text_to_rdf.
+#
+# No ready-made SHACL shapes for Hetionet itself were found online (Hetionet
+# is distributed as a Neo4j export / TSV files, not as RDF, and no community
+# RDF/OWL/SHACL port of it could be located). These shapes are therefore
+# hand-written, but every class, relation and cardinality rule below is
+# derived directly from:
+#   - Himmelstein, D.S. et al. (2017) "Systematic integration of biomedical
+#     knowledge prioritizes drugs for repurposing." eLife 6:e26726.
+#     https://doi.org/10.7554/eLife.26726  (defines the Hetionet metagraph:
+#     node types Gene/Compound/Disease/..., metaedges CtD, CbG, DaG, GiG)
+#   - ../exp1_text_to_rdf/schema.yaml (our Hetionet subset: same node types
+#     and the same four metaedges, renamed treats/binds/associatedWith/
+#     interactsWith)
+#
+# "Ready-made" here = the SHACL language/engine (pySHACL) itself; the shapes
+# encode Hetionet's own documented metagraph constraints, not a borrowed
+# third-party shapes file.
+# ---------------------------------------------------------------------------
+
+# --- Node shapes --------------------------------------------------------
+
+hetio:GeneShape
+    a sh:NodeShape ;
+    sh:targetClass hetio:Gene ;
+    rdfs:comment "A Hetionet Gene node. Gene nodes are identified by their official HGNC gene symbol (Himmelstein et al. 2017, Methods: node identifiers)." ;
+
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Every Gene must have exactly one rdfs:label." ;
+    ] ;
+
+    sh:property [
+        sh:path rdfs:label ;
+        sh:pattern "^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$" ;
+        sh:flags "" ;
+        sh:severity sh:Warning ;
+        sh:message "Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead." ;
+    ] ;
+
+    # Hetionet's Gene node only exists because it participates in at least
+    # one metaedge (CbG, DaG or GiG). An isolated Gene node with no relation
+    # is not a valid Hetionet-style fact.
+    sh:or (
+        [ sh:path [ sh:inversePath hetio:binds ] ; sh:minCount 1 ]
+        [ sh:path hetio:associatedWith ; sh:minCount 1 ]
+        [ sh:path hetio:interactsWith ; sh:minCount 1 ]
+        [ sh:path [ sh:inversePath hetio:interactsWith ] ; sh:minCount 1 ]
+    ) ;
+    sh:message "Gene node is not linked by any binds/associatedWith/interactsWith relation (Hetionet metaedges CbG/DaG/GiG)." ;
+
+    sh:property [
+        sh:path hetio:associatedWith ;
+        sh:class hetio:Disease ;
+        sh:message "hetio:associatedWith must point from a Gene to a Disease (Hetionet metaedge DaG)." ;
+    ] ;
+
+    sh:property [
+        sh:path hetio:interactsWith ;
+        sh:class hetio:Gene ;
+        sh:message "hetio:interactsWith must point from a Gene to a Gene (Hetionet metaedge GiG)." ;
+    ] .
+
+hetio:CompoundShape
+    a sh:NodeShape ;
+    sh:targetClass hetio:Compound ;
+    rdfs:comment "A Hetionet Compound node (drug or chemical)." ;
+
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Every Compound must have exactly one rdfs:label." ;
+    ] ;
+
+    sh:property [
+        sh:path hetio:treats ;
+        sh:class hetio:Disease ;
+        sh:message "hetio:treats must point from a Compound to a Disease (Hetionet metaedge CtD)." ;
+    ] ;
+
+    sh:property [
+        sh:path hetio:binds ;
+        sh:class hetio:Gene ;
+        sh:message "hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG)." ;
+    ] .
+
+hetio:DiseaseShape
+    a sh:NodeShape ;
+    sh:targetClass hetio:Disease ;
+    rdfs:comment "A Hetionet Disease node." ;
+
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Every Disease must have exactly one rdfs:label." ;
+    ] .

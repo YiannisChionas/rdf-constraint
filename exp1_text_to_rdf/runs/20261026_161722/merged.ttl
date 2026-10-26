@@ -1,0 +1,831 @@
+@prefix ns1: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/hetio/entity/ABCG5> a ns1:Gene ;
+    rdfs:label "ABCG5" .
+
+<http://example.org/hetio/entity/ABCG8> a ns1:Gene ;
+    rdfs:label "ABCG8" .
+
+<http://example.org/hetio/entity/APC> a ns1:Gene ;
+    rdfs:label "APC" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer> .
+
+<http://example.org/hetio/entity/APOE> a ns1:Gene ;
+    rdfs:label "APOE" ;
+    ns1:associatedWith <http://example.org/hetio/entity/alzheimers_disease> .
+
+<http://example.org/hetio/entity/APP> a ns1:Gene ;
+    rdfs:label "APP" ;
+    ns1:associatedWith <http://example.org/hetio/entity/alzheimers_disease> .
+
+<http://example.org/hetio/entity/BIN1> a ns1:Gene ;
+    rdfs:label "BIN1" ;
+    ns1:associatedWith <http://example.org/hetio/entity/alzheimers_disease> .
+
+<http://example.org/hetio/entity/BRAF> a ns1:Gene ;
+    rdfs:label "BRAF" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer> .
+
+<http://example.org/hetio/entity/BRCA1> a ns1:Gene ;
+    rdfs:label "BRCA1" ;
+    ns1:associatedWith <http://example.org/hetio/entity/breast_cancer> .
+
+<http://example.org/hetio/entity/BRCA2> a ns1:Gene ;
+    rdfs:label "BRCA2" ;
+    ns1:associatedWith <http://example.org/hetio/entity/breast_cancer>,
+        <http://example.org/hetio/entity/ovarian_cancer> ;
+    ns1:interactsWith <http://example.org/hetio/entity/BARD1>,
+        <http://example.org/hetio/entity/CTIP>,
+        <http://example.org/hetio/entity/DSS1>,
+        <http://example.org/hetio/entity/FANCD2>,
+        <http://example.org/hetio/entity/FANCI>,
+        <http://example.org/hetio/entity/MRE11>,
+        <http://example.org/hetio/entity/NBS1>,
+        <http://example.org/hetio/entity/PALB2>,
+        <http://example.org/hetio/entity/RAD50>,
+        <http://example.org/hetio/entity/RAD51> .
+
+<http://example.org/hetio/entity/BRIP1> a ns1:Gene ;
+    rdfs:label "BRIP1" ;
+    ns1:associatedWith <http://example.org/hetio/entity/breast_cancer> .
+
+<http://example.org/hetio/entity/CD25> a ns1:Gene ;
+    rdfs:label "CD25" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/CFTR> a ns1:Gene ;
+    rdfs:label "CFTR" ;
+    ns1:associatedWith <http://example.org/hetio/entity/cystic_fibrosis> .
+
+<http://example.org/hetio/entity/CHEK2> a ns1:Gene ;
+    rdfs:label "CHEK2" ;
+    ns1:associatedWith <http://example.org/hetio/entity/breast_cancer> .
+
+<http://example.org/hetio/entity/CLU> a ns1:Gene ;
+    rdfs:label "CLU" ;
+    ns1:associatedWith <http://example.org/hetio/entity/alzheimers_disease> .
+
+<http://example.org/hetio/entity/CTLA4> a ns1:Gene ;
+    rdfs:label "CTLA4" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/CTNNB1> a ns1:Gene ;
+    rdfs:label "CTNNB1" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer> .
+
+<http://example.org/hetio/entity/DJ1> a ns1:Gene ;
+    rdfs:label "DJ-1" ;
+    ns1:associatedWith <http://example.org/hetio/entity/parkinsons_disease> .
+
+<http://example.org/hetio/entity/EPCAM> a ns1:Gene ;
+    rdfs:label "EPCAM" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer>,
+        <http://example.org/hetio/entity/lynch_syndrome> .
+
+<http://example.org/hetio/entity/ERBB3> a ns1:Gene ;
+    rdfs:label "ERBB3" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/GBA> a ns1:Gene ;
+    rdfs:label "GBA" ;
+    ns1:associatedWith <http://example.org/hetio/entity/parkinsons_disease> .
+
+<http://example.org/hetio/entity/HLADQB10201> a ns1:Gene ;
+    rdfs:label "HLA-DQB1*02:01" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/HLADQB10302> a ns1:Gene ;
+    rdfs:label "HLA-DQB1*03:02" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/HLADRB10301> a ns1:Gene ;
+    rdfs:label "HLA-DRB1*03:01" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/HLADRB10401> a ns1:Gene ;
+    rdfs:label "HLA-DRB1*04:01" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/IFIH1> a ns1:Gene ;
+    rdfs:label "IFIH1" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/IL2RA> a ns1:Gene ;
+    rdfs:label "IL2RA" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/INS> a ns1:Gene ;
+    rdfs:label "INS" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/KRAS> a ns1:Gene ;
+    rdfs:label "KRAS" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer> .
+
+<http://example.org/hetio/entity/LRRK2> a ns1:Gene ;
+    rdfs:label "LRRK2" ;
+    ns1:associatedWith <http://example.org/hetio/entity/parkinsons_disease> .
+
+<http://example.org/hetio/entity/MLH1> a ns1:Gene ;
+    rdfs:label "MLH1" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer>,
+        <http://example.org/hetio/entity/lynch_syndrome> .
+
+<http://example.org/hetio/entity/MSH2> a ns1:Gene ;
+    rdfs:label "MSH2" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer>,
+        <http://example.org/hetio/entity/lynch_syndrome> .
+
+<http://example.org/hetio/entity/MSH6> a ns1:Gene ;
+    rdfs:label "MSH6" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer>,
+        <http://example.org/hetio/entity/lynch_syndrome> .
+
+<http://example.org/hetio/entity/PIK3CA> a ns1:Gene ;
+    rdfs:label "PIK3CA" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer> .
+
+<http://example.org/hetio/entity/PINK1> a ns1:Gene ;
+    rdfs:label "PINK1" ;
+    ns1:associatedWith <http://example.org/hetio/entity/parkinsons_disease> .
+
+<http://example.org/hetio/entity/PMS2> a ns1:Gene ;
+    rdfs:label "PMS2" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer>,
+        <http://example.org/hetio/entity/lynch_syndrome> .
+
+<http://example.org/hetio/entity/PRKN> a ns1:Gene ;
+    rdfs:label "PRKN" ;
+    ns1:associatedWith <http://example.org/hetio/entity/parkinsons_disease> .
+
+<http://example.org/hetio/entity/PRNP> a ns1:Gene ;
+    rdfs:label "PRNP" ;
+    ns1:associatedWith <http://example.org/hetio/entity/alzheimers_disease> .
+
+<http://example.org/hetio/entity/PSEN1> a ns1:Gene ;
+    rdfs:label "PSEN1" ;
+    ns1:associatedWith <http://example.org/hetio/entity/alzheimers_disease> .
+
+<http://example.org/hetio/entity/PSEN2> a ns1:Gene ;
+    rdfs:label "PSEN2" ;
+    ns1:associatedWith <http://example.org/hetio/entity/alzheimers_disease> .
+
+<http://example.org/hetio/entity/PTEN> a ns1:Gene ;
+    rdfs:label "PTEN" ;
+    ns1:associatedWith <http://example.org/hetio/entity/breast_cancer>,
+        <http://example.org/hetio/entity/colorectal_cancer> .
+
+<http://example.org/hetio/entity/PTPN22> a ns1:Gene ;
+    rdfs:label "PTPN22" ;
+    ns1:associatedWith <http://example.org/hetio/entity/type_1_diabetes> .
+
+<http://example.org/hetio/entity/SLC26A9> a ns1:Gene ;
+    rdfs:label "SLC26A9" .
+
+<http://example.org/hetio/entity/SMAD4> a ns1:Gene ;
+    rdfs:label "SMAD4" ;
+    ns1:associatedWith <http://example.org/hetio/entity/colorectal_cancer> .
+
+<http://example.org/hetio/entity/SNCA> a ns1:Gene ;
+    rdfs:label "SNCA" ;
+    ns1:associatedWith <http://example.org/hetio/entity/parkinsons_disease> .
+
+<http://example.org/hetio/entity/TARDBP> a ns1:Gene ;
+    rdfs:label "TARDBP" ;
+    ns1:associatedWith <http://example.org/hetio/entity/alzheimers_disease> .
+
+<http://example.org/hetio/entity/TREM2> a ns1:Gene ;
+    rdfs:label "TREM2" ;
+    ns1:associatedWith <http://example.org/hetio/entity/alzheimers_disease> .
+
+<http://example.org/hetio/entity/abatacept> a ns1:Compound ;
+    rdfs:label "abatacept" ;
+    ns1:treats <http://example.org/hetio/entity/rheumatoid_arthritis> .
+
+<http://example.org/hetio/entity/acarbose> a ns1:Compound ;
+    rdfs:label "acarbose" ;
+    ns1:treats <http://example.org/hetio/entity/type_2_diabetes> .
+
+<http://example.org/hetio/entity/adalimumab> a ns1:Compound ;
+    rdfs:label "adalimumab" ;
+    ns1:treats <http://example.org/hetio/entity/rheumatoid_arthritis> .
+
+<http://example.org/hetio/entity/adotrastuzumab_emtansine> a ns1:Compound ;
+    rdfs:label "ado-trastuzumab emtansine" ;
+    ns1:binds <http://example.org/hetio/entity/HER2> ;
+    ns1:treats <http://example.org/hetio/entity/her2positive_breast_cancer> .
+
+<http://example.org/hetio/entity/afatinib> a ns1:Compound ;
+    rdfs:label "afatinib" ;
+    ns1:binds <http://example.org/hetio/entity/EGFR> ;
+    ns1:treats <http://example.org/hetio/entity/nonsmall_cell_lung_cancer> .
+
+<http://example.org/hetio/entity/albuterol> a ns1:Compound ;
+    rdfs:label "albuterol" ;
+    ns1:binds <http://example.org/hetio/entity/ADRB2> ;
+    ns1:treats <http://example.org/hetio/entity/asthma> .
+
+<http://example.org/hetio/entity/aliskiren> a ns1:Compound ;
+    rdfs:label "aliskiren" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/amlodipine> a ns1:Compound ;
+    rdfs:label "amlodipine" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/aspirin> a ns1:Compound ;
+    rdfs:label "aspirin" ;
+    ns1:treats <http://example.org/hetio/entity/arthritis>,
+        <http://example.org/hetio/entity/colorectal_cancer>,
+        <http://example.org/hetio/entity/fever>,
+        <http://example.org/hetio/entity/headaches>,
+        <http://example.org/hetio/entity/heart_attack>,
+        <http://example.org/hetio/entity/muscle_pain>,
+        <http://example.org/hetio/entity/rheumatoid_arthritis>,
+        <http://example.org/hetio/entity/stroke> .
+
+<http://example.org/hetio/entity/atenolol> a ns1:Compound ;
+    rdfs:label "atenolol" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/atorvastatin> a ns1:Compound ;
+    rdfs:label "atorvastatin" ;
+    ns1:binds <http://example.org/hetio/entity/HMGCR> ;
+    ns1:treats <http://example.org/hetio/entity/coronary_artery_disease>,
+        <http://example.org/hetio/entity/diabetes>,
+        <http://example.org/hetio/entity/familial_hypercholesterolemia>,
+        <http://example.org/hetio/entity/hyperlipidemia> .
+
+<http://example.org/hetio/entity/barbiturates> a ns1:Compound ;
+    rdfs:label "barbiturates" ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/benzodiazepines> a ns1:Compound ;
+    rdfs:label "benzodiazepines" ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/budesonide> a ns1:Compound ;
+    rdfs:label "budesonide" ;
+    ns1:binds <http://example.org/hetio/entity/NR3C1> ;
+    ns1:treats <http://example.org/hetio/entity/asthma> .
+
+<http://example.org/hetio/entity/cannabidiol> a ns1:Compound ;
+    rdfs:label "cannabidiol" ;
+    ns1:binds <http://example.org/hetio/entity/CB1>,
+        <http://example.org/hetio/entity/TRPV1> ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/capecitabine> a ns1:Compound ;
+    rdfs:label "capecitabine" ;
+    ns1:treats <http://example.org/hetio/entity/her2positive_breast_cancer> .
+
+<http://example.org/hetio/entity/carbamazepine> a ns1:Compound ;
+    rdfs:label "carbamazepine" ;
+    ns1:binds <http://example.org/hetio/entity/NAV11>,
+        <http://example.org/hetio/entity/NAV12>,
+        <http://example.org/hetio/entity/NAV13> ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/cetuximab> a ns1:Compound ;
+    rdfs:label "cetuximab" ;
+    ns1:binds <http://example.org/hetio/entity/EGFR> ;
+    ns1:treats <http://example.org/hetio/entity/head_and_neck_cancers>,
+        <http://example.org/hetio/entity/metastatic_colorectal_cancer> .
+
+<http://example.org/hetio/entity/diazepam> a ns1:Compound ;
+    rdfs:label "diazepam" ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/doxazosin> a ns1:Compound ;
+    rdfs:label "doxazosin" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/dupilumab> a ns1:Compound ;
+    rdfs:label "dupilumab" ;
+    ns1:binds <http://example.org/hetio/entity/IL13>,
+        <http://example.org/hetio/entity/IL4> ;
+    ns1:treats <http://example.org/hetio/entity/asthma> .
+
+<http://example.org/hetio/entity/empagliflozin> a ns1:Compound ;
+    rdfs:label "empagliflozin" ;
+    ns1:treats <http://example.org/hetio/entity/type_2_diabetes> .
+
+<http://example.org/hetio/entity/enalapril> a ns1:Compound ;
+    rdfs:label "enalapril" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/eplerenone> a ns1:Compound ;
+    rdfs:label "eplerenone" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/erlotinib> a ns1:Compound ;
+    rdfs:label "erlotinib" ;
+    ns1:binds <http://example.org/hetio/entity/EGFR> ;
+    ns1:treats <http://example.org/hetio/entity/nonsmall_cell_lung_cancer> .
+
+<http://example.org/hetio/entity/etanercept> a ns1:Compound ;
+    rdfs:label "etanercept" ;
+    ns1:treats <http://example.org/hetio/entity/rheumatoid_arthritis> .
+
+<http://example.org/hetio/entity/fluticasone> a ns1:Compound ;
+    rdfs:label "fluticasone" ;
+    ns1:binds <http://example.org/hetio/entity/NR3C1> ;
+    ns1:treats <http://example.org/hetio/entity/asthma> .
+
+<http://example.org/hetio/entity/formoterol> a ns1:Compound ;
+    rdfs:label "formoterol" ;
+    ns1:binds <http://example.org/hetio/entity/ADRB2> ;
+    ns1:treats <http://example.org/hetio/entity/asthma> .
+
+<http://example.org/hetio/entity/gabapentin> a ns1:Compound ;
+    rdfs:label "gabapentin" ;
+    ns1:binds <http://example.org/hetio/entity/ALPHA2DELTA> ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/gefitinib> a ns1:Compound ;
+    rdfs:label "gefitinib" ;
+    ns1:binds <http://example.org/hetio/entity/EGFR> ;
+    ns1:treats <http://example.org/hetio/entity/nonsmall_cell_lung_cancer> .
+
+<http://example.org/hetio/entity/glipizide> a ns1:Compound ;
+    rdfs:label "glipizide" ;
+    ns1:treats <http://example.org/hetio/entity/type_2_diabetes> .
+
+<http://example.org/hetio/entity/hydrochlorothiazide> a ns1:Compound ;
+    rdfs:label "hydrochlorothiazide" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/hydroxychloroquine> a ns1:Compound ;
+    rdfs:label "hydroxychloroquine" ;
+    ns1:treats <http://example.org/hetio/entity/rheumatoid_arthritis> .
+
+<http://example.org/hetio/entity/lamotrigine> a ns1:Compound ;
+    rdfs:label "lamotrigine" ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/lapatinib> a ns1:Compound ;
+    rdfs:label "lapatinib" ;
+    ns1:binds <http://example.org/hetio/entity/HER2> ;
+    ns1:treats <http://example.org/hetio/entity/her2positive_breast_cancer> .
+
+<http://example.org/hetio/entity/levetiracetam> a ns1:Compound ;
+    rdfs:label "levetiracetam" ;
+    ns1:binds <http://example.org/hetio/entity/SV2A> ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/liraglutide> a ns1:Compound ;
+    rdfs:label "liraglutide" ;
+    ns1:treats <http://example.org/hetio/entity/type_2_diabetes> .
+
+<http://example.org/hetio/entity/lisinopril> a ns1:Compound ;
+    rdfs:label "lisinopril" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/lorazepam> a ns1:Compound ;
+    rdfs:label "lorazepam" ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/losartan> a ns1:Compound ;
+    rdfs:label "losartan" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/mepolizumab> a ns1:Compound ;
+    rdfs:label "mepolizumab" ;
+    ns1:binds <http://example.org/hetio/entity/IL5> ;
+    ns1:treats <http://example.org/hetio/entity/asthma> .
+
+<http://example.org/hetio/entity/metformin> a ns1:Compound ;
+    rdfs:label "metformin" ;
+    ns1:treats <http://example.org/hetio/entity/type_2_diabetes> .
+
+<http://example.org/hetio/entity/methotrexate> a ns1:Compound ;
+    rdfs:label "methotrexate" ;
+    ns1:treats <http://example.org/hetio/entity/rheumatoid_arthritis> .
+
+<http://example.org/hetio/entity/metoprolol> a ns1:Compound ;
+    rdfs:label "metoprolol" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/montelukast> a ns1:Compound ;
+    rdfs:label "montelukast" ;
+    ns1:binds <http://example.org/hetio/entity/CYSLT1> ;
+    ns1:treats <http://example.org/hetio/entity/asthma> .
+
+<http://example.org/hetio/entity/neratinib> a ns1:Compound ;
+    rdfs:label "neratinib" ;
+    ns1:binds <http://example.org/hetio/entity/HER2> ;
+    ns1:treats <http://example.org/hetio/entity/her2positive_breast_cancer> .
+
+<http://example.org/hetio/entity/omalizumab> a ns1:Compound ;
+    rdfs:label "omalizumab" ;
+    ns1:binds <http://example.org/hetio/entity/FCER1> ;
+    ns1:treats <http://example.org/hetio/entity/asthma> .
+
+<http://example.org/hetio/entity/osimertinib> a ns1:Compound ;
+    rdfs:label "osimertinib" ;
+    ns1:binds <http://example.org/hetio/entity/EGFR> ;
+    ns1:treats <http://example.org/hetio/entity/nonsmall_cell_lung_cancer> .
+
+<http://example.org/hetio/entity/oxcarbazepine> a ns1:Compound ;
+    rdfs:label "oxcarbazepine" ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/panitumumab> a ns1:Compound ;
+    rdfs:label "panitumumab" ;
+    ns1:binds <http://example.org/hetio/entity/EGFR> ;
+    ns1:treats <http://example.org/hetio/entity/head_and_neck_cancers>,
+        <http://example.org/hetio/entity/metastatic_colorectal_cancer> .
+
+<http://example.org/hetio/entity/perampanel> a ns1:Compound ;
+    rdfs:label "perampanel" ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/pertuzumab> a ns1:Compound ;
+    rdfs:label "pertuzumab" ;
+    ns1:binds <http://example.org/hetio/entity/HER2> ;
+    ns1:treats <http://example.org/hetio/entity/her2positive_breast_cancer> .
+
+<http://example.org/hetio/entity/phenobarbital> a ns1:Compound ;
+    rdfs:label "phenobarbital" ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/pioglitazone> a ns1:Compound ;
+    rdfs:label "pioglitazone" ;
+    ns1:treats <http://example.org/hetio/entity/type_2_diabetes> .
+
+<http://example.org/hetio/entity/prednisone> a ns1:Compound ;
+    rdfs:label "prednisone" ;
+    ns1:treats <http://example.org/hetio/entity/rheumatoid_arthritis> .
+
+<http://example.org/hetio/entity/pregabalin> a ns1:Compound ;
+    rdfs:label "pregabalin" ;
+    ns1:binds <http://example.org/hetio/entity/ALPHA2DELTA> ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/repaglinide> a ns1:Compound ;
+    rdfs:label "repaglinide" ;
+    ns1:treats <http://example.org/hetio/entity/type_2_diabetes> .
+
+<http://example.org/hetio/entity/rituximab> a ns1:Compound ;
+    rdfs:label "rituximab" ;
+    ns1:treats <http://example.org/hetio/entity/rheumatoid_arthritis> .
+
+<http://example.org/hetio/entity/salmeterol> a ns1:Compound ;
+    rdfs:label "salmeterol" ;
+    ns1:binds <http://example.org/hetio/entity/ADRB2> ;
+    ns1:treats <http://example.org/hetio/entity/asthma> .
+
+<http://example.org/hetio/entity/sitagliptin> a ns1:Compound ;
+    rdfs:label "sitagliptin" ;
+    ns1:treats <http://example.org/hetio/entity/type_2_diabetes> .
+
+<http://example.org/hetio/entity/spironolactone> a ns1:Compound ;
+    rdfs:label "spironolactone" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/sulfasalazine> a ns1:Compound ;
+    rdfs:label "sulfasalazine" ;
+    ns1:treats <http://example.org/hetio/entity/rheumatoid_arthritis> .
+
+<http://example.org/hetio/entity/tiotropium> a ns1:Compound ;
+    rdfs:label "tiotropium" ;
+    ns1:binds <http://example.org/hetio/entity/CHRM3> ;
+    ns1:treats <http://example.org/hetio/entity/asthma> .
+
+<http://example.org/hetio/entity/tocilizumab> a ns1:Compound ;
+    rdfs:label "tocilizumab" ;
+    ns1:treats <http://example.org/hetio/entity/rheumatoid_arthritis> .
+
+<http://example.org/hetio/entity/tofacitinib> a ns1:Compound ;
+    rdfs:label "tofacitinib" ;
+    ns1:treats <http://example.org/hetio/entity/rheumatoid_arthritis> .
+
+<http://example.org/hetio/entity/topiramate> a ns1:Compound ;
+    rdfs:label "topiramate" ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/trastuzumab> a ns1:Compound ;
+    rdfs:label "trastuzumab" ;
+    ns1:binds <http://example.org/hetio/entity/HER2> ;
+    ns1:treats <http://example.org/hetio/entity/her2positive_breast_cancer> .
+
+<http://example.org/hetio/entity/trastuzumab_deruxtecan> a ns1:Compound ;
+    rdfs:label "trastuzumab deruxtecan" ;
+    ns1:binds <http://example.org/hetio/entity/HER2> ;
+    ns1:treats <http://example.org/hetio/entity/her2positive_breast_cancer> .
+
+<http://example.org/hetio/entity/tucatinib> a ns1:Compound ;
+    rdfs:label "tucatinib" ;
+    ns1:binds <http://example.org/hetio/entity/HER2> ;
+    ns1:treats <http://example.org/hetio/entity/her2positive_breast_cancer> .
+
+<http://example.org/hetio/entity/valproate> a ns1:Compound ;
+    rdfs:label "valproate" ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/valsartan> a ns1:Compound ;
+    rdfs:label "valsartan" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/verapamil> a ns1:Compound ;
+    rdfs:label "verapamil" ;
+    ns1:binds <http://example.org/hetio/entity/hypertension> .
+
+<http://example.org/hetio/entity/vigabatrin> a ns1:Compound ;
+    rdfs:label "vigabatrin" ;
+    ns1:binds <http://example.org/hetio/entity/GABA_TRANSAMINASE> ;
+    ns1:treats <http://example.org/hetio/entity/epilepsy> .
+
+<http://example.org/hetio/entity/1433> a ns1:Gene ;
+    rdfs:label "14-3-3" .
+
+<http://example.org/hetio/entity/ATM> a ns1:Gene ;
+    rdfs:label "ATM" ;
+    ns1:associatedWith <http://example.org/hetio/entity/breast_cancer> .
+
+<http://example.org/hetio/entity/BARD1> a ns1:Gene ;
+    rdfs:label "BARD1" .
+
+<http://example.org/hetio/entity/BAX> a ns1:Gene ;
+    rdfs:label "BAX" .
+
+<http://example.org/hetio/entity/BCRABL> a ns1:Gene ;
+    rdfs:label "BCR-ABL" ;
+    ns1:binds <http://example.org/hetio/entity/asciminib>,
+        <http://example.org/hetio/entity/bosutinib>,
+        <http://example.org/hetio/entity/dasatinib>,
+        <http://example.org/hetio/entity/imatinib>,
+        <http://example.org/hetio/entity/nilotinib>,
+        <http://example.org/hetio/entity/omacetaxine_mepesuccinate>,
+        <http://example.org/hetio/entity/ponatinib> .
+
+<http://example.org/hetio/entity/CB1> a ns1:Gene ;
+    rdfs:label "CB1" .
+
+<http://example.org/hetio/entity/CHRM3> a ns1:Gene ;
+    rdfs:label "CHRM3" .
+
+<http://example.org/hetio/entity/CKIT> a ns1:Gene ;
+    rdfs:label "c-KIT" .
+
+<http://example.org/hetio/entity/CTIP> a ns1:Gene ;
+    rdfs:label "CtIP" .
+
+<http://example.org/hetio/entity/CYSLT1> a ns1:Gene ;
+    rdfs:label "CysLT1" .
+
+<http://example.org/hetio/entity/DSS1> a ns1:Gene ;
+    rdfs:label "DSS1" .
+
+<http://example.org/hetio/entity/E2F> a ns1:Gene ;
+    rdfs:label "E2F" .
+
+<http://example.org/hetio/entity/FANCD2> a ns1:Gene ;
+    rdfs:label "FANCD2" .
+
+<http://example.org/hetio/entity/FANCI> a ns1:Gene ;
+    rdfs:label "FANCI" .
+
+<http://example.org/hetio/entity/FCER1> a ns1:Gene ;
+    rdfs:label "FCER1" .
+
+<http://example.org/hetio/entity/GABA_TRANSAMINASE> a ns1:Gene ;
+    rdfs:label "GABA transaminase" .
+
+<http://example.org/hetio/entity/GADD45> a ns1:Gene ;
+    rdfs:label "GADD45" .
+
+<http://example.org/hetio/entity/HMGCR> a ns1:Gene ;
+    rdfs:label "HMGCR" .
+
+<http://example.org/hetio/entity/IL13> a ns1:Gene ;
+    rdfs:label "IL13" .
+
+<http://example.org/hetio/entity/IL4> a ns1:Gene ;
+    rdfs:label "IL4" .
+
+<http://example.org/hetio/entity/IL5> a ns1:Gene ;
+    rdfs:label "IL5" .
+
+<http://example.org/hetio/entity/MDM2> a ns1:Gene ;
+    rdfs:label "MDM2" ;
+    ns1:interactsWith <http://example.org/hetio/entity/MDMX>,
+        <http://example.org/hetio/entity/P14ARF>,
+        <http://example.org/hetio/entity/P73>,
+        <http://example.org/hetio/entity/TP53>,
+        <http://example.org/hetio/entity/TRAF>,
+        <http://example.org/hetio/entity/USP7> .
+
+<http://example.org/hetio/entity/MDMX> a ns1:Gene ;
+    rdfs:label "MDMX" .
+
+<http://example.org/hetio/entity/MRE11> a ns1:Gene ;
+    rdfs:label "MRE11" .
+
+<http://example.org/hetio/entity/NAV11> a ns1:Gene ;
+    rdfs:label "Nav1.1" .
+
+<http://example.org/hetio/entity/NAV12> a ns1:Gene ;
+    rdfs:label "Nav1.2" .
+
+<http://example.org/hetio/entity/NAV13> a ns1:Gene ;
+    rdfs:label "Nav1.3" .
+
+<http://example.org/hetio/entity/NBS1> a ns1:Gene ;
+    rdfs:label "NBS1" .
+
+<http://example.org/hetio/entity/P14ARF> a ns1:Gene ;
+    rdfs:label "p14ARF" .
+
+<http://example.org/hetio/entity/P21> a ns1:Gene ;
+    rdfs:label "p21" .
+
+<http://example.org/hetio/entity/P73> a ns1:Gene ;
+    rdfs:label "p73" .
+
+<http://example.org/hetio/entity/PALB2> a ns1:Gene ;
+    rdfs:label "PALB2" ;
+    ns1:associatedWith <http://example.org/hetio/entity/breast_cancer> .
+
+<http://example.org/hetio/entity/PDGFRA> a ns1:Gene ;
+    rdfs:label "PDGFRA" .
+
+<http://example.org/hetio/entity/RAD50> a ns1:Gene ;
+    rdfs:label "RAD50" .
+
+<http://example.org/hetio/entity/RAD51> a ns1:Gene ;
+    rdfs:label "RAD51" .
+
+<http://example.org/hetio/entity/SV2A> a ns1:Gene ;
+    rdfs:label "SV2A" .
+
+<http://example.org/hetio/entity/TP53> a ns1:Gene ;
+    rdfs:label "TP53" ;
+    ns1:associatedWith <http://example.org/hetio/entity/breast_cancer>,
+        <http://example.org/hetio/entity/colorectal_cancer> ;
+    ns1:interactsWith <http://example.org/hetio/entity/1433>,
+        <http://example.org/hetio/entity/ATM>,
+        <http://example.org/hetio/entity/BAX>,
+        <http://example.org/hetio/entity/E2F>,
+        <http://example.org/hetio/entity/GADD45>,
+        <http://example.org/hetio/entity/MDM2>,
+        <http://example.org/hetio/entity/P21>,
+        <http://example.org/hetio/entity/TRADD> .
+
+<http://example.org/hetio/entity/TRADD> a ns1:Gene ;
+    rdfs:label "TRADD" .
+
+<http://example.org/hetio/entity/TRAF> a ns1:Gene ;
+    rdfs:label "TRAF" .
+
+<http://example.org/hetio/entity/TRPV1> a ns1:Gene ;
+    rdfs:label "TRPV1" .
+
+<http://example.org/hetio/entity/USP7> a ns1:Gene ;
+    rdfs:label "USP7" .
+
+<http://example.org/hetio/entity/arthritis> a ns1:Disease ;
+    rdfs:label "arthritis" .
+
+<http://example.org/hetio/entity/asciminib> a ns1:Compound ;
+    rdfs:label "asciminib" ;
+    ns1:treats <http://example.org/hetio/entity/chronic_myeloid_leukemia> .
+
+<http://example.org/hetio/entity/bosutinib> a ns1:Compound ;
+    rdfs:label "bosutinib" ;
+    ns1:treats <http://example.org/hetio/entity/chronic_myeloid_leukemia> .
+
+<http://example.org/hetio/entity/coronary_artery_disease> a ns1:Disease ;
+    rdfs:label "coronary artery disease" .
+
+<http://example.org/hetio/entity/cystic_fibrosis> a ns1:Disease ;
+    rdfs:label "cystic fibrosis" .
+
+<http://example.org/hetio/entity/dasatinib> a ns1:Compound ;
+    rdfs:label "dasatinib" ;
+    ns1:treats <http://example.org/hetio/entity/chronic_myeloid_leukemia> .
+
+<http://example.org/hetio/entity/dermatofibrosarcoma_protuberans> a ns1:Disease ;
+    rdfs:label "dermatofibrosarcoma protuberans" .
+
+<http://example.org/hetio/entity/diabetes> a ns1:Disease ;
+    rdfs:label "diabetes" .
+
+<http://example.org/hetio/entity/familial_hypercholesterolemia> a ns1:Disease ;
+    rdfs:label "familial hypercholesterolemia" .
+
+<http://example.org/hetio/entity/fever> a ns1:Disease ;
+    rdfs:label "fever" .
+
+<http://example.org/hetio/entity/gastrointestinal_stromal_tumors> a ns1:Disease ;
+    rdfs:label "gastrointestinal stromal tumors" .
+
+<http://example.org/hetio/entity/headaches> a ns1:Disease ;
+    rdfs:label "headaches" .
+
+<http://example.org/hetio/entity/heart_attack> a ns1:Disease ;
+    rdfs:label "heart attack" .
+
+<http://example.org/hetio/entity/hyperlipidemia> a ns1:Disease ;
+    rdfs:label "hyperlipidemia" .
+
+<http://example.org/hetio/entity/imatinib> a ns1:Compound ;
+    rdfs:label "imatinib" ;
+    ns1:binds <http://example.org/hetio/entity/BCRABL>,
+        <http://example.org/hetio/entity/CKIT>,
+        <http://example.org/hetio/entity/PDGFRA> ;
+    ns1:treats <http://example.org/hetio/entity/chronic_myeloid_leukemia>,
+        <http://example.org/hetio/entity/dermatofibrosarcoma_protuberans>,
+        <http://example.org/hetio/entity/gastrointestinal_stromal_tumors>,
+        <http://example.org/hetio/entity/philadelphia_chromosomepositive_acute_lymphoblastic_leukemia> .
+
+<http://example.org/hetio/entity/muscle_pain> a ns1:Disease ;
+    rdfs:label "muscle pain" .
+
+<http://example.org/hetio/entity/nilotinib> a ns1:Compound ;
+    rdfs:label "nilotinib" ;
+    ns1:treats <http://example.org/hetio/entity/chronic_myeloid_leukemia> .
+
+<http://example.org/hetio/entity/omacetaxine_mepesuccinate> a ns1:Compound ;
+    rdfs:label "omacetaxine mepesuccinate" ;
+    ns1:treats <http://example.org/hetio/entity/chronic_myeloid_leukemia> .
+
+<http://example.org/hetio/entity/philadelphia_chromosomepositive_acute_lymphoblastic_leukemia> a ns1:Disease ;
+    rdfs:label "Philadelphia chromosome-positive acute lymphoblastic leukemia" .
+
+<http://example.org/hetio/entity/ponatinib> a ns1:Compound ;
+    rdfs:label "ponatinib" ;
+    ns1:treats <http://example.org/hetio/entity/chronic_myeloid_leukemia> .
+
+<http://example.org/hetio/entity/stroke> a ns1:Disease ;
+    rdfs:label "stroke" .
+
+<http://example.org/hetio/entity/ALPHA2DELTA> a ns1:Gene ;
+    rdfs:label "alpha2delta" .
+
+<http://example.org/hetio/entity/NR3C1> a ns1:Gene ;
+    rdfs:label "NR3C1" .
+
+<http://example.org/hetio/entity/head_and_neck_cancers> a ns1:Disease ;
+    rdfs:label "head and neck cancers" .
+
+<http://example.org/hetio/entity/metastatic_colorectal_cancer> a ns1:Disease ;
+    rdfs:label "metastatic colorectal cancer" .
+
+<http://example.org/hetio/entity/ovarian_cancer> a ns1:Disease ;
+    rdfs:label "ovarian cancer" .
+
+<http://example.org/hetio/entity/ADRB2> a ns1:Gene ;
+    rdfs:label "ADRB2" .
+
+<http://example.org/hetio/entity/nonsmall_cell_lung_cancer> a ns1:Disease ;
+    rdfs:label "non-small cell lung cancer" .
+
+<http://example.org/hetio/entity/lynch_syndrome> a ns1:Disease ;
+    rdfs:label "Lynch syndrome" .
+
+<http://example.org/hetio/entity/EGFR> a ns1:Gene ;
+    rdfs:label "EGFR" .
+
+<http://example.org/hetio/entity/parkinsons_disease> a ns1:Disease ;
+    rdfs:label "Parkinson's disease" .
+
+<http://example.org/hetio/entity/HER2> a ns1:Gene ;
+    rdfs:label "HER2" ;
+    ns1:associatedWith <http://example.org/hetio/entity/breast_cancer> .
+
+<http://example.org/hetio/entity/chronic_myeloid_leukemia> a ns1:Disease ;
+    rdfs:label "chronic myeloid leukemia" .
+
+<http://example.org/hetio/entity/her2positive_breast_cancer> a ns1:Disease ;
+    rdfs:label "HER2-positive breast cancer" .
+
+<http://example.org/hetio/entity/type_2_diabetes> a ns1:Disease ;
+    rdfs:label "type 2 diabetes" .
+
+<http://example.org/hetio/entity/alzheimers_disease> a ns1:Disease ;
+    rdfs:label "Alzheimer's disease" .
+
+<http://example.org/hetio/entity/breast_cancer> a ns1:Disease ;
+    rdfs:label "breast cancer" ;
+    ns1:associatedWith <http://example.org/hetio/entity/ovarian_cancer> .
+
+<http://example.org/hetio/entity/asthma> a ns1:Disease ;
+    rdfs:label "asthma" .
+
+<http://example.org/hetio/entity/rheumatoid_arthritis> a ns1:Disease ;
+    rdfs:label "rheumatoid arthritis" .
+
+<http://example.org/hetio/entity/type_1_diabetes> a ns1:Disease ;
+    rdfs:label "type 1 diabetes" .
+
+<http://example.org/hetio/entity/hypertension> a ns1:Disease ;
+    rdfs:label "hypertension" .
+
+<http://example.org/hetio/entity/colorectal_cancer> a ns1:Disease ;
+    rdfs:label "colorectal cancer" .
+
+<http://example.org/hetio/entity/epilepsy> a ns1:Disease ;
+    rdfs:label "epilepsy" .
+

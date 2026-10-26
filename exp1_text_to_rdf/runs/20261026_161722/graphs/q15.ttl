@@ -1,0 +1,67 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:APC a hetio:Gene ;
+    rdfs:label "APC" ;
+    hetio:associatedWith ent:colorectal_cancer .
+
+ent:BRAF a hetio:Gene ;
+    rdfs:label "BRAF" ;
+    hetio:associatedWith ent:colorectal_cancer .
+
+ent:CTNNB1 a hetio:Gene ;
+    rdfs:label "CTNNB1" ;
+    hetio:associatedWith ent:colorectal_cancer .
+
+ent:EPCAM a hetio:Gene ;
+    rdfs:label "EPCAM" ;
+    hetio:associatedWith ent:colorectal_cancer,
+        ent:lynch_syndrome .
+
+ent:KRAS a hetio:Gene ;
+    rdfs:label "KRAS" ;
+    hetio:associatedWith ent:colorectal_cancer .
+
+ent:MLH1 a hetio:Gene ;
+    rdfs:label "MLH1" ;
+    hetio:associatedWith ent:colorectal_cancer,
+        ent:lynch_syndrome .
+
+ent:MSH2 a hetio:Gene ;
+    rdfs:label "MSH2" ;
+    hetio:associatedWith ent:colorectal_cancer,
+        ent:lynch_syndrome .
+
+ent:MSH6 a hetio:Gene ;
+    rdfs:label "MSH6" ;
+    hetio:associatedWith ent:colorectal_cancer,
+        ent:lynch_syndrome .
+
+ent:PIK3CA a hetio:Gene ;
+    rdfs:label "PIK3CA" ;
+    hetio:associatedWith ent:colorectal_cancer .
+
+ent:PMS2 a hetio:Gene ;
+    rdfs:label "PMS2" ;
+    hetio:associatedWith ent:colorectal_cancer,
+        ent:lynch_syndrome .
+
+ent:PTEN a hetio:Gene ;
+    rdfs:label "PTEN" ;
+    hetio:associatedWith ent:colorectal_cancer .
+
+ent:SMAD4 a hetio:Gene ;
+    rdfs:label "SMAD4" ;
+    hetio:associatedWith ent:colorectal_cancer .
+
+ent:TP53 a hetio:Gene ;
+    rdfs:label "TP53" ;
+    hetio:associatedWith ent:colorectal_cancer .
+
+ent:lynch_syndrome a hetio:Disease ;
+    rdfs:label "Lynch syndrome" .
+
+ent:colorectal_cancer a hetio:Disease ;
+    rdfs:label "colorectal cancer" .
+

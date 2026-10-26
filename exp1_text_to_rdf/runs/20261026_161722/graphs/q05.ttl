@@ -1,0 +1,45 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:BCRABL a hetio:Gene ;
+    rdfs:label "BCR-ABL" ;
+    hetio:binds ent:asciminib,
+        ent:bosutinib,
+        ent:dasatinib,
+        ent:imatinib,
+        ent:nilotinib,
+        ent:omacetaxine_mepesuccinate,
+        ent:ponatinib .
+
+ent:asciminib a hetio:Compound ;
+    rdfs:label "asciminib" ;
+    hetio:treats ent:chronic_myeloid_leukemia .
+
+ent:bosutinib a hetio:Compound ;
+    rdfs:label "bosutinib" ;
+    hetio:treats ent:chronic_myeloid_leukemia .
+
+ent:dasatinib a hetio:Compound ;
+    rdfs:label "dasatinib" ;
+    hetio:treats ent:chronic_myeloid_leukemia .
+
+ent:imatinib a hetio:Compound ;
+    rdfs:label "imatinib" ;
+    hetio:treats ent:chronic_myeloid_leukemia .
+
+ent:nilotinib a hetio:Compound ;
+    rdfs:label "nilotinib" ;
+    hetio:treats ent:chronic_myeloid_leukemia .
+
+ent:omacetaxine_mepesuccinate a hetio:Compound ;
+    rdfs:label "omacetaxine mepesuccinate" ;
+    hetio:treats ent:chronic_myeloid_leukemia .
+
+ent:ponatinib a hetio:Compound ;
+    rdfs:label "ponatinib" ;
+    hetio:treats ent:chronic_myeloid_leukemia .
+
+ent:chronic_myeloid_leukemia a hetio:Disease ;
+    rdfs:label "chronic myeloid leukemia" .
+

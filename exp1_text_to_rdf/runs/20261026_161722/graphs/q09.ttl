@@ -1,0 +1,20 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:ABCG5 a hetio:Gene ;
+    rdfs:label "ABCG5" .
+
+ent:ABCG8 a hetio:Gene ;
+    rdfs:label "ABCG8" .
+
+ent:CFTR a hetio:Gene ;
+    rdfs:label "CFTR" ;
+    hetio:associatedWith ent:cystic_fibrosis .
+
+ent:SLC26A9 a hetio:Gene ;
+    rdfs:label "SLC26A9" .
+
+ent:cystic_fibrosis a hetio:Disease ;
+    rdfs:label "cystic fibrosis" .
+

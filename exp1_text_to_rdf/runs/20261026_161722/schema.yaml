@@ -1,0 +1,42 @@
+# Hetionet-derived schema (subset) for Experiment 1: Agent Answer -> RDF
+#
+# Namespaces:
+#   hetio:    http://example.org/hetio/            (classes and properties)
+#   ent:      http://example.org/hetio/entity/     (entity instances)
+
+namespaces:
+  hetio: "http://example.org/hetio/"
+  ent: "http://example.org/hetio/entity/"
+
+node_types:
+  Gene:
+    description: "A human gene (or the protein it encodes); use the official gene symbol."
+    examples: ["TP53", "BRCA1", "ABL1"]
+  Compound:
+    description: "A drug or chemical compound."
+    examples: ["metformin", "imatinib"]
+  Disease:
+    description: "A human disease."
+    examples: ["type 2 diabetes", "breast cancer"]
+
+relations:
+  treats:
+    source: Compound
+    target: Disease
+    description: "The compound is an approved/used treatment for the disease."
+    hetionet_metaedge: CtD
+  binds:
+    source: Compound
+    target: Gene
+    description: "The compound binds / targets the protein of the gene."
+    hetionet_metaedge: CbG
+  associatedWith:
+    source: Gene
+    target: Disease
+    description: "The gene is associated with the disease."
+    hetionet_metaedge: DaG (reversed direction in Hetionet)
+  interactsWith:
+    source: Gene
+    target: Gene
+    description: "The gene products physically interact."
+    hetionet_metaedge: GiG

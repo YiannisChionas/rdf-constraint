@@ -1,0 +1,55 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:BRCA2 a hetio:Gene ;
+    rdfs:label "BRCA2" ;
+    hetio:associatedWith ent:breast_cancer,
+        ent:ovarian_cancer ;
+    hetio:interactsWith ent:BARD1,
+        ent:CTIP,
+        ent:DSS1,
+        ent:FANCD2,
+        ent:FANCI,
+        ent:MRE11,
+        ent:NBS1,
+        ent:PALB2,
+        ent:RAD50,
+        ent:RAD51 .
+
+ent:BARD1 a hetio:Gene ;
+    rdfs:label "BARD1" .
+
+ent:CTIP a hetio:Gene ;
+    rdfs:label "CtIP" .
+
+ent:DSS1 a hetio:Gene ;
+    rdfs:label "DSS1" .
+
+ent:FANCD2 a hetio:Gene ;
+    rdfs:label "FANCD2" .
+
+ent:FANCI a hetio:Gene ;
+    rdfs:label "FANCI" .
+
+ent:MRE11 a hetio:Gene ;
+    rdfs:label "MRE11" .
+
+ent:NBS1 a hetio:Gene ;
+    rdfs:label "NBS1" .
+
+ent:PALB2 a hetio:Gene ;
+    rdfs:label "PALB2" .
+
+ent:RAD50 a hetio:Gene ;
+    rdfs:label "RAD50" .
+
+ent:RAD51 a hetio:Gene ;
+    rdfs:label "RAD51" .
+
+ent:breast_cancer a hetio:Disease ;
+    rdfs:label "breast cancer" .
+
+ent:ovarian_cancer a hetio:Disease ;
+    rdfs:label "ovarian cancer" .
+

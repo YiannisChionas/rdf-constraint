@@ -1,0 +1,47 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:ATM a hetio:Gene ;
+    rdfs:label "ATM" ;
+    hetio:associatedWith ent:breast_cancer .
+
+ent:BRCA1 a hetio:Gene ;
+    rdfs:label "BRCA1" ;
+    hetio:associatedWith ent:breast_cancer .
+
+ent:BRCA2 a hetio:Gene ;
+    rdfs:label "BRCA2" ;
+    hetio:associatedWith ent:breast_cancer .
+
+ent:BRIP1 a hetio:Gene ;
+    rdfs:label "BRIP1" ;
+    hetio:associatedWith ent:breast_cancer .
+
+ent:CHEK2 a hetio:Gene ;
+    rdfs:label "CHEK2" ;
+    hetio:associatedWith ent:breast_cancer .
+
+ent:HER2 a hetio:Gene ;
+    rdfs:label "HER2" ;
+    hetio:associatedWith ent:breast_cancer .
+
+ent:PALB2 a hetio:Gene ;
+    rdfs:label "PALB2" ;
+    hetio:associatedWith ent:breast_cancer .
+
+ent:PTEN a hetio:Gene ;
+    rdfs:label "PTEN" ;
+    hetio:associatedWith ent:breast_cancer .
+
+ent:TP53 a hetio:Gene ;
+    rdfs:label "TP53" ;
+    hetio:associatedWith ent:breast_cancer .
+
+ent:ovarian_cancer a hetio:Disease ;
+    rdfs:label "ovarian cancer" .
+
+ent:breast_cancer a hetio:Disease ;
+    rdfs:label "breast cancer" ;
+    hetio:associatedWith ent:ovarian_cancer .
+

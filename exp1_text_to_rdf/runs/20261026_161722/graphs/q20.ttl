@@ -1,0 +1,39 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:aspirin a hetio:Compound ;
+    rdfs:label "aspirin" ;
+    hetio:treats ent:arthritis,
+        ent:colorectal_cancer,
+        ent:fever,
+        ent:headaches,
+        ent:heart_attack,
+        ent:muscle_pain,
+        ent:rheumatoid_arthritis,
+        ent:stroke .
+
+ent:arthritis a hetio:Disease ;
+    rdfs:label "arthritis" .
+
+ent:colorectal_cancer a hetio:Disease ;
+    rdfs:label "colorectal cancer" .
+
+ent:fever a hetio:Disease ;
+    rdfs:label "fever" .
+
+ent:headaches a hetio:Disease ;
+    rdfs:label "headaches" .
+
+ent:heart_attack a hetio:Disease ;
+    rdfs:label "heart attack" .
+
+ent:muscle_pain a hetio:Disease ;
+    rdfs:label "muscle pain" .
+
+ent:rheumatoid_arthritis a hetio:Disease ;
+    rdfs:label "rheumatoid arthritis" .
+
+ent:stroke a hetio:Disease ;
+    rdfs:label "stroke" .
+

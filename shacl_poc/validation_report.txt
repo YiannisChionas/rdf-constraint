@@ -1,0 +1,229 @@
+Loaded 1 file(s), 625 triples total.
+
+Validation Report
+Conforms: False
+Results (32):
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/aliskiren>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/amlodipine>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/atenolol>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/doxazosin>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/enalapril>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/eplerenone>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/hydrochlorothiazide>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/lisinopril>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/losartan>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/metoprolol>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/spironolactone>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/valsartan>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/verapamil>
+	Value Node: <http://example.org/hetio/entity/hypertension>
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in OrConstraintComponent (http://www.w3.org/ns/shacl#OrConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: hetio:GeneShape
+	Focus Node: <http://example.org/hetio/entity/ABCG5>
+	Value Node: <http://example.org/hetio/entity/ABCG5>
+	Message: Gene node is not linked by any binds/associatedWith/interactsWith relation (Hetionet metaedges CbG/DaG/GiG).
+Constraint Violation in OrConstraintComponent (http://www.w3.org/ns/shacl#OrConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: hetio:GeneShape
+	Focus Node: <http://example.org/hetio/entity/ABCG8>
+	Value Node: <http://example.org/hetio/entity/ABCG8>
+	Message: Gene node is not linked by any binds/associatedWith/interactsWith relation (Hetionet metaedges CbG/DaG/GiG).
+Constraint Violation in OrConstraintComponent (http://www.w3.org/ns/shacl#OrConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: hetio:GeneShape
+	Focus Node: <http://example.org/hetio/entity/SLC26A9>
+	Value Node: <http://example.org/hetio/entity/SLC26A9>
+	Message: Gene node is not linked by any binds/associatedWith/interactsWith relation (Hetionet metaedges CbG/DaG/GiG).
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/1433>
+	Value Node: Literal("14-3-3")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/ALPHA2DELTA>
+	Value Node: Literal("alpha2delta")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/CKIT>
+	Value Node: Literal("c-KIT")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/CTIP>
+	Value Node: Literal("CtIP")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/CYSLT1>
+	Value Node: Literal("CysLT1")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/GABA_TRANSAMINASE>
+	Value Node: Literal("GABA transaminase")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/HLADQB10201>
+	Value Node: Literal("HLA-DQB1*02:01")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/HLADQB10302>
+	Value Node: Literal("HLA-DQB1*03:02")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/HLADRB10301>
+	Value Node: Literal("HLA-DRB1*03:01")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/HLADRB10401>
+	Value Node: Literal("HLA-DRB1*04:01")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/NAV11>
+	Value Node: Literal("Nav1.1")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/NAV12>
+	Value Node: Literal("Nav1.2")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/NAV13>
+	Value Node: Literal("Nav1.3")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/P14ARF>
+	Value Node: Literal("p14ARF")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/P21>
+	Value Node: Literal("p21")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: <http://example.org/hetio/entity/P73>
+	Value Node: Literal("p73")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+
+
+Conforms: False

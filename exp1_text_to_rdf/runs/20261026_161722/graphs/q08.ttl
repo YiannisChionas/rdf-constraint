@@ -1,0 +1,48 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:afatinib a hetio:Compound ;
+    rdfs:label "afatinib" ;
+    hetio:binds ent:EGFR ;
+    hetio:treats ent:nonsmall_cell_lung_cancer .
+
+ent:cetuximab a hetio:Compound ;
+    rdfs:label "cetuximab" ;
+    hetio:binds ent:EGFR ;
+    hetio:treats ent:head_and_neck_cancers,
+        ent:metastatic_colorectal_cancer .
+
+ent:erlotinib a hetio:Compound ;
+    rdfs:label "erlotinib" ;
+    hetio:binds ent:EGFR ;
+    hetio:treats ent:nonsmall_cell_lung_cancer .
+
+ent:gefitinib a hetio:Compound ;
+    rdfs:label "gefitinib" ;
+    hetio:binds ent:EGFR ;
+    hetio:treats ent:nonsmall_cell_lung_cancer .
+
+ent:osimertinib a hetio:Compound ;
+    rdfs:label "osimertinib" ;
+    hetio:binds ent:EGFR ;
+    hetio:treats ent:nonsmall_cell_lung_cancer .
+
+ent:panitumumab a hetio:Compound ;
+    rdfs:label "panitumumab" ;
+    hetio:binds ent:EGFR ;
+    hetio:treats ent:head_and_neck_cancers,
+        ent:metastatic_colorectal_cancer .
+
+ent:head_and_neck_cancers a hetio:Disease ;
+    rdfs:label "head and neck cancers" .
+
+ent:metastatic_colorectal_cancer a hetio:Disease ;
+    rdfs:label "metastatic colorectal cancer" .
+
+ent:nonsmall_cell_lung_cancer a hetio:Disease ;
+    rdfs:label "non-small cell lung cancer" .
+
+ent:EGFR a hetio:Gene ;
+    rdfs:label "EGFR" .
+

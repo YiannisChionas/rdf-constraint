@@ -1,0 +1,31 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:MDM2 a hetio:Gene ;
+    rdfs:label "MDM2" ;
+    hetio:interactsWith ent:MDMX,
+        ent:P14ARF,
+        ent:P73,
+        ent:TP53,
+        ent:TRAF,
+        ent:USP7 .
+
+ent:MDMX a hetio:Gene ;
+    rdfs:label "MDMX" .
+
+ent:P14ARF a hetio:Gene ;
+    rdfs:label "p14ARF" .
+
+ent:P73 a hetio:Gene ;
+    rdfs:label "p73" .
+
+ent:TP53 a hetio:Gene ;
+    rdfs:label "TP53" .
+
+ent:TRAF a hetio:Gene ;
+    rdfs:label "TRAF" .
+
+ent:USP7 a hetio:Gene ;
+    rdfs:label "USP7" .
+

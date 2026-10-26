@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Metformin is the first-line drug for type 2 diabetes. It is thought to act partly through activation of AMPK, encoded by PRKAA1. It is generally well tolerated.",
+    "output": {
+      "nodes": [
+        {"id": "n1", "type": "Compound", "name": "metformin"},
+        {"id": "n2", "type": "Disease", "name": "type 2 diabetes"},
+        {"id": "n3", "type": "Gene", "name": "PRKAA1"}
+      ],
+      "relationships": [
+        {"source": "n1", "relation": "treats", "target": "n2"},
+        {"source": "n1", "relation": "binds", "target": "n3"}
+      ]
+    }
+  },
+  {
+    "text": "Mutations in BRCA1 are associated with breast cancer and ovarian cancer. The BRCA1 protein interacts with BARD1.",
+    "output": {
+      "nodes": [
+        {"id": "n1", "type": "Gene", "name": "BRCA1"},
+        {"id": "n2", "type": "Disease", "name": "breast cancer"},
+        {"id": "n3", "type": "Disease", "name": "ovarian cancer"},
+        {"id": "n4", "type": "Gene", "name": "BARD1"}
+      ],
+      "relationships": [
+        {"source": "n1", "relation": "associatedWith", "target": "n2"},
+        {"source": "n1", "relation": "associatedWith", "target": "n3"},
+        {"source": "n1", "relation": "interactsWith", "target": "n4"}
+      ]
+    }
+  }
+]

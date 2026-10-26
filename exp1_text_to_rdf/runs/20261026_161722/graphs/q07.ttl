@@ -1,0 +1,59 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:aliskiren a hetio:Compound ;
+    rdfs:label "aliskiren" ;
+    hetio:binds ent:hypertension .
+
+ent:amlodipine a hetio:Compound ;
+    rdfs:label "amlodipine" ;
+    hetio:binds ent:hypertension .
+
+ent:atenolol a hetio:Compound ;
+    rdfs:label "atenolol" ;
+    hetio:binds ent:hypertension .
+
+ent:doxazosin a hetio:Compound ;
+    rdfs:label "doxazosin" ;
+    hetio:binds ent:hypertension .
+
+ent:enalapril a hetio:Compound ;
+    rdfs:label "enalapril" ;
+    hetio:binds ent:hypertension .
+
+ent:eplerenone a hetio:Compound ;
+    rdfs:label "eplerenone" ;
+    hetio:binds ent:hypertension .
+
+ent:hydrochlorothiazide a hetio:Compound ;
+    rdfs:label "hydrochlorothiazide" ;
+    hetio:binds ent:hypertension .
+
+ent:lisinopril a hetio:Compound ;
+    rdfs:label "lisinopril" ;
+    hetio:binds ent:hypertension .
+
+ent:losartan a hetio:Compound ;
+    rdfs:label "losartan" ;
+    hetio:binds ent:hypertension .
+
+ent:metoprolol a hetio:Compound ;
+    rdfs:label "metoprolol" ;
+    hetio:binds ent:hypertension .
+
+ent:spironolactone a hetio:Compound ;
+    rdfs:label "spironolactone" ;
+    hetio:binds ent:hypertension .
+
+ent:valsartan a hetio:Compound ;
+    rdfs:label "valsartan" ;
+    hetio:binds ent:hypertension .
+
+ent:verapamil a hetio:Compound ;
+    rdfs:label "verapamil" ;
+    hetio:binds ent:hypertension .
+
+ent:hypertension a hetio:Disease ;
+    rdfs:label "hypertension" .
+

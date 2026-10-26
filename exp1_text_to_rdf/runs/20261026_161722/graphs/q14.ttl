@@ -1,0 +1,82 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:albuterol a hetio:Compound ;
+    rdfs:label "albuterol" ;
+    hetio:binds ent:ADRB2 ;
+    hetio:treats ent:asthma .
+
+ent:budesonide a hetio:Compound ;
+    rdfs:label "budesonide" ;
+    hetio:binds ent:NR3C1 ;
+    hetio:treats ent:asthma .
+
+ent:dupilumab a hetio:Compound ;
+    rdfs:label "dupilumab" ;
+    hetio:binds ent:IL13,
+        ent:IL4 ;
+    hetio:treats ent:asthma .
+
+ent:fluticasone a hetio:Compound ;
+    rdfs:label "fluticasone" ;
+    hetio:binds ent:NR3C1 ;
+    hetio:treats ent:asthma .
+
+ent:formoterol a hetio:Compound ;
+    rdfs:label "formoterol" ;
+    hetio:binds ent:ADRB2 ;
+    hetio:treats ent:asthma .
+
+ent:mepolizumab a hetio:Compound ;
+    rdfs:label "mepolizumab" ;
+    hetio:binds ent:IL5 ;
+    hetio:treats ent:asthma .
+
+ent:montelukast a hetio:Compound ;
+    rdfs:label "montelukast" ;
+    hetio:binds ent:CYSLT1 ;
+    hetio:treats ent:asthma .
+
+ent:omalizumab a hetio:Compound ;
+    rdfs:label "omalizumab" ;
+    hetio:binds ent:FCER1 ;
+    hetio:treats ent:asthma .
+
+ent:salmeterol a hetio:Compound ;
+    rdfs:label "salmeterol" ;
+    hetio:binds ent:ADRB2 ;
+    hetio:treats ent:asthma .
+
+ent:tiotropium a hetio:Compound ;
+    rdfs:label "tiotropium" ;
+    hetio:binds ent:CHRM3 ;
+    hetio:treats ent:asthma .
+
+ent:CHRM3 a hetio:Gene ;
+    rdfs:label "CHRM3" .
+
+ent:CYSLT1 a hetio:Gene ;
+    rdfs:label "CysLT1" .
+
+ent:FCER1 a hetio:Gene ;
+    rdfs:label "FCER1" .
+
+ent:IL13 a hetio:Gene ;
+    rdfs:label "IL13" .
+
+ent:IL4 a hetio:Gene ;
+    rdfs:label "IL4" .
+
+ent:IL5 a hetio:Gene ;
+    rdfs:label "IL5" .
+
+ent:NR3C1 a hetio:Gene ;
+    rdfs:label "NR3C1" .
+
+ent:ADRB2 a hetio:Gene ;
+    rdfs:label "ADRB2" .
+
+ent:asthma a hetio:Disease ;
+    rdfs:label "asthma" .
+
