@@ -68,6 +68,13 @@ hetio:GeneShape
         sh:path hetio:interactsWith ;
         sh:class hetio:Gene ;
         sh:message "hetio:interactsWith must point from a Gene to a Gene (Hetionet metaedge GiG)." ;
+    ] ;
+
+    # CbG goes Compound -> Gene, so a Gene is never the subject of binds.
+    sh:property [
+        sh:path hetio:binds ;
+        sh:maxCount 0 ;
+        sh:message "hetio:binds goes from a Compound to a Gene (Hetionet metaedge CbG), never from a Gene (wrong direction)." ;
     ] .
 
 hetio:CompoundShape
@@ -106,4 +113,26 @@ hetio:DiseaseShape
         sh:maxCount 1 ;
         sh:datatype xsd:string ;
         sh:message "Every Disease must have exactly one rdfs:label." ;
+    ] ;
+
+    # In our schema Disease is only ever the target of a relation (CtD, DaG).
+    sh:property [
+        sh:path hetio:treats ;
+        sh:maxCount 0 ;
+        sh:message "A Disease cannot be the subject of hetio:treats (wrong direction; CtD goes Compound -> Disease)." ;
+    ] ;
+    sh:property [
+        sh:path hetio:binds ;
+        sh:maxCount 0 ;
+        sh:message "A Disease cannot be the subject of hetio:binds (CbG goes Compound -> Gene)." ;
+    ] ;
+    sh:property [
+        sh:path hetio:associatedWith ;
+        sh:maxCount 0 ;
+        sh:message "A Disease cannot be the subject of hetio:associatedWith (wrong direction; DaG goes Gene -> Disease)." ;
+    ] ;
+    sh:property [
+        sh:path hetio:interactsWith ;
+        sh:maxCount 0 ;
+        sh:message "A Disease cannot be the subject of hetio:interactsWith (GiG goes Gene -> Gene)." ;
     ] .

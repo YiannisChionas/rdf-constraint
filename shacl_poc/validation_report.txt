@@ -2,7 +2,7 @@ Loaded 1 file(s), 625 triples total.
 
 Validation Report
 Conforms: False
-Results (32):
+Results (34):
 Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).") ; sh:path hetio:binds ]
@@ -94,6 +94,18 @@ Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#Cla
 	Value Node: <http://example.org/hetio/entity/hypertension>
 	Result Path: hetio:binds
 	Message: hetio:binds must point from a Compound to a Gene (Hetionet metaedge CbG).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Disease cannot be the subject of hetio:associatedWith (wrong direction; DaG goes Gene -> Disease).") ; sh:path hetio:associatedWith ]
+	Focus Node: <http://example.org/hetio/entity/breast_cancer>
+	Result Path: hetio:associatedWith
+	Message: A Disease cannot be the subject of hetio:associatedWith (wrong direction; DaG goes Gene -> Disease).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("hetio:binds goes from a Compound to a Gene (Hetionet metaedge CbG), never from a Gene (wrong direction).") ; sh:path hetio:binds ]
+	Focus Node: <http://example.org/hetio/entity/BCRABL>
+	Result Path: hetio:binds
+	Message: hetio:binds goes from a Compound to a Gene (Hetionet metaedge CbG), never from a Gene (wrong direction).
 Constraint Violation in OrConstraintComponent (http://www.w3.org/ns/shacl#OrConstraintComponent):
 	Severity: sh:Violation
 	Source Shape: hetio:GeneShape

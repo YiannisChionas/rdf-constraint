@@ -40,10 +40,12 @@ file — since none exists for Hetionet.
   a protein/enzyme name; a hard constraint that every Gene participates in
   at least one `binds`/`associatedWith`/`interactsWith` relation (a Gene
   only exists in Hetionet because of a metaedge); domain/range checks for
-  `associatedWith` (→ Disease) and `interactsWith` (→ Gene).
+  `associatedWith` (→ Disease) and `interactsWith` (→ Gene); a Gene is
+  never the subject of `binds` (catches reversed CbG edges).
 - **CompoundShape** — `rdfs:label` cardinality; domain/range for `treats`
   (→ Disease) and `binds` (→ Gene).
-- **DiseaseShape** — `rdfs:label` cardinality.
+- **DiseaseShape** — `rdfs:label` cardinality; a Disease is never the
+  subject of any relation (it is only ever a target in our schema).
 
 ## Usage
 
@@ -60,16 +62,22 @@ python validate.py ../exp1_text_to_rdf/runs/20261026_161722/merged.ttl
 
 ## Result on `runs/20261026_161722/merged.ttl`
 
-625 triples validated, **does not conform** — 32 results (see
+625 triples validated, **does not conform** — 34 results (see
 `validation_report.txt` for the full pySHACL report):
 
 | Count | Severity | Finding |
 |---|---|---|
-| 13 | Violation | `hetio:binds` triples pointing from a Compound to a **Disease** instead of a Gene (e.g. `aliskiren binds hypertension`) — the converter mislabeled what should likely be `treats` as `binds`. |
-| 3 | Violation | Gene nodes (`ABCG5`, `ABCG8`, `SLC26A9`) extracted with no relation at all — isolated nodes that shouldn't exist under Hetionet's metagraph (a Gene only appears via a metaedge). |
+| 13 | Violation | `hetio:binds` triples pointing from a Compound to a **Disease** instead of a Gene (e.g. `aliskiren binds hypertension`, all from `q07`). The agent's answer names the targets explicitly ("ACE (e.g., lisinopril)"), so this is a converter error: it skipped the Gene nodes and attached `binds` to the disease. |
+| 3 | Violation | Gene nodes (`ABCG5`, `ABCG8`, `SLC26A9`) extracted with no relation at all (`q09`). Here the agent's answer is hedged and partly wrong (ABCG5/ABCG8 are sitosterolemia genes, not cystic fibrosis genes); the converter kept the nodes but dropped the relation. |
+| 1 | Violation | `BCR-ABL` (Gene) is the subject of `binds` — 7 reversed edges `BCR-ABL binds <drug>` in `q05`, reported once since `sh:maxCount` is checked per node. |
+| 1 | Violation | `breast cancer` (Disease) is the subject of `associatedWith` → `ovarian cancer` (`q02`): a Disease–Disease relation the schema doesn't have. |
 | 16 | Warning | Gene labels that don't match the HGNC symbol pattern (e.g. `p53`, `p21`, `Nav1.1`, `HLA-DRB1*03:01`) — protein/common names extracted instead of the official gene symbol, consistent with the completeness gap already observed manually in `q01`. |
 
-This confirms, mechanically and at scale, two failure modes that had only
-been spotted by manual inspection before: (1) relation-type confusion
-between `treats` and `binds`, and (2) gene naming inconsistency (symbol vs.
-protein name).
+This confirms, mechanically and at scale, failure modes that had only been
+spotted by manual inspection before: (1) relation-type confusion between
+`treats` and `binds`, (2) reversed or out-of-schema relation direction, and
+(3) gene naming inconsistency (symbol vs. protein name). Violations do not
+by themselves say whether the agent or the converter is at fault; that
+needs a look at the answer text. SHACL also cannot catch factual errors
+that are structurally valid (e.g. the agent's "asciminib (Blincyto)" in
+`q05`).
