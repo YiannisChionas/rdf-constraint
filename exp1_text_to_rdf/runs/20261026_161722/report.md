@@ -41,6 +41,8 @@ paths:
 - % answers with zero extracted relationships: 0.0
 - Agent latency (s): {'mean': 14.71119554500001, 'min': 7.650375699999131, 'max': 92.58574000000044}
 - Converter latency (s): {'mean': 10.551119649999873, 'min': 4.594356700001299, 'max': 21.69262990000061}
+- Subject hallucination rate (Text2KGBench SH): 0.0
+- Object hallucination rate (Text2KGBench OH): 0.06787330316742081
 
 ## Example answers and extractions
 

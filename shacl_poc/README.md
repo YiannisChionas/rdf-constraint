@@ -68,7 +68,7 @@ python validate.py ../exp1_text_to_rdf/runs/20261026_161722/merged.ttl
 | Count | Severity | Finding |
 |---|---|---|
 | 13 | Violation | `hetio:binds` triples pointing from a Compound to a **Disease** instead of a Gene (e.g. `aliskiren binds hypertension`, all from `q07`). The agent's answer names the targets explicitly ("ACE (e.g., lisinopril)"), so this is a converter error: it skipped the Gene nodes and attached `binds` to the disease. |
-| 3 | Violation | Gene nodes (`ABCG5`, `ABCG8`, `SLC26A9`) extracted with no relation at all (`q09`). Here the agent's answer is hedged and partly wrong (ABCG5/ABCG8 are sitosterolemia genes, not cystic fibrosis genes); the converter kept the nodes but dropped the relation. |
+| 3 | Violation | Gene nodes (`ABCG5`, `ABCG8`, `SLC26A9`) extracted with no relation at all (`q09`). The agent's answer hedges here — *"rare cases ... **may involve** mutations in other genes, such as SLC26A9 or ABCG5/ABCG8"* — vs. the categorical claim for CFTR. The converter correctly declined to assert a confident `associatedWith` for a hedged claim; **this is a shape-design fault, not a converter error** — the hard "every Gene needs ≥1 relation" constraint doesn't account for epistemic hedging in natural language. |
 | 1 | Violation | `BCR-ABL` (Gene) is the subject of `binds` — 7 reversed edges `BCR-ABL binds <drug>` in `q05`, reported once since `sh:maxCount` is checked per node. |
 | 1 | Violation | `breast cancer` (Disease) is the subject of `associatedWith` → `ovarian cancer` (`q02`): a Disease–Disease relation the schema doesn't have. |
 | 16 | Warning | Gene labels that don't match the HGNC symbol pattern (e.g. `p53`, `p21`, `Nav1.1`, `HLA-DRB1*03:01`) — protein/common names extracted instead of the official gene symbol, consistent with the completeness gap already observed manually in `q01`. |
@@ -77,7 +77,13 @@ This confirms, mechanically and at scale, failure modes that had only been
 spotted by manual inspection before: (1) relation-type confusion between
 `treats` and `binds`, (2) reversed or out-of-schema relation direction, and
 (3) gene naming inconsistency (symbol vs. protein name). Violations do not
-by themselves say whether the agent or the converter is at fault; that
-needs a look at the answer text. SHACL also cannot catch factual errors
-that are structurally valid (e.g. the agent's "asciminib (Blincyto)" in
-`q05`).
+by themselves say whether the agent, the converter, or our shapes are at
+fault; that needs a look at the answer text. Of the 34 results, 29 trace to
+real converter errors on categorical (non-hedged) text — the `binds`/
+`treats` confusion, the reversed `BCR-ABL` edges, the `breast cancer`/
+`ovarian cancer` domain violation, and the 16 label-pattern warnings. The
+remaining 3 (`ABCG5`/`ABCG8`/`SLC26A9`) trace to hedged ("may involve")
+source text that the converter handled appropriately by withholding a
+confident relation — here the SHACL shape itself is too strict, not the
+converter. SHACL also cannot catch factual errors that are structurally
+valid (e.g. the agent's "asciminib (Blincyto)" in `q05`).

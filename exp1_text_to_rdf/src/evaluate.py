@@ -47,6 +47,15 @@ def _stats(values: list[float]) -> dict:
     return {"mean": statistics.mean(values), "min": min(values), "max": max(values)}
 
 
+def _mentioned_in_text(name: str, text: str) -> bool:
+    """Text2KGBench-style hallucination check: does this entity name appear
+    (case-insensitive substring) in the source text it was extracted from?"""
+    name = (name or "").strip().lower()
+    if not name:
+        return False
+    return name in (text or "").lower()
+
+
 def compute_metrics(answers: list[dict], extractions: list[dict], schema: dict, graphs_dir: str | Path) -> dict:
     n = len(extractions)
     json_schema = build_json_schema(schema)
@@ -63,9 +72,16 @@ def compute_metrics(answers: list[dict], extractions: list[dict], schema: dict, 
     relation_counts: dict[str, int] = {}
     ttl_roundtrip_ok = 0
     ttl_roundtrip_total = 0
+    subject_hallucinated = 0
+    object_hallucinated = 0
+    hallucination_checked = 0
+
+    answers_by_id = {a.get("question_id"): a for a in answers}
 
     for rec in extractions:
         parsed = rec.get("parsed")
+        qid = rec.get("question_id")
+        answer_text = answers_by_id.get(qid, {}).get("answer", "")
         if parsed is not None:
             parse_ok += 1
         else:
@@ -106,7 +122,14 @@ def compute_metrics(answers: list[dict], extractions: list[dict], schema: dict, 
             if _domain_range_ok(rel, nodes_by_id, schema):
                 domain_range_ok_count += 1
 
-        qid = rec.get("question_id")
+            src_name = nodes_by_id[rel.get("source")].get("name", "")
+            tgt_name = nodes_by_id[rel.get("target")].get("name", "")
+            hallucination_checked += 1
+            if not _mentioned_in_text(src_name, answer_text):
+                subject_hallucinated += 1
+            if not _mentioned_in_text(tgt_name, answer_text):
+                object_hallucinated += 1
+
         ttl_path = Path(graphs_dir) / f"{qid}.ttl"
         if ttl_path.exists():
             ttl_roundtrip_total += 1
@@ -131,6 +154,8 @@ def compute_metrics(answers: list[dict], extractions: list[dict], schema: dict, 
         "pct_zero_relationships": zero_rel_answers / n if n else None,
         "agent_latency_s": _stats(agent_latencies),
         "converter_latency_s": _stats(converter_latencies),
+        "subject_hallucination_rate": (subject_hallucinated / hallucination_checked) if hallucination_checked else None,
+        "object_hallucination_rate": (object_hallucinated / hallucination_checked) if hallucination_checked else None,
     }
 
 
@@ -193,7 +218,9 @@ def write_report(
     lines.append(f"- Relation counts: {metrics['relation_counts']}")
     lines.append(f"- % answers with zero extracted relationships: {metrics['pct_zero_relationships']}")
     lines.append(f"- Agent latency (s): {metrics['agent_latency_s']}")
-    lines.append(f"- Converter latency (s): {metrics['converter_latency_s']}\n")
+    lines.append(f"- Converter latency (s): {metrics['converter_latency_s']}")
+    lines.append(f"- Subject hallucination rate (Text2KGBench SH): {metrics['subject_hallucination_rate']}")
+    lines.append(f"- Object hallucination rate (Text2KGBench OH): {metrics['object_hallucination_rate']}\n")
 
     lines.append("## Example answers and extractions\n")
     for rec in extractions[:n_examples]:
