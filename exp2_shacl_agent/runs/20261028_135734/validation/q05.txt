@@ -1,0 +1,9 @@
+Validation Report
+Conforms: False
+Results (1):
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Gene is never the subject of hetio:binds (confirmed direction: Compound -binds-> ...).") ; sh:path hetio:binds ]
+	Focus Node: ent:BCRABL
+	Result Path: hetio:binds
+	Message: A Gene is never the subject of hetio:binds (confirmed direction: Compound -binds-> ...).

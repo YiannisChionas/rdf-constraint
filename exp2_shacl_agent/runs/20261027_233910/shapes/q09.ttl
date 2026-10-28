@@ -1,0 +1,48 @@
+@prefix sh: <http://www.w3.org/2018/shape-expressions#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet/> .
+
+sh:targetClass hetio:Gene ;
+  sh:property [
+    sh:predicate hetio:participates_GpMF ;
+    sh:targetClass hetio:MolecularFunction ;
+    sh:minCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:regulates_GrG ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:interacts_GiG ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:expresses_AeG ;
+    sh:targetClass hetio:Anatomy ;
+    sh:minCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:downregulates_AdG ;
+    sh:targetClass hetio:Anatomy ;
+    sh:minCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:upregulates_AuG ;
+    sh:targetClass hetio:Anatomy ;
+    sh:minCount 1
+  ] .
+
+sh:targetClass hetio:Compound ;
+  sh:property [
+    sh:predicate hetio:binds_CbG ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1
+  ] .
+
+sh:targetClass hetio:Disease ;
+  sh:property [
+    sh:predicate hetio:associates_DaG ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1
+  ] .

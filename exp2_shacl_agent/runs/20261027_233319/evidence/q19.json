@@ -1,0 +1,2015 @@
+[
+  {
+    "type": "Gene",
+    "name": "HLA-DRB1*03:01",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "HLA-DQB1*02:01",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "HLA-DRB1*04:01",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "HLA-DQB1*03:02",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "INS",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 3630,
+      "hetio_name": "INS",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protease binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein complex binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "hormone activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "insulin receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "insulin-like growth factor receptor binding"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SDC1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CHEK2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TIMP1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KLHDC2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SPAG7"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KMT2A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "INSR"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RGS20"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NOV"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TXNDC17"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SYTL4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RB1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAPK6"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LRP2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TCF4"
+      },
+      {
+        "relation": "PARTICIPATES_GpBP",
+        "direction": "forward",
+        "neighbor_type": "BiologicalProcess",
+        "neighbor_name": "regulation of fatty acid metabolic process"
+      },
+      {
+        "relation": "PARTICIPATES_GpBP",
+        "direction": "forward",
+        "neighbor_type": "BiologicalProcess",
+        "neighbor_name": "regulation of cellular carbohydrate catabolic process"
+      },
+      {
+        "relation": "PARTICIPATES_GpBP",
+        "direction": "forward",
+        "neighbor_type": "BiologicalProcess",
+        "neighbor_name": "regulation of protein catabolic process"
+      },
+      {
+        "relation": "PARTICIPATES_GpBP",
+        "direction": "forward",
+        "neighbor_type": "BiologicalProcess",
+        "neighbor_name": "single-organism carbohydrate metabolic process"
+      },
+      {
+        "relation": "PARTICIPATES_GpBP",
+        "direction": "forward",
+        "neighbor_type": "BiologicalProcess",
+        "neighbor_name": "regulation of innate immune response"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "hematopoietic system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "islet of Langerhans"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "endocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "pancreas"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CTSD"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HLA-DQB1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "APP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CRYAB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GCK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IGF1R"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IGFBP7"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CTSE"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HLA-DQA2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CPE"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CTSB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IDE"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPB1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 1 diabetes mellitus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "atherosclerosis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "pancreatitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 2 diabetes mellitus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "prostate cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Parkinson's disease"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "PTPN22",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 26191,
+      "hetio_name": "PTPN22",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phosphatase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phosphoprotein phosphatase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein tyrosine phosphatase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "hydrolase activity, acting on ester bonds"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ubiquitin protein ligase binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "kinase binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ubiquitin-like protein ligase binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "SH3 domain binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein domain specific binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phosphoric ester hydrolase activity"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LPL"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GDF15"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GBE1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NIPSNAP1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PGAM1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KLHL21"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SCRN1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AARS"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ETFB"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GMNN"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ASS1"
+      },
+      {
+        "relation": "PARTICIPATES_GpBP",
+        "direction": "forward",
+        "neighbor_type": "BiologicalProcess",
+        "neighbor_name": "positive regulation of ERK1 and ERK2 cascade"
+      },
+      {
+        "relation": "PARTICIPATES_GpBP",
+        "direction": "forward",
+        "neighbor_type": "BiologicalProcess",
+        "neighbor_name": "negative regulation of interleukin-6 secretion"
+      },
+      {
+        "relation": "PARTICIPATES_GpBP",
+        "direction": "forward",
+        "neighbor_type": "BiologicalProcess",
+        "neighbor_name": "positive regulation of immune system process"
+      },
+      {
+        "relation": "PARTICIPATES_GpBP",
+        "direction": "forward",
+        "neighbor_type": "BiologicalProcess",
+        "neighbor_name": "response to bacterium"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "thyroid gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "connective tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymphoid tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "hematopoietic system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "vagina"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "neck"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "endocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bone marrow"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymph node"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal gland"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PDPK1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LCK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDH2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD3E"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PDGFRB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CBL"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ERBB2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GRB2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PRKCD"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "WAS"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GHR"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ZAP70"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "CTLA4",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 1493,
+      "hetio_name": "CTLA4",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AGR2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ITGB1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TFF1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CSRP1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STXBP1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HIST1H1C"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC27A2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KLHL21"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RRP8"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RBM4B"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HMOX1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "WDR76"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SDC1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDK6"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PLOD3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CNDP2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "USP6NL"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PLS1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HOXC6"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADGRE5"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SQRDL"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPP2R5E"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ST3GAL5"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SGK1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FBXO7"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymph node"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "vagina"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "mammary gland"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD86"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AP2M1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD80"
+      },
+      {
+        "relation": "DOWNREGULATES_AdG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "brain"
+      },
+      {
+        "relation": "DOWNREGULATES_AdG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "thyroid gland"
+      },
+      {
+        "relation": "UPREGULATES_AuG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "UPREGULATES_AuG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal gland"
+      },
+      {
+        "relation": "UPREGULATES_AuG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymph node"
+      },
+      {
+        "relation": "UPREGULATES_AuG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bronchus"
+      },
+      {
+        "relation": "COVARIES_GcG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KLF14"
+      },
+      {
+        "relation": "UPREGULATES_DuG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "rheumatoid arthritis"
+      },
+      {
+        "relation": "UPREGULATES_DuG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "psoriasis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic lupus erythematosus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "rheumatoid arthritis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "alopecia areata"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "melanoma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic scleroderma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "anemia"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "CD25",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "BiologicalProcess"
+          ],
+          "name": "regulation of CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation",
+          "id": "GO:0032829"
+        },
+        {
+          "labels": [
+            "BiologicalProcess"
+          ],
+          "name": "regulation of CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation involved in immune response",
+          "id": "GO:0032832"
+        },
+        {
+          "labels": [
+            "BiologicalProcess"
+          ],
+          "name": "positive regulation of CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation",
+          "id": "GO:0032831"
+        },
+        {
+          "labels": [
+            "BiologicalProcess"
+          ],
+          "name": "positive regulation of CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation involved in immune response",
+          "id": "GO:0032834"
+        },
+        {
+          "labels": [
+            "BiologicalProcess"
+          ],
+          "name": "CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation",
+          "id": "GO:0002361"
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "IFIH1",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 64135,
+      "hetio_name": "IFIH1",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "nucleoside-triphosphatase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "pyrophosphatase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ribonucleoprotein complex binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "single-stranded RNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "hydrolase activity, acting on acid anhydrides"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "helicase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "double-stranded RNA binding"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MTHFD2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RNF167"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RPS4Y1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ATP1B1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCTD5"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PLCB3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PUF60"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TIMP1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PDHX"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DNAJA3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MCOLN1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CCNA1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MIF"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DLD"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TUBA1A"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GTF2A2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DHX58"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female reproductive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "renal system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "mammary gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "prostate gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cardiac atrium"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cortex of kidney"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "thyroid gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "connective tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "uterine cervix"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "decidua"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "endocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "islet of Langerhans"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cardiac ventricle"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bronchus"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adipose tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "respiratory system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cerebellum"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "kidney"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bone marrow"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "liver"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "hematopoietic system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "heart"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "ERBB3",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 2065,
+      "hetio_name": "ERBB3",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "growth factor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein heterodimerization activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein kinase activator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "enzyme regulator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein tyrosine kinase activator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein kinase regulator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "kinase regulator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "enzyme activator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein homodimerization activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "kinase activator activity"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PARP1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TBX2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NFATC3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AKR1B10"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AKAP8L"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBE2C"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "VDAC1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HAT1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KRT23"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NBL1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NUSAP1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HTR2B"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TIMM9"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "WIF1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MMP1"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "central nervous system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "saliva-secreting gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "mammary gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "connective tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymphoid tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "trachea"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "exocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "embryo"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "kidney"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "digestive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "liver"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "epithelium"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "prostate gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "telencephalon"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "heart"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "pancreas"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "head"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "mouth"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "hair follicle"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "uterus"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female reproductive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female gonad"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "hematopoietic system"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "IL2RA",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 3559,
+      "hetio_name": "IL2RA",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "interleukin-2 receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cytokine receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "drug binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "growth factor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "interleukin-2 binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cytokine binding"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RRS1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MSN"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CHMP4A"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCC5"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SESN1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "OXA1L"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GPATCH8"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PGAM1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CASP7"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TMEM5"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GSAP"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DPYSL2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPCS"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GATA3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DLD"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TAX1BP3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MIF"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PTPN12"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "INPP4B"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "decidua"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "endocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymphoid tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "prostate gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymph node"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "hematopoietic system"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HMGA1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GATA1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ICAM1"
+      },
+      {
+        "relation": "DOWNREGULATES_AdG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "brain"
+      },
+      {
+        "relation": "UPREGULATES_AuG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "heart"
+      },
+      {
+        "relation": "UPREGULATES_AuG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "UPREGULATES_AuG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal gland"
+      },
+      {
+        "relation": "UPREGULATES_AuG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymph node"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "acquired immunodeficiency syndrome"
+      },
+      {
+        "relation": "UPREGULATES_DuG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "psoriasis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Crohn's disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "rheumatoid arthritis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 1 diabetes mellitus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "type 1 diabetes",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Type 1 diabetes mellitus",
+          "id": "C0011854"
+        },
+        {
+          "labels": [
+            "Disease"
+          ],
+          "name": "type 1 diabetes mellitus",
+          "id": "DOID:9744"
+        }
+      ]
+    },
+    "relations": []
+  }
+]

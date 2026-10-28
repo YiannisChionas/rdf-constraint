@@ -1,0 +1,52 @@
+Validation Report
+Conforms: False
+Results (7):
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Gene to a Gene.") ; sh:path hetio:binds ]
+	Focus Node: ent:BCRABL
+	Value Node: ent:asciminib
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Gene to a Gene.
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Gene to a Gene.") ; sh:path hetio:binds ]
+	Focus Node: ent:BCRABL
+	Value Node: ent:bosutinib
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Gene to a Gene.
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Gene to a Gene.") ; sh:path hetio:binds ]
+	Focus Node: ent:BCRABL
+	Value Node: ent:dasatinib
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Gene to a Gene.
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Gene to a Gene.") ; sh:path hetio:binds ]
+	Focus Node: ent:BCRABL
+	Value Node: ent:imatinib
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Gene to a Gene.
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Gene to a Gene.") ; sh:path hetio:binds ]
+	Focus Node: ent:BCRABL
+	Value Node: ent:nilotinib
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Gene to a Gene.
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Gene to a Gene.") ; sh:path hetio:binds ]
+	Focus Node: ent:BCRABL
+	Value Node: ent:omacetaxine_mepesuccinate
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Gene to a Gene.
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:binds must point from a Gene to a Gene.") ; sh:path hetio:binds ]
+	Focus Node: ent:BCRABL
+	Value Node: ent:ponatinib
+	Result Path: hetio:binds
+	Message: hetio:binds must point from a Gene to a Gene.

@@ -1,0 +1,94 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet#> .
+
+sh:NodeShape [
+  a sh:NodeShape ;
+  sh:targetClass hetio:Gene ;
+  sh:property [
+    sh:path hetio:INTERACTS_GiG ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 100
+  ] ;
+  sh:property [
+    sh:path hetio:PARTICIPATES_GpBP ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:BiologicalProcess ;
+    sh:minCount 1 ;
+    sh:maxCount 100
+  ] ;
+  sh:property [
+    sh:path hetio:EXPRESSES_AeG ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Anatomy ;
+    sh:minCount 1 ;
+    sh:maxCount 100
+  ]
+] .
+
+sh:NodeShape [
+  a sh:NodeShape ;
+  sh:targetClass hetio:Anatomy ;
+  sh:property [
+    sh:path hetio:DOWNREGULATES_AdG ;
+    sh:domain hetio:Anatomy ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    sh:path hetio:UPREGULATES_AuG ;
+    sh:domain hetio:Anatomy ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    sh:path hetio:EXPRESSES_AeG ;
+    sh:domain hetio:Anatomy ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 100
+  ]
+] .
+
+sh:NodeShape [
+  a sh:NodeShape ;
+  sh:targetClass hetio:Disease ;
+  sh:property [
+    sh:path hetio:DOWNREGULATES_DdG ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 100
+  ] ;
+  sh:property [
+    sh:path hetio:RESEMBLES_DrD ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 100
+  ] ;
+  sh:property [
+    sh:path hetio:TREATS_CtD ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 100
+  ]
+] .
+
+sh:NodeShape [
+  a sh:NodeShape ;
+  sh:targetClass hetio:Compound ;
+  sh:property [
+    sh:path hetio:TREATS_CtD ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 100
+  ]
+] .

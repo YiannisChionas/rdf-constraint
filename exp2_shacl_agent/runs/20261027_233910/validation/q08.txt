@@ -1,0 +1,123 @@
+Validation Report
+Conforms: False
+Results (20):
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Disease ]
+	Focus Node: ent:cetuximab
+	Result Path: hetio:treats
+	Message: More than 1 values on ent:cetuximab->hetio:treats
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Disease ]
+	Focus Node: ent:panitumumab
+	Result Path: hetio:treats
+	Message: More than 1 values on ent:panitumumab->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:associatedWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:EGFR
+	Result Path: hetio:associatedWith
+	Message: Less than 1 values on ent:EGFR->hetio:associatedWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:associatedWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:head_and_neck_cancers
+	Result Path: hetio:associatedWith
+	Message: Less than 1 values on ent:head_and_neck_cancers->hetio:associatedWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:associatedWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:metastatic_colorectal_cancer
+	Result Path: hetio:associatedWith
+	Message: Less than 1 values on ent:metastatic_colorectal_cancer->hetio:associatedWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:associatedWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:nonsmall_cell_lung_cancer
+	Result Path: hetio:associatedWith
+	Message: Less than 1 values on ent:nonsmall_cell_lung_cancer->hetio:associatedWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:binds ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:EGFR
+	Result Path: hetio:binds
+	Message: Less than 1 values on ent:EGFR->hetio:binds
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:binds ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:EGFR
+	Result Path: hetio:binds
+	Message: Less than 1 values on ent:EGFR->hetio:binds
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treatedBy ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:afatinib
+	Result Path: hetio:treatedBy
+	Message: Less than 1 values on ent:afatinib->hetio:treatedBy
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treatedBy ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:cetuximab
+	Result Path: hetio:treatedBy
+	Message: Less than 1 values on ent:cetuximab->hetio:treatedBy
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treatedBy ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:erlotinib
+	Result Path: hetio:treatedBy
+	Message: Less than 1 values on ent:erlotinib->hetio:treatedBy
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treatedBy ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:gefitinib
+	Result Path: hetio:treatedBy
+	Message: Less than 1 values on ent:gefitinib->hetio:treatedBy
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treatedBy ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:head_and_neck_cancers
+	Result Path: hetio:treatedBy
+	Message: Less than 1 values on ent:head_and_neck_cancers->hetio:treatedBy
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treatedBy ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:metastatic_colorectal_cancer
+	Result Path: hetio:treatedBy
+	Message: Less than 1 values on ent:metastatic_colorectal_cancer->hetio:treatedBy
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treatedBy ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:nonsmall_cell_lung_cancer
+	Result Path: hetio:treatedBy
+	Message: Less than 1 values on ent:nonsmall_cell_lung_cancer->hetio:treatedBy
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treatedBy ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:osimertinib
+	Result Path: hetio:treatedBy
+	Message: Less than 1 values on ent:osimertinib->hetio:treatedBy
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treatedBy ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:panitumumab
+	Result Path: hetio:treatedBy
+	Message: Less than 1 values on ent:panitumumab->hetio:treatedBy
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Disease ]
+	Focus Node: ent:head_and_neck_cancers
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:head_and_neck_cancers->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Disease ]
+	Focus Node: ent:metastatic_colorectal_cancer
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:metastatic_colorectal_cancer->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Disease ]
+	Focus Node: ent:nonsmall_cell_lung_cancer
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:nonsmall_cell_lung_cancer->hetio:treats

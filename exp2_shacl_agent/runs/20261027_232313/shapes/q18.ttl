@@ -1,0 +1,76 @@
+@prefix sh: <http://www.w3.org/2019/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet#> .
+
+sh:NodeShape [
+    a sh:NodeShape ;
+    sh:targetClass hetio:Gene ;
+    sh:property [
+        sh:predicate hetio:INTERACTS_GiG ;
+        sh:domain hetio:Gene ;
+        sh:range hetio:Gene ;
+        sh:minCount 1 ;
+        sh:maxCount 10
+    ]
+] .
+
+sh:NodeShape [
+    a sh:NodeShape ;
+    sh:targetClass hetio:Compound ;
+    sh:property [
+        sh:predicate hetio:CAUSES_CcSE ;
+        sh:domain hetio:Compound ;
+        sh:range hetio:SideEffect ;
+        sh:minCount 1 ;
+        sh:maxCount 25
+    ]
+] .
+
+sh:NodeShape [
+    a sh:NodeShape ;
+    sh:targetClass hetio:Gene ;
+    sh:property [
+        sh:predicate hetio:PARTICIPATES_GpMF ;
+        sh:domain hetio:Gene ;
+        sh:range hetio:MolecularFunction ;
+        sh:minCount 1 ;
+        sh:maxCount 25
+    ]
+] .
+
+sh:NodeShape [
+    a sh:NodeShape ;
+    sh:targetClass hetio:Anatomy ;
+    sh:property [
+        sh:predicate hetio:EXPRESSES_AeG ;
+        sh:domain hetio:Anatomy ;
+        sh:range hetio:Gene ;
+        sh:minCount 1 ;
+        sh:maxCount 25
+    ]
+] .
+
+sh:NodeShape [
+    a sh:NodeShape ;
+    sh:targetClass hetio:Compound ;
+    sh:property [
+        sh:predicate hetio:RESEMBLES_CrC ;
+        sh:domain hetio:Compound ;
+        sh:range hetio:Compound ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ]
+] .
+
+sh:NodeShape [
+    a sh:NodeShape ;
+    sh:targetClass hetio:SideEffect ;
+    sh:property [
+        sh:predicate hetio:CAUSES_CcSE ;
+        sh:domain hetio:SideEffect ;
+        sh:range hetio:Compound ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ]
+] .

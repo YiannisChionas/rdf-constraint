@@ -1,0 +1,39 @@
+Validation Report
+Conforms: False
+Results (6):
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).") ; sh:path hetio:associatedWith ]
+	Focus Node: ent:DJ1
+	Result Path: hetio:associatedWith
+	Message: A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).") ; sh:path hetio:associatedWith ]
+	Focus Node: ent:GBA
+	Result Path: hetio:associatedWith
+	Message: A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).") ; sh:path hetio:associatedWith ]
+	Focus Node: ent:LRRK2
+	Result Path: hetio:associatedWith
+	Message: A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).") ; sh:path hetio:associatedWith ]
+	Focus Node: ent:PINK1
+	Result Path: hetio:associatedWith
+	Message: A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).") ; sh:path hetio:associatedWith ]
+	Focus Node: ent:PRKN
+	Result Path: hetio:associatedWith
+	Message: A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).") ; sh:path hetio:associatedWith ]
+	Focus Node: ent:SNCA
+	Result Path: hetio:associatedWith
+	Message: A Gene is never the subject of hetio:associatedWith (confirmed direction: Disease -associatedWith-> ...).

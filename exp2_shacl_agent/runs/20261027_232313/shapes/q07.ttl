@@ -1,0 +1,72 @@
+@prefix sh: <http://www.w3.org/2009/SparqlResults#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet/> .
+
+sh:NodeShape [
+  a sh:NodeShape ;
+  sh:targetClass hetio:Compound ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate hetio:CAUSES_CcSE ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:SideEffect ;
+    sh:minCount 1 ;
+    sh:maxCount 23
+  ] ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate hetio:RESEMBLES_CrC ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Compound ;
+    sh:minCount 1 ;
+    sh:maxCount 8
+  ]
+] .
+
+sh:NodeShape [
+  a sh:NodeShape ;
+  sh:targetClass hetio:SideEffect ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate rdf:inverseOf ;
+    sh:domain hetio:SideEffect ;
+    sh:range hetio:Compound ;
+    sh:minCount 1 ;
+    sh:maxCount 2
+  ]
+] .
+
+sh:NodeShape [
+  a sh:NodeShape ;
+  sh:targetClass hetio:Disease ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate hetio:DOWNREGULATES_DdG ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 25
+  ] ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate hetio:TREATS_CtD ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 25
+  ]
+] .
+
+sh:NodeShape [
+  a sh:NodeShape ;
+  sh:targetClass hetio:PharmacologicClass ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate hetio:INCLUDES_PCiC ;
+    sh:domain hetio:PharmacologicClass ;
+    sh:range hetio:Compound ;
+    sh:minCount 1 ;
+    sh:maxCount 2
+  ]
+] .

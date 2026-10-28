@@ -1,0 +1,3333 @@
+[
+  {
+    "type": "Compound",
+    "name": "fluticasone",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "Compound"
+          ],
+          "name": "Fluticasone Propionate",
+          "id": "DB00588"
+        },
+        {
+          "labels": [
+            "Compound"
+          ],
+          "name": "Fluticasone furoate",
+          "id": "DB08906"
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "budesonide",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB01222",
+      "hetio_name": "Budesonide",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypertension"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Fracture"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gastroenteritis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Abdominal pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tongue oedema"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Angiopathy"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Mood swings"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pruritus"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Confusional state"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Metrorrhagia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Neck pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Agitation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Otitis media"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Haematuria"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Insomnia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Urinary tract infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cardiac disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tremor"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Back pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pharyngeal disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Necrosis ischaemic"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Eye infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Candida infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gastrointestinal disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Endocrine disorder"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prednisone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fluocinonide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ciclesonide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Paramethasone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Testolactone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Loteprednol"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clobetasol propionate"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fluprednidene Acetate"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prednisolone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Flurandrenolide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Desonide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Desoximetasone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Rimexolone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Amcinonide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Hydrocortamate"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Methylprednisolone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Diflorasone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Betamethasone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Hydrocortisone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fluorometholone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Flunisolide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Mometasone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fluocortolone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fluocinolone Acetonide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prednicarbate"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "salmeterol",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00938",
+      "hetio_name": "Salmeterol",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tenderness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cramp muscle"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dermatitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hyperglycaemia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cutaneous hypersensitivity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nasal congestion"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Sustained ventricular tachycardia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Urinary tract infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hoarseness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Upset stomach"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gastrointestinal infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hyperkinesia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Diarrhoea"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Arthralgia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Ear pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tracheitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Bronchial hyperreactivity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pain in arm"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypersensitivity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Sleep disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dysphonia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Back pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dysmenorrhoea"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypertension"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Sneezing"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Propafenone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Arbutamine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Salbutamol"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Hexoprenaline"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Adrenergic beta2-Agonists"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "formoterol",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00983",
+      "hetio_name": "Formoterol",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Paraesthesia oral"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Bronchospasm"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nasal congestion"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cystitis noninfective"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dermatitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dysphonia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Palpitations"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gastroenteritis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Oedema mouth"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Arthritis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tracheobronchitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypokalaemia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cerebral infarction"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Breast neoplasm"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dizziness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Paralysis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Somnolence"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Constipation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Discomfort"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gastrointestinal disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Respiratory tract infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pharyngitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Trauma"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Acute bronchitis"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Arbutamine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ritodrine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Isoprenaline"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dobutamine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Arformoterol"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Adrenergic beta2-Agonists"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "montelukast",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00471",
+      "hetio_name": "Montelukast",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Convulsion"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Eczema"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Otitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Influenza"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dyspepsia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Aspartate aminotransferase increased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pruritus"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Erythema multiforme"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Asthma"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Somnolence"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Connective tissue disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Ear infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Immune system disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gastroenteritis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Suicide attempt"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Conjunctivitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Myalgia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hepatobiliary disease"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cardiac disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Suicide"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Completed suicide"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Infestation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Liver injury"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Eosinophilia"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Leukotriene Receptor Antagonists"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "omalizumab",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "mepolizumab",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "dupilumab",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "albuterol",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "tiotropium",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB01409",
+      "hetio_name": "Tiotropium",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Benign prostatic hyperplasia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cardiac death"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Vomiting"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Glaucoma"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Oedema"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Insomnia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Prostatic hypertrophy"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Angina pectoris aggravated"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Sinusitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dry skin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dyspepsia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Chest pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Angioedema"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypersensitivity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gastrooesophageal reflux disease"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cataract"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Rash"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Type I hypersensitivity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Skin infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Eye disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nervous system disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Mental disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Immune system disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Malnutrition"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "asthma",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Disease",
+      "identifier": "DOID:2841",
+      "hetio_name": "asthma",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "UPREGULATES_DuG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EPN2"
+      },
+      {
+        "relation": "UPREGULATES_DuG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CST1"
+      },
+      {
+        "relation": "UPREGULATES_DuG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FAM205A"
+      },
+      {
+        "relation": "UPREGULATES_DuG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "OR2A7"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cardiovascular system"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "vagus nerve"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "respiratory system"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal gland"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "strand of hair"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "sweat"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "autonomic nervous system"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bronchus"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal cortex"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "nose"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "basal lamina of epithelium"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "parasympathetic nervous system"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "diaphragm"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "epithelium"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "intercostal muscle"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "exocrine gland"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "immune system"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "paranasal sinus"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "alveolus of lung"
+      },
+      {
+        "relation": "LOCALIZES_DlA",
+        "direction": "forward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "smooth muscle tissue"
+      },
+      {
+        "relation": "RESEMBLES_DrD",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "allergic rhinitis"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Isoprenaline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Mometasone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dexamethasone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dyphylline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Betamethasone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Indacaterol"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Hydrocortisone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cromoglicic acid"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ciclesonide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Zileuton"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Formoterol"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fluticasone Propionate"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ipratropium bromide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fluticasone furoate"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Terbutaline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Flunisolide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Loratadine"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Aminophylline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Zafirlukast"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Budesonide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Orciprenaline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nedocromil"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Theophylline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "WF10"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "NR3C1",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 2908,
+      "hetio_name": "NR3C1",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transcription regulatory region DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "RNA polymerase II transcription factor activity, sequence-specific DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "double-stranded DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "steroid binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "lipid binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "core promoter proximal region DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "RNA polymerase II regulatory region sequence-specific DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transcription factor activity, RNA polymerase II transcription factor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "core promoter proximal region sequence-specific DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "steroid hormone receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transcription factor activity, transcription factor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "regulatory region nucleic acid binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "RNA polymerase II regulatory region DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transcription factor activity, ligand-activated RNA polymerase II transcription factor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "sequence-specific double-stranded DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transcription factor activity, protein binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "regulatory region DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transcription regulatory region sequence-specific DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transcription factor activity, RNA polymerase II core promoter proximal region sequence-specific binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transcriptional activator activity, RNA polymerase II transcription regulatory region sequence-specific binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "steroid hormone binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "RNA polymerase II core promoter proximal region sequence-specific DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "hormone binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transcriptional activator activity, RNA polymerase II core promoter proximal region sequence-specific binding"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PKN1"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cerebellum"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "saliva-secreting gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "skin of body"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female reproductive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "parotid gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "myocardium"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "midbrain"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "eye"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "hindbrain"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "urethra"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "uterus"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "neck"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "uterine cervix"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "myometrium"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "trigeminal ganglion"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymphoid tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "urine"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "brainstem"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "central nervous system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bronchus"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "embryo"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "renal system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymph node"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "ADRB2",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 154,
+      "hetio_name": "ADRB2",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "bradykinin receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "channel regulator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "epinephrine binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ammonium ion binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "adenylate cyclase binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "drug binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "G-protein coupled receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein complex binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "G-protein coupled amine receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "glutamate receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "norepinephrine binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "catecholamine binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "G-protein coupled receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ionotropic glutamate receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "dopamine binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "adrenergic receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "potassium channel regulator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "beta-adrenergic receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein homodimerization activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "G-protein alpha-subunit binding"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PDHX"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GALE"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "JMJD6"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CPVL"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DNAJA3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GPR26"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GBA"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RXRA"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MRGPRF"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FABP6"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RPN1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PIK3CB"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PSMD3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CASP6"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL13RA2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GLRX2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SMARCB1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SUZ12"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PFKFB3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ARPC1A"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STK36"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "POLR2A"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KSR2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HMGN3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PDS5A"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PRKD2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RUVBL2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PTRF"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FRAT1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EXOSC4"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "CysLT1",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "FCER1",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "Gene"
+          ],
+          "name": "FCER1A",
+          "id": 2205
+        },
+        {
+          "labels": [
+            "Gene"
+          ],
+          "name": "FCER1G",
+          "id": 2207
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "IL5",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 3567,
+      "hetio_name": "IL5",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cytokine receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "interleukin-5 receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "growth factor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cytokine activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "growth factor receptor binding"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NIT1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TIMM9"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDCA4"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "WIF1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ARFIP2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MLLT11"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LRP10"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PLXNA1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TMEM110"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LPL"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CCNB1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STXBP1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDK2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADM"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LBR"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "INPP4B"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SNRPA"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CTNND1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SATB1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KRT23"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "respiratory system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "hematopoietic system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "epithelium"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymphoid tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bronchus"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "digestive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "nose"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "exocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "connective tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "endocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymph node"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CSF2RB"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Pranlukast"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "autistic disorder"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "allergic rhinitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "atopic dermatitis"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "IL4",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 3565,
+      "hetio_name": "IL4",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cytokine receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cytokine activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "growth factor receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "interleukin-4 receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "growth factor activity"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CHMP4A"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPB1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "VAT1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAMLD1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MIF"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "C2CD2L"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RPA1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RRS1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CES1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAL"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SUV39H1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LRP10"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TIMP1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NOSIP"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STUB1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GTF2E2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TMEM110"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "COTL1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDC20"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SNX6"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bone marrow"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "brain"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymphoid tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "digestive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "endocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female reproductive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "synovial membrane of synovial joint"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cardiovascular system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood plasma"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bronchus"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "nose"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "spinal cord"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "sense organ"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "heart"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "epithelium"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "dermis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "respiratory system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "skin of body"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "exocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood vessel"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "skin epidermis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "central nervous system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "connective tissue"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "IL13",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 3596,
+      "hetio_name": "IL13",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cytokine receptor binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cytokine activity"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TUBA1A"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ST3GAL5"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DECR1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABHD4"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FIS1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ZNF263"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STX4"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MTHFD2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CSK"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GOLT1B"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TIMM9"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HERC6"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SMARCD2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AKR7A2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CES1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPA8"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PUF60"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDC45"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCNAB2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC25A6"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "POLR2I"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCC5"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ATF5"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cardiovascular system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "hematopoietic system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymphoid tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bone marrow"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "respiratory system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "digestive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bronchus"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "head"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "connective tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female reproductive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "endocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "exocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymph node"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "smooth muscle tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "epithelium"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "skin of body"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL4R"
+      },
+      {
+        "relation": "DOWNREGULATES_AdG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "heart"
+      },
+      {
+        "relation": "UPREGULATES_AuG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      },
+      {
+        "relation": "UPREGULATES_AuG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal gland"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "kidney cancer"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "CHRM3",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 1131,
+      "hetio_name": "CHRM3",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "neurotransmitter receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "G-protein coupled receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phospholipase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "hydrolase activity, acting on ester bonds"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ammonium ion binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "acetylcholine binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phosphoric diester hydrolase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "quaternary ammonium group binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "lipase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phosphatidylinositol phospholipase C activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phospholipase C activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "acetylcholine receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "neurotransmitter binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phosphoric ester hydrolase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "G-protein coupled acetylcholine receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "G-protein coupled amine receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "drug binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "G-protein coupled neurotransmitter receptor activity"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EEF1A2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "POLE2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RNH1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IGF2R"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TUBA1A"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RRP8"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RND3"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "brain"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "prostate gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "smooth muscle tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "exocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "telencephalon"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female reproductive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "saliva-secreting gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "muscle of abdomen"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "kidney"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "thyroid gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "ureter"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "digestive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adipose tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "nervous system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "forebrain"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "renal system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "endocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "urethra"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "central nervous system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female gonad"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "head"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ARF1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ARF6"
+      },
+      {
+        "relation": "DOWNREGULATES_AdG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "heart"
+      }
+    ]
+  }
+]

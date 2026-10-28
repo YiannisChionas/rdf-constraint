@@ -1,0 +1,62 @@
+@prefix sh: <http://www.w3.org/2009/SparqlResults#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet#> .
+
+sh:targetClass hetio:Gene [
+  sh:property [
+    sh:predicate hetio:regulates ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:interactsWith ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:downRegulates ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ]
+] .
+
+sh:targetClass hetio:Compound [
+  sh:property [
+    sh:predicate hetio:treats ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ]
+] .
+
+sh:targetClass hetio:Disease [
+  sh:property [
+    sh:predicate hetio:downRegulates ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:resembles ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:treatedBy ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Compound ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ]
+] .

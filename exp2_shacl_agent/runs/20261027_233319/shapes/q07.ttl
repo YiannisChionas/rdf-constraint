@@ -1,0 +1,87 @@
+@prefix sh: <http://www.w3.org/2009/SparqlResults#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet/> .
+
+sh:NodeShape(
+  sh:targetClass hetio:Compound
+  sh:hasValue [
+    sh:property [
+      sh:predicate hetio:causes_CcSE
+      sh:targetClass hetio:SideEffect
+      sh:minCount 1
+    ]
+  ]
+  sh:hasValue [
+    sh:property [
+      sh:predicate hetio:resembles_CrC
+      sh:targetClass hetio:Compound
+      sh:minCount 1
+    ]
+  ]
+  sh:hasValue [
+    sh:property [
+      sh:predicate hetio:treats_CtD
+      sh:targetClass hetio:Disease
+      sh:minCount 1
+    ]
+  ]
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:SideEffect
+  sh:hasValue [
+    sh:property [
+      sh:predicate rdf:inverseOf
+      sh:targetClass hetio:Compound
+      sh:minCount 1
+    ]
+  ]
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:Disease
+  sh:hasValue [
+    sh:property [
+      sh:predicate hetio:downregulates_DdG
+      sh:targetClass hetio:Gene
+      sh:minCount 1
+    ]
+  ]
+  sh:hasValue [
+    sh:property [
+      sh:predicate hetio:resembles_DrD
+      sh:targetClass hetio:Disease
+      sh:minCount 1
+    ]
+  ]
+  sh:hasValue [
+    sh:property [
+      sh:predicate hetio:treatedBy_CtD
+      sh:targetClass hetio:Compound
+      sh:minCount 1
+    ]
+  ]
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:Gene
+  sh:hasValue [
+    sh:property [
+      sh:predicate rdf:inverseOf
+      sh:targetClass hetio:Disease
+      sh:minCount 1
+    ]
+  ]
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:PharmacologicClass
+  sh:hasValue [
+    sh:property [
+      sh:predicate hetio:includes_PciC
+      sh:targetClass hetio:Compound
+      sh:minCount 1
+    ]
+  ]
+)

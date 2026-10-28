@@ -1,0 +1,43 @@
+@prefix sh: <http://www.w3.org/2018/shape-expressions#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet/> .
+
+sh:targetClass hetio:Gene ;
+  sh:property [
+    sh:predicate hetio:regulates ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 22
+  ] ;
+  sh:property [
+    sh:predicate hetio:expresses ;
+    sh:domain hetio:Anatomy ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 24
+  ] .
+
+sh:targetClass hetio:Compound ;
+  sh:property [
+    sh:predicate hetio:palliates ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 26
+  ] .
+
+sh:targetClass hetio:Disease ;
+  sh:property [
+    sh:predicate hetio:downregulates ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 24
+  ] ;
+  sh:property [
+    sh:predicate hetio:resembles ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 2
+  ] .

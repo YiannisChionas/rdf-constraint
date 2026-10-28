@@ -1,0 +1,33 @@
+@prefix sh: <http://www.w3.org/2009/SparqlResults#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet/> .
+
+sh:targetClass hetio:Gene ;
+  sh:property [
+    sh:predicate hetio:participatesIn ;
+    sh:targetClass hetio:MolecularFunction ;
+    sh:minCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:regulates ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1
+  ] ;
+  sh:property [
+    sh:predicate hetio:expresses ;
+    sh:targetClass hetio:Anatomy ;
+    sh:minCount 1
+  ] .
+
+sh:targetClass hetio:Anatomy ;
+  sh:property [
+    sh:predicate hetio:expresses ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1
+  ] .
+
+sh:targetClass hetio:MolecularFunction ;
+  sh:property [
+    sh:predicate hetio:participatesIn ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1
+  ] .

@@ -1,0 +1,48 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix hetio: <http://example.org/hetio#> .
+@prefix ent: <http://example.org/entities#> .
+
+sh:NodeShape a sh:ClassShape ;
+  sh:targetClass hetio:Compound ;
+  sh:property [
+    sh:path hetio:treats ;
+    sh:targetClass hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    sh:path hetio:binds ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] .
+
+sh:NodeShape a sh:ClassShape ;
+  sh:targetClass hetio:Gene ;
+  sh:property [
+    sh:path hetio:binds ;
+    sh:targetClass hetio:Compound ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    sh:path hetio:interactsWith ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] .
+
+sh:NodeShape a sh:ClassShape ;
+  sh:targetClass hetio:Disease ;
+  sh:property [
+    sh:path hetio:treatedBy ;
+    sh:targetClass hetio:Compound ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    sh:path hetio:associatedWith ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] .

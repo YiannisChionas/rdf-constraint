@@ -1,0 +1,78 @@
+@prefix sh: <http://www.w3.org/2013/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet#> .
+
+sh:targetClass hetio:Gene ;
+  sh:property [
+    sh:predicate hetio:participates_GpMF ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:MolecularFunction ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:regulates_GrG ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:expresses_AeG ;
+    sh:domain hetio:Anatomy ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:interacts_GiG ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] .
+
+sh:targetClass hetio:Anatomy ;
+  sh:property [
+    sh:predicate hetio:expresses_AeG ;
+    sh:domain hetio:Anatomy ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:upregulates_AuG ;
+    sh:domain hetio:Anatomy ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:downregulates_AdG ;
+    sh:domain hetio:Anatomy ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] .
+
+sh:targetClass hetio:Disease ;
+  sh:property [
+    sh:predicate hetio:associates_DaG ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:upregulates_DuG ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:downregulates_DdG ;
+    sh:domain hetio:Disease ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] .
+
+sh:targetClass hetio:Gene ;
+  sh:property [
+    sh:predicate hetio:interacts_GiG ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] .

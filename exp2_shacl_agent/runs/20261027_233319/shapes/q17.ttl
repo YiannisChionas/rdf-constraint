@@ -1,0 +1,76 @@
+@prefix sh: <http://www.w3.org/2009/SparqlResults#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet#> .
+
+sh:NodeShape(
+  sh:targetClass hetio:Gene
+  sh:property(
+    sh:predicate hetio:REGULATES_GrG
+    sh:domain hetio:Gene
+    sh:range hetio:Gene
+    sh:minCount 1
+    sh:maxCount 3
+  )
+  sh:property(
+    sh:predicate hetio:INTERACTS_GiG
+    sh:domain hetio:Gene
+    sh:range hetio:Gene
+    sh:minCount 1
+    sh:maxCount 2
+  )
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:Anatomy
+  sh:property(
+    sh:predicate hetio:EXPRESSES_AeG
+    sh:domain hetio:Anatomy
+    sh:range hetio:Gene
+    sh:minCount 1
+    sh:maxCount 7
+  )
+  sh:property(
+    sh:predicate hetio:DOWNREGULATES_AdG
+    sh:domain hetio:Anatomy
+    sh:range hetio:Gene
+    sh:minCount 1
+    sh:maxCount 1
+  )
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:Disease
+  sh:property(
+    sh:predicate hetio:DOWNREGULATES_DdG
+    sh:domain hetio:Disease
+    sh:range hetio:Gene
+    sh:minCount 1
+    sh:maxCount 25
+  )
+  sh:property(
+    sh:predicate hetio:RESEMBLES_DrD
+    sh:domain hetio:Disease
+    sh:range hetio:Disease
+    sh:minCount 1
+    sh:maxCount 7
+  )
+  sh:property(
+    sh:predicate hetio:TREATS_CtD
+    sh:domain hetio:Compound
+    sh:range hetio:Disease
+    sh:minCount 1
+    sh:maxCount 25
+  )
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:Compound
+  sh:property(
+    sh:predicate hetio:TREATS_CtD
+    sh:domain hetio:Compound
+    sh:range hetio:Disease
+    sh:minCount 1
+    sh:maxCount 25
+  )
+)

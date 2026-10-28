@@ -1,0 +1,34 @@
+@prefix sh: <http://www.w3.org/2009/SparqlResults#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet/> .
+
+sh:targetClass hetio:Compound ;
+  sh:property [
+    sh:predicate hetio:causesSideEffect ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:SideEffect ;
+    sh:minCount 1 ;
+  ] .
+
+sh:targetClass hetio:Compound ;
+  sh:property [
+    sh:predicate hetio:includedInPharmacologicClass ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:PharmacologicClass ;
+    sh:minCount 1 ;
+  ] .
+
+sh:targetClass hetio:PharmacologicClass ;
+  sh:property [
+    sh:predicate hetio:includesCompound ;
+    sh:domain hetio:PharmacologicClass ;
+    sh:range hetio:Compound ;
+    sh:minCount 1 ;
+  ] .
+
+sh:targetClass hetio:Compound ;
+  sh:property [
+    sh:predicate hetio:resemblesCompound ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Compound ;
+    sh:minCount 0 ;
+  ] .

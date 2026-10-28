@@ -1,0 +1,76 @@
+@prefix sh: <http://www.w3.org/2009/SparqlResults#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet/> .
+
+sh:NodeShape (
+  sh:targetClass hetio:Compound ;
+  sh:property [
+    sh:predicate hetio:bindsCbG ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Gene ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:resemblesCrC ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Compound ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:treatsCtD ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Disease ;
+    sh:minCount 1 ;
+  ] ;
+) .
+
+sh:NodeShape (
+  sh:targetClass hetio:Gene ;
+  sh:property [
+    sh:predicate hetio:bindsCbG ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Compound ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:upregulatesCuG ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Compound ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:predicate hetio:downregulatesCdG ;
+    sh:domain hetio:Gene ;
+    sh:range hetio:Compound ;
+    sh:minCount 1 ;
+  ] ;
+) .
+
+sh:NodeShape (
+  sh:targetClass hetio:Disease ;
+  sh:property [
+    sh:predicate hetio:treatsCtD ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:Disease ;
+    sh:minCount 1 ;
+  ] ;
+) .
+
+sh:NodeShape (
+  sh:targetClass hetio:Compound ;
+  sh:property [
+    sh:predicate hetio:causesCcSE ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:SideEffect ;
+    sh:minCount 1 ;
+  ] ;
+) .
+
+sh:NodeShape (
+  sh:targetClass hetio:SideEffect ;
+  sh:property [
+    sh:predicate hetio:causesCcSE ;
+    sh:domain hetio:Compound ;
+    sh:range hetio:SideEffect ;
+    sh:minCount 1 ;
+  ] ;
+) .

@@ -1,0 +1,40 @@
+@prefix sh: <http://www.w3.org/2018/shape-path/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet/> .
+
+sh:NodeShape(
+  sh:targetClass hetio:Compound
+  sh:property(
+    sh:path hetio:causes_CcSE
+    sh:targetClass hetio:SideEffect
+    sh:minCount 1
+    sh:maxCount 25
+  )
+  sh:property(
+    sh:path hetio:includes_PciC
+    sh:targetClass hetio:PharmacologicClass
+    sh:minCount 1
+    sh:maxCount 4
+  )
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:SideEffect
+  sh:property(
+    sh:path hetio:causedBy_CcSE
+    sh:targetClass hetio:Compound
+    sh:minCount 1
+    sh:maxCount 25
+  )
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:PharmacologicClass
+  sh:property(
+    sh:path hetio:includes_PciC
+    sh:targetClass hetio:Compound
+    sh:minCount 1
+    sh:maxCount 4
+  )
+)

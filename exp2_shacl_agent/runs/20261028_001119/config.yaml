@@ -1,0 +1,15 @@
+ollama:
+  host: "http://localhost:11434"
+
+hetionet:
+  # Public, read-only, anonymous Neo4j instance (https://neo4j.het.io).
+  # No local download of the dataset needed.
+  bolt_uri: "bolt://neo4j.het.io:7687"
+
+shape_agent:
+  model: "qwen3:14b"
+  temperature: 0.0
+  think: false
+
+paths:
+  runs_dir: "runs"

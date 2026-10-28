@@ -1,0 +1,937 @@
+[
+  {
+    "type": "Gene",
+    "name": "EGFR",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 1956,
+      "hetio_name": "EGFR",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "receptor signaling protein tyrosine kinase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "receptor signaling protein serine/threonine kinase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "kinase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein phosphatase binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein kinase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "MAP kinase kinase kinase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein heterodimerization activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein serine/threonine kinase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transmembrane receptor protein tyrosine kinase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cytoskeletal protein binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "actin filament binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "double-stranded DNA binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "enzyme regulator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phosphatase binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "epidermal growth factor-activated receptor activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transferase activity, transferring phosphorus-containing groups"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein complex binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transmembrane receptor protein kinase activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "actin binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "nitric-oxide synthase regulator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "receptor signaling protein activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ubiquitin protein ligase binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phosphotransferase activity, alcohol group as acceptor"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ubiquitin-like protein ligase binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein tyrosine kinase activity"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "mammalian vulva"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "thyroid gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "uterine cervix"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "liver"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymph node"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "brain"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "heart"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female gonad"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "prostate gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "mammary gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cerebellum"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adipose tissue"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "telencephalon"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "uterus"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TBC1D15"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "F7"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TTC3"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBA52"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SUCLG1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBE2L6"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RPL7"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "OLIG3"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "erlotinib",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00530",
+      "hetio_name": "Erlotinib",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Depression"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Conjunctivitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tenderness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Interstitial pneumonia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Neuropathy peripheral"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Haemorrhage"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dermatitis bullous"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pancreatic carcinoma"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nausea"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Ileus"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Mediastinal disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Foetor hepaticus"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nail disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Folliculitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Microangiopathic haemolytic anaemia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Abdominal pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pustule"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Sepsis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Infestation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Shock"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dehydration"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Papulopustular rash"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Haemoglobin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Neutropenia"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Vandetanib"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "gefitinib",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00317",
+      "hetio_name": "Gefitinib",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cystitis haemorrhagic"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Fatigue"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Urethral disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cancer pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Eye disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gastrointestinal disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Urinary tract disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Conjunctivitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Feeling sick"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Erythema multiforme"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tenderness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Arrhythmia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pneumonia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Necrolysis epidermal"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Eye redness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dermatitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dry eye"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Epistaxis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cardiac disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Urticaria"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Haemorrhage"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Haemoptysis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Ischaemia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Ulcer"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Vandetanib"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Erlotinib"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Afatinib"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "afatinib",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB08916",
+      "hetio_name": "Afatinib",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dehydration"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nasopharyngitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Bladder pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Connective tissue disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cystitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Eye disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Conjunctival irritation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cheilitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pneumonia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Infestation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Acne pustular"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Infestation NOS"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pruritus generalised"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gastrointestinal disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cystitis noninfective"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Conjunctivitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Left ventricular dysfunction"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Skin disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nervous system disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Mental disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Headache"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hepatobiliary disease"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nail infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nasal inflammation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Rhinorrhoea"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Vandetanib"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Protein Kinase Inhibitors"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "osimertinib",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "cetuximab",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "panitumumab",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "non-small cell lung cancer",
+    "lookup": {
+      "found": true,
+      "exact": false,
+      "hetio_type": "SideEffect",
+      "identifier": "C0007131",
+      "hetio_name": "Non-small cell lung cancer",
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Non-small cell lung cancer",
+          "id": "C0007131"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Aprepitant"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "metastatic colorectal cancer",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "head and neck cancers",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  }
+]

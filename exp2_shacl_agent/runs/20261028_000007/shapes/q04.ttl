@@ -1,0 +1,28 @@
+@prefix hetio: <http://example.org/hetio/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hetio:GeneShape a sh:NodeShape ;
+    sh:property [ sh:class hetio:Gene ;
+            sh:message "hetio:interactsWith must point from a Gene to a Gene." ;
+            sh:path hetio:interactsWith ],
+        [ sh:maxCount 0 ;
+            sh:message "A Gene is never the subject of hetio:associatedWith." ;
+            sh:path hetio:associatedWith ],
+        [ sh:class hetio:Gene ;
+            sh:message "hetio:interactsWith must point from a Gene to a Gene." ;
+            sh:path hetio:interactsWith ],
+        [ sh:maxCount 0 ;
+            sh:message "A Gene is never the subject of hetio:interactsWith." ;
+            sh:path hetio:interactsWith ],
+        [ sh:maxCount 0 ;
+            sh:message "A Gene is never the subject of hetio:treats." ;
+            sh:path hetio:treats ],
+        [ sh:class hetio:Gene ;
+            sh:message "hetio:interactsWith must point from a Gene to a Gene." ;
+            sh:path hetio:interactsWith ],
+        [ sh:maxCount 0 ;
+            sh:message "A Gene is never the subject of hetio:interactsWith." ;
+            sh:path hetio:interactsWith ] ;
+    sh:targetClass hetio:Gene .
+

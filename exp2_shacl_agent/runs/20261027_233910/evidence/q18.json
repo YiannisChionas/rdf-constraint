@@ -1,0 +1,3589 @@
+[
+  {
+    "type": "Compound",
+    "name": "carbamazepine",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00564",
+      "hetio_name": "Carbamazepine",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Meningitis aseptic"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Coronary artery insufficiency"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Neuroleptic malignant syndrome"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Multiple fractures"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Coronary artery disease"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Coordination abnormal"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dermatitis atopic"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cardiac arrest"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Low back pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Suicidal behaviour"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hallucination, visual"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Oedema peripheral"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Water intoxication"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Adams-Stokes syndrome"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Psychotic disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Flushing"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Ketonuria"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tension"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Azotaemia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Amblyopia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Vomiting"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dizziness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Bradycardia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Osteomalacia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Malnutrition"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Phenytoin"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Methdilazine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Promazine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Modafinil"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Promethazine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Trimipramine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Oxaprozin"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ethopropazine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Epinastine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dimetacrine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Salsalate"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Alimemazine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Benzyl Benzoate"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Decreased Central Nervous System Disorganized Electrical Activity"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Cytochrome P450 2C19 Inducers"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Cytochrome P450 2C9 Inducers"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Cytochrome P450 2B6 Inducers"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Cytochrome P450 1A2 Inducers"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Cytochrome P450 3A4 Inducers"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "lamotrigine",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00555",
+      "hetio_name": "Lamotrigine",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Muscle relaxant therapy"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Face oedema"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Paralysis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Eye pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Oesophagitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hyperbilirubinaemia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Increased appetite"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Drug withdrawal syndrome"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Accommodation disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dermatitis contact"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Scotoma"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dysarthria"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Movement disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Agitation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hostility"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Vasculitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Breast neoplasm"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nasal congestion"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Arthralgia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Fungal skin infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Bursitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Acute coronary syndrome"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Arthropathy"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Extrapyramidal disorder"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Triamterene"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Pyrimethamine"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Decreased Central Nervous System Disorganized Electrical Activity"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "oxcarbazepine",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00776",
+      "hetio_name": "Oxcarbazepine",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Lupus erythematosus"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Electroencephalogram abnormal"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Psychotic disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Abdominal pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Bronchitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Menopausal symptoms"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hemianopia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tetany"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Alopecia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Protein urine present"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hepatic enzyme increased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Infection parasitic"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Thinking abnormal"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Fracture"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Immune system disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Blood in stool"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypothyroidism"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Conversion disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Oculogyric crisis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Drug intolerance"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Aphasia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Fatigue"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Menorrhagia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Suicidal behaviour"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Duodenal ulcer"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Phenindione"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Indapamide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Methdilazine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Desipramine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Magnesium salicylate"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Carbamazepine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dimetacrine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Phenindamine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Pirenzepine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Salsalate"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Warfarin"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Diazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Amitriptyline"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Alimemazine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Trimipramine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nepafenac"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Promazine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Promethazine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Mianserin"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Epinastine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Modafinil"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nortriptyline"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Indecainide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Doxepin"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Decreased Central Nervous System Disorganized Electrical Activity"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "Nav1.1",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "Nav1.2",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "Nav1.3",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "benzodiazepines",
+    "lookup": {
+      "found": true,
+      "exact": false,
+      "hetio_type": "PharmacologicClass",
+      "identifier": "N0000007542",
+      "hetio_name": "Benzodiazepines",
+      "candidates": [
+        {
+          "labels": [
+            "PharmacologicClass"
+          ],
+          "name": "Benzodiazepines",
+          "id": "N0000007542"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Oxazepam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Estazolam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Flurazepam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Temazepam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Chlordiazepoxide"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Alprazolam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Diazepam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clorazepate"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Triazolam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clobazam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Midazolam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clonazepam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Lorazepam"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Quazepam"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "diazepam",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00829",
+      "hetio_name": "Diazepam",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Muscle twitching"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Prothrombin level increased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Conjunctivitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Thinking abnormal"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Numbness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Acidosis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Syncope"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Disturbance in attention"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Abdominal pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pneumonia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dizziness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hallucination"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Excitability"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dyskinesia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Acute coronary syndrome"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Feeling abnormal"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cardiovascular insufficiency"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Urinary tract infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Drug withdrawal syndrome"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dermatitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Laryngospasm"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Diplopia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Delusion"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Myalgia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypoventilation"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Flurbiprofen"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Adinazolam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clomipramine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Chlorprothixene"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Oxazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Camazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Temazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Loxapine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Bromazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clonazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Phensuximide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Estazolam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clotiazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nitrazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fludiazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Flurazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Chlordiazepoxide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Alprazolam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Midazolam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cinolazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Mazindol"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cloxazolam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Amoxapine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Delorazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ethyl loflazepate"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "lorazepam",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00186",
+      "hetio_name": "Lorazepam",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pulmonary oedema"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Salivary hypersecretion"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Aggression"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Psychotic disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Vomiting"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pulmonary hypertension"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypersensitivity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Alopecia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Bradycardia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Chills"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Arrhythmia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Delirium"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Sleep disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Extrapyramidal symptoms"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Lethargy"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pericardial effusion"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Diplopia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pulmonary function test decreased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Depressed level of consciousness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Unsteadiness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Leukocytosis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Drowsiness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Mania"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Respiratory failure"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Halazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nitrazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fludiazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Camazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Flurazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clotiazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Delorazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Diazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Diclofenac"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cinolazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cloxazolam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Chlorthalidone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Oxazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Bromazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Chlordiazepoxide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clozapine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clonazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Amoxapine"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Alprazolam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ethyl loflazepate"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Midazolam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Chlorprothixene"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Temazepam"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Estazolam"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "barbiturates",
+    "lookup": {
+      "found": true,
+      "exact": false,
+      "hetio_type": "PharmacologicClass",
+      "identifier": "N0000008016",
+      "hetio_name": "Barbiturates",
+      "candidates": [
+        {
+          "labels": [
+            "PharmacologicClass"
+          ],
+          "name": "Barbiturates",
+          "id": "N0000008016"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Butalbital"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "forward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Methohexital"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "phenobarbital",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB01174",
+      "hetio_name": "Phenobarbital",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Extravasation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hyperkinesia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Irritability"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Liver injury"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dermatitis exfoliative"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Suicidal ideation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Injection site reaction"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Ataxia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Musculoskeletal discomfort"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Congenital anomaly"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Erythema"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypocalcaemia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Rash"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tension"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Emotional disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Suicidal behaviour"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nystagmus"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Vomiting"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Vitamin K deficiency"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypersensitivity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Asthma"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Developmental delay"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Lethargy"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Feeling abnormal"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Headache"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Aprobarbital"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Butabarbital"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Phenytoin"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Methylphenobarbital"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Butethal"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Primidone"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Glutethimide"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Amobarbital"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Pentobarbital"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Talbutal"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ethotoin"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Heptabarbital"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "valproate",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "levetiracetam",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB01202",
+      "hetio_name": "Levetiracetam",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Ear pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Function kidney decreased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Weight decreased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypersomnia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Raised liver function tests"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Aggression"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Asthma"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gingivitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Rash"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Mood swings"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nasal congestion"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Suicidal behaviour"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pancreatitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Abnormal behaviour"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pharyngolaryngeal pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Muscular weakness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Accidental injury"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Liver disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Immune system disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Drowsiness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Withdrawal seizures"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Personality disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Ecchymosis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypersensitivity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Eye disorder"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Decreased Central Nervous System Disorganized Electrical Activity"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "SV2A",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 9900,
+      "hetio_name": "SV2A",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "kinase binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "protein kinase binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transmembrane transporter activity"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TBX2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CCP110"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FIS1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PUF60"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADI1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GATA2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KDM5B"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PEX11A"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPARD"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CNOT4"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KEAP1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "POLR2I"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AGR2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NOSIP"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ZNF586"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "USP22"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RELB"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "BCL7B"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PSMD2"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNAS"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABL1"
+      },
+      {
+        "relation": "REGULATES_GrG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CRIP1"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal cortex"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "medulla oblongata"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "telencephalon"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "brain"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "prostate gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female gonad"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "trigeminal ganglion"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "urethra"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "pituitary gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "adrenal gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "bronchus"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "midbrain"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cerebellum"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "blood"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "islet of Langerhans"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "mammalian vulva"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "vagina"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "uterine cervix"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "seminal vesicle"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "nipple"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "myometrium"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lung"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "spinal cord"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "lymph node"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "gabapentin",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00996",
+      "hetio_name": "Gabapentin",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hordeolum"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Photophobia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Paresis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Occipital neuralgia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Aura"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Glossitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hepatitis fulminant"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Prothrombin level decreased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Inner ear infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Gingival bleeding"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypoxia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Function kidney decreased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Disturbance in sexual arousal"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Oedema"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Joint stiffness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Euphoric mood"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypertrophy of breast"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Back pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Stomatitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Rhinitis seasonal"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Breast pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Personality disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dyspnoea"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Accidental injury"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cramps of lower extremities"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Decreased Central Nervous System Disorganized Electrical Activity"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "pregabalin",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00230",
+      "hetio_name": "Pregabalin",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Anorgasmia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Haemorrhage"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Neck stiffness"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cerebral infarction"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Renal failure"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Paraesthesia oral"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Photosensitivity reaction"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Aortic valve stenosis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Fluid retention"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Furunculosis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pain in extremity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Fatigue"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Tongue oedema"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Laryngeal neoplasm"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Sarcoidosis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Incontinence"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Bladder pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypoaesthesia oral"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Petechiae"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Discomfort"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Bronchiolitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Rhabdomyolysis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pallor"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Oral candidiasis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Injection site reaction"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "alpha2delta",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "perampanel",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "topiramate",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00273",
+      "hetio_name": "Topiramate",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Psychomotor retardation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Swelling face"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Speech disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Abdominal pain lower"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Menstrual disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Iritis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Maculopathy"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Phosphatase alkaline increased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Body odor"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Libido increased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Suicide attempt"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Neuropathy peripheral"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Weight increased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Decreased appetite"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Drug - food interaction"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Dyskinesia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Aphasia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Alkaline phosphatase serum increased"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypogeusia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Haemorrhoids"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Vaginal inflammation"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Rash erythematous"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Abdominal pain upper"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypersensitivity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hepatic enzyme increased"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Cytochrome P450 2C19 Inhibitors"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Cytochrome P450 3A4 Inducers"
+      },
+      {
+        "relation": "INCLUDES_PCiC",
+        "direction": "backward",
+        "neighbor_type": "PharmacologicClass",
+        "neighbor_name": "Decreased Central Nervous System Disorganized Electrical Activity"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "cannabidiol",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "CB1",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "Gene"
+          ],
+          "name": "ABCB1",
+          "id": 5243
+        },
+        {
+          "labels": [
+            "Gene"
+          ],
+          "name": "NUCB1",
+          "id": 4924
+        },
+        {
+          "labels": [
+            "Gene"
+          ],
+          "name": "IQCB1",
+          "id": 9657
+        },
+        {
+          "labels": [
+            "Gene"
+          ],
+          "name": "ABCB11",
+          "id": 8647
+        },
+        {
+          "labels": [
+            "Gene"
+          ],
+          "name": "SMARCB1",
+          "id": 6598
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "TRPV1",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 7442,
+      "hetio_name": "TRPV1",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "temperature-gated ion channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ligand-gated channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "metal ion transmembrane transporter activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "transmembrane transporter activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ligand-gated ion channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "calcium-release channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ion channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "phosphoprotein binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "excitatory extracellular ligand-gated ion channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cation transmembrane transporter activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "extracellular ligand-gated ion channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "calcium channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "passive transmembrane transporter activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "channel regulator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "ion transmembrane transporter activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "cation channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "calmodulin binding"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "substrate-specific channel activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "substrate-specific transmembrane transporter activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "divalent inorganic cation transmembrane transporter activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "inorganic cation transmembrane transporter activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "chloride channel regulator activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "calcium ion transmembrane transporter activity"
+      },
+      {
+        "relation": "PARTICIPATES_GpMF",
+        "direction": "forward",
+        "neighbor_type": "MolecularFunction",
+        "neighbor_name": "gated channel activity"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "spinal nerve"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "nerve"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "brain"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "cranial nerve"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "epithelium"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "ganglion"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "vagus nerve"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "head"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "digestive system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "endocrine gland"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "trigeminal ganglion"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "peripheral nervous system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "nervous system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "spinal cord"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "testis"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "sciatic nerve"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "renal system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "trigeminal nerve"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "gonad"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "pancreas"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "central nervous system"
+      },
+      {
+        "relation": "EXPRESSES_AeG",
+        "direction": "backward",
+        "neighbor_type": "Anatomy",
+        "neighbor_name": "female reproductive system"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CALM2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PRKCE"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CALM3"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "vigabatrin",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB01080",
+      "hetio_name": "Vigabatrin",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Sinus headache"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Arthralgia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Vision blurred"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypersensitivity"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Memory impairment"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Myoclonus"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Stridor"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hepatobiliary disease"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Developmental hip dysplasia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Urinary tract infection"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Otitis media acute"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Skin disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Nystagmus"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Wave slowing"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Sinusitis"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pallor"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Feeling abnormal"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Pneumonia"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Chest pain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Confusional state"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Rash"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Muscle strain"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Cerebration impaired"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Movement disorder"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "forward",
+        "neighbor_type": "SideEffect",
+        "neighbor_name": "Hypomania"
+      },
+      {
+        "relation": "RESEMBLES_CrC",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "L-Glutamine"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "GABA transaminase",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "epilepsy",
+    "lookup": {
+      "found": true,
+      "exact": false,
+      "hetio_type": "SideEffect",
+      "identifier": "C0014544",
+      "hetio_name": "Epilepsy",
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Epilepsy",
+          "id": "C0014544"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Sumatriptan"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Amoxicillin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Betamethasone"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cladribine"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Rufinamide"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Iodixanol"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Allopurinol"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Flumazenil"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ketamine"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Sibutramine"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Estradiol valerate/Dienogest"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Estriol"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Orlistat"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dexamethasone"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Aripiprazole"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Maraviroc"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ofloxacin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Mefloquine"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nalidixic Acid"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Mirtazapine"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Topiramate"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Doxazosin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Levofloxacin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Estradiol"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dicloxacillin"
+      }
+    ]
+  }
+]

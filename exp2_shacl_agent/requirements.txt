@@ -1,0 +1,5 @@
+requests
+rdflib
+pyyaml
+pyshacl
+neo4j

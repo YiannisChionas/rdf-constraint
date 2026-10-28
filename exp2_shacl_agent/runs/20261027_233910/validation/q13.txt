@@ -1,0 +1,117 @@
+Validation Report
+Conforms: False
+Results (19):
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:atorvastatin
+	Result Path: hetio:treats
+	Message: More than 1 values on ent:atorvastatin->hetio:treats
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Disease ]
+	Focus Node: ent:atorvastatin
+	Result Path: hetio:treats
+	Message: More than 1 values on ent:atorvastatin->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:associatedWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:HMGCR
+	Result Path: hetio:associatedWith
+	Message: Less than 1 values on ent:HMGCR->hetio:associatedWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:associatedWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:coronary_artery_disease
+	Result Path: hetio:associatedWith
+	Message: Less than 1 values on ent:coronary_artery_disease->hetio:associatedWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:associatedWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:diabetes
+	Result Path: hetio:associatedWith
+	Message: Less than 1 values on ent:diabetes->hetio:associatedWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:associatedWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:familial_hypercholesterolemia
+	Result Path: hetio:associatedWith
+	Message: Less than 1 values on ent:familial_hypercholesterolemia->hetio:associatedWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:associatedWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:hyperlipidemia
+	Result Path: hetio:associatedWith
+	Message: Less than 1 values on ent:hyperlipidemia->hetio:associatedWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:binds ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:HMGCR
+	Result Path: hetio:binds
+	Message: Less than 1 values on ent:HMGCR->hetio:binds
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:binds ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:HMGCR
+	Result Path: hetio:binds
+	Message: Less than 1 values on ent:HMGCR->hetio:binds
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:interactsWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:HMGCR
+	Result Path: hetio:interactsWith
+	Message: Less than 1 values on ent:HMGCR->hetio:interactsWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:interactsWith ; sh:targetClass hetio:Gene ]
+	Focus Node: ent:HMGCR
+	Result Path: hetio:interactsWith
+	Message: Less than 1 values on ent:HMGCR->hetio:interactsWith
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:coronary_artery_disease
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:coronary_artery_disease->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:diabetes
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:diabetes->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:familial_hypercholesterolemia
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:familial_hypercholesterolemia->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Compound ]
+	Focus Node: ent:hyperlipidemia
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:hyperlipidemia->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Disease ]
+	Focus Node: ent:coronary_artery_disease
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:coronary_artery_disease->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Disease ]
+	Focus Node: ent:diabetes
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:diabetes->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Disease ]
+	Focus Node: ent:familial_hypercholesterolemia
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:familial_hypercholesterolemia->hetio:treats
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path hetio:treats ; sh:targetClass hetio:Disease ]
+	Focus Node: ent:hyperlipidemia
+	Result Path: hetio:treats
+	Message: Less than 1 values on ent:hyperlipidemia->hetio:treats

@@ -1,0 +1,55 @@
+@prefix sh: <http://www.w3.org/2018/shape-path-1.0#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hetio: <https://hetionet.org/ontology/hetionet#> .
+
+sh:NodeShape(
+  sh:targetClass hetio:Gene
+  sh:property(
+    sh:path hetio:participates_GpMF
+    sh:domain hetio:Gene
+    sh:range hetio:MolecularFunction
+    sh:minCount 1
+  )
+  sh:property(
+    sh:path hetio:expresses_AeG
+    sh:domain hetio:Anatomy
+    sh:range hetio:Gene
+    sh:minCount 1
+  )
+  sh:property(
+    sh:path hetio:regulates_GrG
+    sh:domain hetio:Gene
+    sh:range hetio:Gene
+    sh:minCount 1
+  )
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:MolecularFunction
+  sh:property(
+    sh:path rdf:type
+    sh:domain hetio:MolecularFunction
+    sh:range rdfs:Class
+  )
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:Anatomy
+  sh:property(
+    sh:path hetio:expresses_AeG
+    sh:domain hetio:Anatomy
+    sh:range hetio:Gene
+    sh:minCount 1
+  )
+)
+
+sh:NodeShape(
+  sh:targetClass hetio:Gene
+  sh:property(
+    sh:path hetio:participates_GpMF
+    sh:domain hetio:Gene
+    sh:range hetio:MolecularFunction
+    sh:minCount 1
+  )
+)

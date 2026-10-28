@@ -1,0 +1,10 @@
+Validation Report
+Conforms: False
+Results (1):
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class hetio:Gene ; sh:message Literal("hetio:associatedWith must point from a Disease to a Gene.") ; sh:path hetio:associatedWith ]
+	Focus Node: ent:breast_cancer
+	Value Node: ent:ovarian_cancer
+	Result Path: hetio:associatedWith
+	Message: hetio:associatedWith must point from a Disease to a Gene.

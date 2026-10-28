@@ -1,0 +1,63 @@
+Validation Report
+Conforms: False
+Results (10):
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:abatacept
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:adalimumab
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:etanercept
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:hydroxychloroquine
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:methotrexate
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:prednisone
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:rituximab
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:sulfasalazine
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:tocilizumab
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:tofacitinib
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).

@@ -1,0 +1,54 @@
+@prefix sh: <http://www.w3.org/2009/SparqlResults#> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix ent: <http://example.org/hetio/entity/> .
+
+sh:NodeShape(
+  a sh:NodeShape ;
+  sh:targetClass hetio:Compound ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate hetio:treats ;
+    sh:targetClass hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate hetio:binds ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ]
+)
+
+sh:NodeShape(
+  a sh:NodeShape ;
+  sh:targetClass hetio:Gene ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate hetio:associatedWith ;
+    sh:targetClass hetio:Disease ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ] ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate hetio:interactsWith ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ]
+)
+
+sh:NodeShape(
+  a sh:NodeShape ;
+  sh:targetClass hetio:Disease ;
+  sh:property [
+    a sh:PropertyShape ;
+    sh:predicate hetio:associatedWith ;
+    sh:inversePath true ;
+    sh:targetClass hetio:Gene ;
+    sh:minCount 1 ;
+    sh:maxCount 1
+  ]
+)

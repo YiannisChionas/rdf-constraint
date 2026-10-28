@@ -1,0 +1,51 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hetio:CompoundShape
+    a sh:NodeShape ;
+    sh:targetClass hetio:Compound ;
+    sh:property [
+        sh:path hetio:treats ;
+        sh:class hetio:Disease ;
+        sh:message "hetio:treats must point from a Compound to a Disease." ;
+    ] ;
+    sh:property [
+        sh:path hetio:binds ;
+        sh:class hetio:Gene ;
+        sh:message "hetio:binds must point from a Compound to a Gene." ;
+    ] .
+
+hetio:GeneShape
+    a sh:NodeShape ;
+    sh:targetClass hetio:Gene ;
+    sh:property [
+        sh:path hetio:associatedWith ;
+        sh:class hetio:Disease ;
+        sh:message "hetio:associatedWith must point from a Gene to a Disease." ;
+    ] ;
+    sh:property [
+        sh:path hetio:interactsWith ;
+        sh:class hetio:Gene ;
+        sh:message "hetio:interactsWith must point from a Gene to a Gene." ;
+    ] .
+
+hetio:DiseaseShape
+    a sh:NodeShape ;
+    sh:targetClass hetio:Disease ;
+    sh:property [
+        sh:path hetio:binds ;
+        sh:maxCount 0 ;
+        sh:message "A Disease is never the subject of hetio:binds." ;
+    ] ;
+    sh:property [
+        sh:path hetio:treats ;
+        sh:maxCount 0 ;
+        sh:message "A Disease is never the subject of hetio:treats." ;
+    ] ;
+    sh:property [
+        sh:path hetio:interactsWith ;
+        sh:maxCount 0 ;
+        sh:message "A Disease is never the subject of hetio:interactsWith." ;
+    ] .

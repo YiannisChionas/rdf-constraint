@@ -1,0 +1,30 @@
+@prefix hetio: <http://example.org/hetio/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+hetio:CompoundShape a sh:NodeShape ;
+    sh:property [ sh:class hetio:Gene ;
+            sh:message "hetio:associatedWith must point from a Compound to a Gene." ;
+            sh:path hetio:associatedWith ],
+        [ sh:class hetio:Compound ;
+            sh:message "hetio:associatedWith must point from a Compound to a Compound." ;
+            sh:path hetio:associatedWith ],
+        [ sh:class hetio:Compound ;
+            sh:message "hetio:associatedWith must point from a Compound to a Compound." ;
+            sh:path hetio:associatedWith ],
+        [ sh:class hetio:Disease ;
+            sh:message "hetio:treats must point from a Compound to a Disease." ;
+            sh:path hetio:treats ] ;
+    sh:targetClass hetio:Compound .
+
+hetio:DiseaseShape a sh:NodeShape ;
+    sh:property [ sh:class hetio:Compound ;
+            sh:message "hetio:treats must point from a Disease to a Compound." ;
+            sh:path hetio:treats ] ;
+    sh:targetClass hetio:Disease .
+
+hetio:GeneShape a sh:NodeShape ;
+    sh:property [ sh:class hetio:Compound ;
+            sh:message "hetio:associatedWith must point from a Gene to a Compound." ;
+            sh:path hetio:associatedWith ] ;
+    sh:targetClass hetio:Gene .
+

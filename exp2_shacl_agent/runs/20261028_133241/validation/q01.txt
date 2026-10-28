@@ -1,0 +1,51 @@
+Validation Report
+Conforms: False
+Results (8):
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:acarbose
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:empagliflozin
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:glipizide
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:liraglutide
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:metformin
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:pioglitazone
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:repaglinide
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:maxCount Literal("0", datatype=xsd:integer) ; sh:message Literal("A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).") ; sh:path hetio:treats ]
+	Focus Node: ent:sitagliptin
+	Result Path: hetio:treats
+	Message: A Compound is never the subject of hetio:treats (confirmed direction: Disease -treats-> ...).

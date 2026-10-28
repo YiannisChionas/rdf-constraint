@@ -1,0 +1,803 @@
+[
+  {
+    "type": "Compound",
+    "name": "aspirin",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "headaches",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Frequent headaches",
+          "id": "C0948396"
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "arthritis",
+    "lookup": {
+      "found": true,
+      "exact": false,
+      "hetio_type": "SideEffect",
+      "identifier": "C0003864",
+      "hetio_name": "Arthritis",
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Arthritis",
+          "id": "C0003864"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ursodeoxycholic acid"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fulvestrant"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Isotretinoin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Isosorbide Mononitrate"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Formoterol"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Voriconazole"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Progesterone"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Procainamide"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Tretinoin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Boceprevir"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nepafenac"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Anagrelide"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nilotinib"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Selegiline"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Zolpidem"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cetirizine"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Acitretin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Zopiclone"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Brimonidine"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Gatifloxacin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Rasagiline"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nelfinavir"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Raloxifene"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Irbesartan"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Enalapril"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "muscle pain",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "fever",
+    "lookup": {
+      "found": true,
+      "exact": false,
+      "hetio_type": "Symptom",
+      "identifier": "D005334",
+      "hetio_name": "Fever",
+      "candidates": [
+        {
+          "labels": [
+            "Symptom"
+          ],
+          "name": "Fever",
+          "id": "D005334"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Kawasaki disease"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "colon cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hematologic cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "malaria"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "skin cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "breast cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "vascular cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "germ cell cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "sarcoma"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "gout"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "uterine fibroid"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "malignant mesothelioma"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "uterine cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic lupus erythematosus"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "melanoma"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Behcet's disease"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "epilepsy syndrome"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "kidney cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "acquired immunodeficiency syndrome"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Crohn's disease"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "abdominal aortic aneurysm"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "retroperitoneal cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "rectum cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "liver cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "nephrolithiasis"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "rheumatoid arthritis",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Disease",
+      "identifier": "DOID:7148",
+      "hetio_name": "rheumatoid arthritis",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KLF4"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ACVR1B"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RPS4Y1"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "USP36"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GRK5"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "OSBP"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GID8"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GTF2F1"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "APEX1"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "WNT11"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NBPF8"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL1R1"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KRTAP2-4"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CHMP1B"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "METTL7A"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SENP3"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EIF3L"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNG12"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RABL2B"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FER"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EIF3B"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNA11"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GOLGA6L6"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "YBX3"
+      },
+      {
+        "relation": "DOWNREGULATES_DdG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NPIPB5"
+      },
+      {
+        "relation": "RESEMBLES_DrD",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "primary biliary cirrhosis"
+      },
+      {
+        "relation": "RESEMBLES_DrD",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "gout"
+      },
+      {
+        "relation": "RESEMBLES_DrD",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "osteoarthritis"
+      },
+      {
+        "relation": "RESEMBLES_DrD",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Behcet's disease"
+      },
+      {
+        "relation": "RESEMBLES_DrD",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "psoriatic arthritis"
+      },
+      {
+        "relation": "RESEMBLES_DrD",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "ankylosing spondylitis"
+      },
+      {
+        "relation": "RESEMBLES_DrD",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "psoriasis"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Methotrexate"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prednisone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cyclosporine"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Hydrocortisone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Leflunomide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Triamcinolone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Methylprednisolone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ergocalciferol"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dexamethasone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Penicillamine"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Auranofin"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Sulfasalazine"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Betamethasone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prednisolone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Azathioprine"
+      },
+      {
+        "relation": "PALLIATES_CpD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Oxaprozin"
+      },
+      {
+        "relation": "PALLIATES_CpD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Gabapentin"
+      },
+      {
+        "relation": "PALLIATES_CpD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Amitriptyline"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "heart attack",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "stroke",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Thromboembolic stroke",
+          "id": "C1112433"
+        },
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Haemorrhagic stroke",
+          "id": "C0553692"
+        },
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Heat stroke",
+          "id": "C0018843"
+        },
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Stroke volume increased",
+          "id": "C0520872"
+        },
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Embolic stroke",
+          "id": "C0262469"
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "colorectal cancer",
+    "lookup": {
+      "found": true,
+      "exact": false,
+      "hetio_type": "SideEffect",
+      "identifier": "C1527249",
+      "hetio_name": "Colorectal cancer",
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Colorectal cancer",
+          "id": "C1527249"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prasugrel"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Pramipexole"
+      }
+    ]
+  }
+]
