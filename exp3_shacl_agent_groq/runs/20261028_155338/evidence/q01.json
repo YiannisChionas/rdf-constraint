@@ -1,0 +1,512 @@
+[
+  {
+    "type": "Compound",
+    "name": "metformin",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00331",
+      "hetio_name": "Metformin",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFS1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFA4L2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFC1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFA1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFA3"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFS5"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC47A1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ND1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFA2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFB8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFC2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFV1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFAF1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFB6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFB3"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFB4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ND5"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ND6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFS4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFB2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFAF4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFA8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NDUFS8"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "type 2 diabetes",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Type 2 diabetes mellitus",
+          "id": "C0011860"
+        },
+        {
+          "labels": [
+            "Disease"
+          ],
+          "name": "type 2 diabetes mellitus",
+          "id": "DOID:9352"
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "glipizide",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB01067",
+      "hetio_name": "Glipizide",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPARG"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCNJ11"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCC8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C9"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 2 diabetes mellitus"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "sitagliptin",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB01261",
+      "hetio_name": "Sitagliptin",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DPP4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C8"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 2 diabetes mellitus"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "empagliflozin",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "liraglutide",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "pioglitazone",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB01132",
+      "hetio_name": "Pioglitazone",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1B3"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1B1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C9"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C19"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2D6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPARG"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PTGS1"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 2 diabetes mellitus"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "acarbose",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00284",
+      "hetio_name": "Acarbose",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AMY2A"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MGAM"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AMY1A"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AMY1C"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SI"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AMY1B"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GAA"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 2 diabetes mellitus"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "repaglinide",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00912",
+      "hetio_name": "Repaglinide",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPARG"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCC8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCNJ11"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ALB"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1B1"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 2 diabetes mellitus"
+      }
+    ]
+  }
+]

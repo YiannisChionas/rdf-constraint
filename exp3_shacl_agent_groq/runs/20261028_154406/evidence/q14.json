@@ -1,0 +1,1995 @@
+[
+  {
+    "type": "Compound",
+    "name": "fluticasone",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "Compound"
+          ],
+          "name": "Fluticasone Propionate",
+          "id": "DB00588"
+        },
+        {
+          "labels": [
+            "Compound"
+          ],
+          "name": "Fluticasone furoate",
+          "id": "DB08906"
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "budesonide",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB01222",
+      "hetio_name": "Budesonide",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NR3C1"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "ulcerative colitis"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "salmeterol",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00938",
+      "hetio_name": "Salmeterol",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A7"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A5"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A7-CYP3A51P"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRB2"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "formoterol",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00983",
+      "hetio_name": "Formoterol",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2A6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C19"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2D6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C9"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRB2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRB1"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "chronic obstructive pulmonary disease"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "montelukast",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00471",
+      "hetio_name": "Montelukast",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO2B1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C9"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ALOX5"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PTGS1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2A6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYSLTR1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C8"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "allergic rhinitis"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "chronic obstructive pulmonary disease"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "omalizumab",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "mepolizumab",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "dupilumab",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "albuterol",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "tiotropium",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB01409",
+      "hetio_name": "Tiotropium",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CHRM5"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CHRM3"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CHRM1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CHRM2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2D6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A5"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "chronic obstructive pulmonary disease"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "asthma",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Disease",
+      "identifier": "DOID:2841",
+      "hetio_name": "asthma",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PDE4D"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TSPO"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CCR5"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSD11B2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AGTR2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD86"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HLA-G"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "BCL2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CCL2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TLR4"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL18"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PTGDR"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FLNC"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDK2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYSLTR1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GSTP1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CXCL8"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ALDH2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SFTPD"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LTB4R"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GATA3"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CRB1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LEP"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "VDR"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ITPR1"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Isoprenaline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Mometasone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dexamethasone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dyphylline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Betamethasone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Indacaterol"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Hydrocortisone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cromoglicic acid"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ciclesonide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Zileuton"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Formoterol"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fluticasone Propionate"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ipratropium bromide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fluticasone furoate"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Terbutaline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Flunisolide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Loratadine"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Aminophylline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Zafirlukast"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Budesonide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Orciprenaline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nedocromil"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Theophylline"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "WF10"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Tiotropium"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "NR3C1",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 2908,
+      "hetio_name": "NR3C1",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KDM5A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBE2I"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SFPQ"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "POU2F2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SMARCA4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TSPYL2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IRF2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ANP32A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STIP1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SYT1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PRKACA"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TDG"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IGFBP1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RNF14"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RELA"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TJP2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HDAC2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPARGC1A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBE2L3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TRIM24"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RARA"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SSB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RAD9A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HDAC6"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CENPB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DDC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DYNC1I2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DUSP1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NR0B1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC25A4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CALR"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ETS1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NR2F6"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CEBPA"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ATP1B1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CALM1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FOS"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADA"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FTH1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AR"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CLU"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CALM2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNB2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDKN1A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CREBBP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SFN"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CLTC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CREB1"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "ADRB2",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 154,
+      "hetio_name": "ADRB2",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPP3CA"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ARR3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AKAP5"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAGI3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GPRASP1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRBK1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SYNE2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNA15"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GRB2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PRKCA"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCNJ9"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GRK6"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HTR4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNAS"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ARRB2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EIF2B1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CAV3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EGLN3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNG2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNAI2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNA11"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CNBP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNB1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC9A3R2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "OPRD1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Timolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clenbuterol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ritodrine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Bevantolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Alprenolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Desipramine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Betaxolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Droxidopa"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Acebutolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Esmolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Metipranolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nadolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Levobunolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Carteolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Pseudoephedrine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Atenolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Terbutaline"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Pindolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Bambuterol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Propranolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Asenapine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Bisoprolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Indacaterol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nebivolol"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Oxprenolol"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "CysLT1",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "FCER1",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "Gene"
+          ],
+          "name": "FCER1A",
+          "id": 2205
+        },
+        {
+          "labels": [
+            "Gene"
+          ],
+          "name": "FCER1G",
+          "id": 2207
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "IL5",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 3567,
+      "hetio_name": "IL5",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL5RA"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CSF2RB"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Pranlukast"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "autistic disorder"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "allergic rhinitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "atopic dermatitis"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "IL4",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 3565,
+      "hetio_name": "IL4",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MYB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IRF2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL13"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PIK3CD"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL13RA2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NFATC1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IRF1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL13RA1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL4R"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IRF4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL2RG"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CEBPB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CEBPG"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EP300"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GATA3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EGR1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD53"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "A2M"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hematologic cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "malaria"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic lupus erythematosus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "psoriasis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "atopic dermatitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "rheumatoid arthritis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "periodontitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "multiple sclerosis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "acquired immunodeficiency syndrome"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "primary biliary cirrhosis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "allergic rhinitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "autistic disorder"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "melanoma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 1 diabetes mellitus"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "IL13",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 3596,
+      "hetio_name": "IL13",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL13RA1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL13RA2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "VCAM1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PIK3R1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL4R"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "kidney cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "atopic dermatitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic scleroderma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "allergic rhinitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "pancreatitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hematologic cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "chronic obstructive pulmonary disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "psoriatic arthritis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "autistic disorder"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "psoriasis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "periodontitis"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "CHRM3",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 1131,
+      "hetio_name": "CHRM3",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MDM2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GNAQ"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RGS4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GRK6"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SET"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CSNK1A1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GZMB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPP1R9B"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GPRASP1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NALCN"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ARF1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ARF6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Diphemanil Methylsulfate"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Clozapine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Isopropamide"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Nortriptyline"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Anisotropine Methylbromide"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Procyclidine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Propiomazine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Brompheniramine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cyproheptadine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cyclopentolate"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Methylscopolamine bromide"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Oxyphenonium"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Olanzapine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Pancuronium"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fesoterodine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Mepenzolate"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Hyoscyamine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Succinylcholine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ziprasidone"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Paroxetine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Promazine"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Glycopyrrolate"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Aclidinium"
+      }
+    ]
+  }
+]

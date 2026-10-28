@@ -1,0 +1,18 @@
+groq:
+  # Reads GROQ_API_KEY from the environment (never store it here).
+  max_tokens: 2048
+
+hetionet:
+  # Public, read-only, anonymous Neo4j instance (https://neo4j.het.io).
+  # No local download of the dataset needed.
+  bolt_uri: "bolt://neo4j.het.io:7687"
+
+shape_agent:
+  model: "openai/gpt-oss-120b"
+  temperature: 0.0
+  # No effect on this model (kept for parity with exp2's config shape -
+  # see src/llm.py's GroqClient docstring for why).
+  think: false
+
+paths:
+  runs_dir: "runs"

@@ -1,0 +1,40 @@
+@prefix hetio: <http://example.org/hetio/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hetio:CompoundShape a sh:NodeShape ;
+    sh:property [ sh:maxCount 0 ;
+            sh:message "A Compound is never the subject of hetio:interactsWith (confirmed direction: Gene -interactsWith-> ...)." ;
+            sh:path hetio:interactsWith ],
+        [ sh:maxCount 0 ;
+            sh:message "A Compound is never the subject of hetio:associatedWith (confirmed direction: Gene -associatedWith-> ...)." ;
+            sh:path hetio:associatedWith ],
+        [ sh:class hetio:Gene ;
+            sh:message "hetio:binds must point from a Compound to a Gene." ;
+            sh:path hetio:binds ] ;
+    sh:targetClass hetio:Compound .
+
+hetio:DiseaseShape a sh:NodeShape ;
+    sh:property [ sh:maxCount 0 ;
+            sh:message "A Disease is never the subject of hetio:interactsWith (confirmed direction: Gene -interactsWith-> ...)." ;
+            sh:path hetio:interactsWith ],
+        [ sh:maxCount 0 ;
+            sh:message "A Disease is never the subject of hetio:associatedWith (confirmed direction: Gene -associatedWith-> ...)." ;
+            sh:path hetio:associatedWith ],
+        [ sh:maxCount 0 ;
+            sh:message "A Disease is never the subject of hetio:binds (confirmed direction: Compound -binds-> ...)." ;
+            sh:path hetio:binds ] ;
+    sh:targetClass hetio:Disease .
+
+hetio:GeneShape a sh:NodeShape ;
+    sh:property [ sh:class hetio:Gene ;
+            sh:message "hetio:interactsWith must point from a Gene to a Gene." ;
+            sh:path hetio:interactsWith ],
+        [ sh:class hetio:Disease ;
+            sh:message "hetio:associatedWith must point from a Gene to a Disease." ;
+            sh:path hetio:associatedWith ],
+        [ sh:maxCount 0 ;
+            sh:message "A Gene is never the subject of hetio:binds (confirmed direction: Compound -binds-> ...)." ;
+            sh:path hetio:binds ] ;
+    sh:targetClass hetio:Gene .
+

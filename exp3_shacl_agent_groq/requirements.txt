@@ -1,0 +1,5 @@
+groq
+rdflib
+pyyaml
+pyshacl
+neo4j

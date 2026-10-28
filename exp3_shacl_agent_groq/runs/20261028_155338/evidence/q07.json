@@ -1,0 +1,1397 @@
+[
+  {
+    "type": "Compound",
+    "name": "lisinopril",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00722",
+      "hetio_name": "Lisinopril",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ACE2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ACE"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC15A1"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "coronary artery disease"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic scleroderma"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "dilated cardiomyopathy"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "enalapril",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00584",
+      "hetio_name": "Enalapril",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ACE"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1A2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A7"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC15A1"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "coronary artery disease"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "losartan",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00678",
+      "hetio_name": "Losartan",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A12"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AGTR1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ACE"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1B3"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UGT1A3"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ALB"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A5"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UGT1A1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UGT2B7"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP1A2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UGT2B17"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C9"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC2A9"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C19"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1B1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UGT1A10"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C8"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 2 diabetes mellitus"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "coronary artery disease"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "valsartan",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00177",
+      "hetio_name": "Valsartan",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1B3"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ALB"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AGTR1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1B1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C9"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 2 diabetes mellitus"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "coronary artery disease"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "amlodipine",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00381",
+      "hetio_name": "Amlodipine",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA1S"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2D6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNB2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA1B"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SMPD1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA1D"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A7"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA1C"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA2D1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A7-CYP3A51P"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP1A2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA2D3"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C9"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2A6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A5"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2B6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP1A1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CA1"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "verapamil",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00661",
+      "hetio_name": "Verapamil",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA1F"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1A2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCC3"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCC1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC6A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SCN5A"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA1B"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1B1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA1C"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C18"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB11"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A7-CYP3A51P"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C9"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNB3"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A5"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2D6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCNJ11"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA1H"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCNH2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNB4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CACNA1D"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "metoprolol",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00264",
+      "hetio_name": "Metoprolol",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C19"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRB2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2D6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A2"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "atenolol",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00335",
+      "hetio_name": "Atenolol",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRB2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRB1"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "hydrochlorothiazide",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00999",
+      "hetio_name": "Hydrochlorothiazide",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CA12"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CA9"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCNMA1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC22A6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CA5B"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CA2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CA1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CA4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC12A3"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "nephrolithiasis"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "aliskiren",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Compound",
+    "name": "doxazosin",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00590",
+      "hetio_name": "Doxazosin",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ORM1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRA2A"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRA1B"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2D6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCNH7"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C19"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCNH2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KCNH6"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRA1A"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADRA1D"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "spironolactone",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00421",
+      "hetio_name": "Spironolactone",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCC2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NR3C1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2C8"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP11B1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP11B2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PGR"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AR"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NR3C2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SHBG"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABCB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLCO1A2"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "dilated cardiomyopathy"
+      }
+    ]
+  },
+  {
+    "type": "Compound",
+    "name": "eplerenone",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Compound",
+      "identifier": "DB00700",
+      "hetio_name": "Eplerenone",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A4"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP11B2"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A7"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A5"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A7-CYP3A51P"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NR3C2"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "forward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "coronary artery disease"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "hypertension",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Disease",
+      "identifier": "DOID:10763",
+      "hetio_name": "hypertension",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC9A1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ALOX15"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TIMP4"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SELENBP1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GRK4"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PGF"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ITGB3"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ACVRL1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC2A3"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PROC"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GSTM5"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HP"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPBP"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HIF1A"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "APLN"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TNF"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP3A5"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "F2R"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CALM1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KLK1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HTR2A"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SERPINE2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CCL28"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PTGIR"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "VANGL2"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Captopril"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Chlorothiazide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Bepridil"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Spironolactone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Enalapril"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Timolol"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Valsartan"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Furosemide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Guanfacine"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Quinapril"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Guanadrel"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Metolazone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Diltiazem"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Eprosartan"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Atorvastatin"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fenoldopam"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Isradipine"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Penbutolol"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Metoprolol"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prazosin"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Torasemide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Benazepril"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Amiloride"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Losartan"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Terazosin"
+      }
+    ]
+  }
+]

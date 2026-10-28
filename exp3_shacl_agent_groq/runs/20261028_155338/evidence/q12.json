@@ -1,0 +1,902 @@
+[
+  {
+    "type": "Gene",
+    "name": "SNCA",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 6622,
+      "hetio_name": "SNCA",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SDF4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDC42EP3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPB6"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HIST2H3D"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PDE4DIP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CBX4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HIST2H3C"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "COL25A1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EIF3G"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SRC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SQSTM1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SRI"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ADAP2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PARK7"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "VDAC1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PLK2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SNCAIP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "YWHAE"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TH"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPB8"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDC42EP2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TGM1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RABAC1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GABARAPL1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ENC1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAPK1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAPT"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPB2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CALM1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CSNK2A1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RAB8A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GRK1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPA4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC6A4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CSNK2A2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SIAH2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ENSA"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPA8"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FKBP4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PTK2B"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RAB3A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC6A2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PLK3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CAV1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "APP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GRK6"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NEDD4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPA1A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSP90AA1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FYN"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "LRRK2",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 120892,
+      "hetio_name": "LRRK2",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RALYL"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TUBB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SH3GL3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AKT1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RIPK2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STK3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "L3MBTL3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LRP6"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STK25"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDC42"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAP2K7"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MBP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAPT"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBA52"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAP2K3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EEF1A1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAP2K4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STUB1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TUBA1A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PRKCZ"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAP1B"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPD1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EIF4EBP1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TRAF2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DVL2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RAC1"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "PRKN",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "PINK1",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 65018,
+      "hetio_name": "PINK1",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAP1LC3B"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAP1LC3A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SENP8"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PGAM5"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RHOT1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBE2M"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PARK7"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAP3K7"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PARK2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TOLLIP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSP90AA1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBA52"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MARK2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RPS27A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AKT1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TRAP1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SNCAIP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HTRA2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSP90AB1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TOMM20"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PARL"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SNCA"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "peripheral nervous system neoplasm"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Parkinson's disease"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "DJ-1",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "GBA",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 2629,
+      "hetio_name": "GBA",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TCP1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LAMP1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PSAP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CBL"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Parkinson's disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hematologic cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "Parkinson's disease",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Disease",
+      "identifier": "DOID:14330",
+      "hetio_name": "Parkinson's disease",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GBA"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SLC18A2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RIT2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GAK"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DLG1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ATXN3"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ATP1A3"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PITX3"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DNAJC6"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2D6"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DOCK3"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HTRA2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAP3K5"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DRD2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CYP2E1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GCH1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IGF2R"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DCTN1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "COMT"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL6"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TAC1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CASP3"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NGF"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPA8"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GFAP"
+      }
+    ]
+  }
+]

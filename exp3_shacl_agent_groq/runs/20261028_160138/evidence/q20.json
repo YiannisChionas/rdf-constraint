@@ -1,0 +1,503 @@
+[
+  {
+    "type": "Compound",
+    "name": "aspirin",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "headaches",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Frequent headaches",
+          "id": "C0948396"
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "arthritis",
+    "lookup": {
+      "found": true,
+      "exact": false,
+      "hetio_type": "SideEffect",
+      "identifier": "C0003864",
+      "hetio_name": "Arthritis",
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Arthritis",
+          "id": "C0003864"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ursodeoxycholic acid"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Fulvestrant"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Isotretinoin"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Isosorbide Mononitrate"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Formoterol"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "muscle pain",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "fever",
+    "lookup": {
+      "found": true,
+      "exact": false,
+      "hetio_type": "Symptom",
+      "identifier": "D005334",
+      "hetio_name": "Fever",
+      "candidates": [
+        {
+          "labels": [
+            "Symptom"
+          ],
+          "name": "Fever",
+          "id": "D005334"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Kawasaki disease"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "colon cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hematologic cancer"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "malaria"
+      },
+      {
+        "relation": "PRESENTS_DpS",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "skin cancer"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "rheumatoid arthritis",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Disease",
+      "identifier": "DOID:7148",
+      "hetio_name": "rheumatoid arthritis",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IFNG"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HNRNPA2B1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SOD2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NR3C1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CTSD"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AIRE"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAB21L2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "POU3F1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AGBL2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KIF5A"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD4"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RASGRP1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HLA-DPB1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL17A"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HLA-DQA2"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CTLA4"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ANXA3"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SYVN1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CCL8"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "REL"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "C5"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL2RB"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD28"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TNFRSF11B"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TGFB1"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Methotrexate"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prednisone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Cyclosporine"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Hydrocortisone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Leflunomide"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Triamcinolone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Methylprednisolone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Ergocalciferol"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dexamethasone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Penicillamine"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Auranofin"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Sulfasalazine"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Betamethasone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prednisolone"
+      },
+      {
+        "relation": "TREATS_CtD",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Azathioprine"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "heart attack",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "stroke",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Thromboembolic stroke",
+          "id": "C1112433"
+        },
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Haemorrhagic stroke",
+          "id": "C0553692"
+        },
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Heat stroke",
+          "id": "C0018843"
+        },
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Stroke volume increased",
+          "id": "C0520872"
+        },
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Embolic stroke",
+          "id": "C0262469"
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Disease",
+    "name": "colorectal cancer",
+    "lookup": {
+      "found": true,
+      "exact": false,
+      "hetio_type": "SideEffect",
+      "identifier": "C1527249",
+      "hetio_name": "Colorectal cancer",
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Colorectal cancer",
+          "id": "C1527249"
+        }
+      ]
+    },
+    "relations": [
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Prasugrel"
+      },
+      {
+        "relation": "CAUSES_CcSE",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Pramipexole"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1295 @@
+[
+  {
+    "type": "Gene",
+    "name": "HLA-DRB1*03:01",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "HLA-DQB1*02:01",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "HLA-DRB1*04:01",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "HLA-DQB1*03:02",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": []
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "INS",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 3630,
+      "hetio_name": "INS",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "KMT2A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "INSR"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RGS20"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NOV"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TXNDC17"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SYTL4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RB1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAPK6"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LRP2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TCF4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CTSD"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HLA-DQB1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "APP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CRYAB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GCK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IGF1R"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IGFBP7"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CTSE"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HLA-DQA2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CPE"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CTSB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IDE"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HSPB1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 1 diabetes mellitus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hypertension"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "atherosclerosis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "pancreatitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 2 diabetes mellitus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "prostate cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Parkinson's disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "metabolic syndrome X"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "obesity"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "bipolar disorder"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Alzheimer's disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "polycystic ovary syndrome"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "PTPN22",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 26191,
+      "hetio_name": "PTPN22",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PDPK1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LCK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDH2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD3E"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PDGFRB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CBL"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ERBB2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GRB2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PRKCD"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "WAS"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GHR"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ZAP70"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "VCP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CSK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD247"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "VAV1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NTRK1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic lupus erythematosus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "rheumatoid arthritis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 1 diabetes mellitus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic scleroderma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "psoriasis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Crohn's disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "IgA glomerulonephritis"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "CTLA4",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 1493,
+      "hetio_name": "CTLA4",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "JAK2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TXK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LCK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AP1M1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PTPN11"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PIK3R1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STAT5A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PPP2R5A"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STAT5B"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "LYN"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FYN"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD86"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AP2M1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD80"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic lupus erythematosus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "rheumatoid arthritis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "alopecia areata"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "melanoma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic scleroderma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "anemia"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Behcet's disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "ulcerative colitis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 1 diabetes mellitus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "vitiligo"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "primary biliary cirrhosis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "celiac disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "breast cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Graves' disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "multiple sclerosis"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "CD25",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "BiologicalProcess"
+          ],
+          "name": "regulation of CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation",
+          "id": "GO:0032829"
+        },
+        {
+          "labels": [
+            "BiologicalProcess"
+          ],
+          "name": "regulation of CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation involved in immune response",
+          "id": "GO:0032832"
+        },
+        {
+          "labels": [
+            "BiologicalProcess"
+          ],
+          "name": "positive regulation of CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation",
+          "id": "GO:0032831"
+        },
+        {
+          "labels": [
+            "BiologicalProcess"
+          ],
+          "name": "positive regulation of CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation involved in immune response",
+          "id": "GO:0032834"
+        },
+        {
+          "labels": [
+            "BiologicalProcess"
+          ],
+          "name": "CD4-positive, CD25-positive, alpha-beta regulatory T cell differentiation",
+          "id": "GO:0002361"
+        }
+      ]
+    },
+    "relations": []
+  },
+  {
+    "type": "Gene",
+    "name": "IFIH1",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 64135,
+      "hetio_name": "IFIH1",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DHX58"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TKFC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "UBC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TSPAN6"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ATG12"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PIAS2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IRF8"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "APP"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ATG5"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "MAVS"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic lupus erythematosus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Graves' disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "melanoma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 1 diabetes mellitus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "psoriasis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "multiple sclerosis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "vitiligo"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "ERBB3",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 2065,
+      "hetio_name": "ERBB3",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RASA1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NRG2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "RIN1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SRC"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PLCG1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "BCAR3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ZNF207"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PTGES3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ZAP70"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TNS3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FGFR1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PTK2B"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SHC1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "FER"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TNS2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SOS1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "VAV2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SH2B3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GRB7"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PIK3R2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PIK3CA"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SYK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NCK1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "JAK2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HCK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CRKL"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CRK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EGF"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CSK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CDK5"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ERBB2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABL2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "AGTR2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EGFR"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ABL1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CHN2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EGR1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "DAB1"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Gefitinib"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Vandetanib"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Bosutinib"
+      },
+      {
+        "relation": "BINDS_CbG",
+        "direction": "backward",
+        "neighbor_type": "Compound",
+        "neighbor_name": "Dasatinib"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "gallbladder cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "lung cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "prostate cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 1 diabetes mellitus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "chronic obstructive pulmonary disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "schizophrenia"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "breast cancer"
+      }
+    ]
+  },
+  {
+    "type": "Gene",
+    "name": "IL2RA",
+    "lookup": {
+      "found": true,
+      "exact": true,
+      "hetio_type": "Gene",
+      "identifier": 3559,
+      "hetio_name": "IL2RA",
+      "candidates": []
+    },
+    "relations": [
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "PASK"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "SNTA1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STAT5B"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL2RB"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "NFKB1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "TCF4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "EIF1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IRF1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "forward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "STAT3"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "IL2"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "CD4"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "HMGA1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "GATA1"
+      },
+      {
+        "relation": "INTERACTS_GiG",
+        "direction": "backward",
+        "neighbor_type": "Gene",
+        "neighbor_name": "ICAM1"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Crohn's disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "rheumatoid arthritis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "type 1 diabetes mellitus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "asthma"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "alopecia areata"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "systemic lupus erythematosus"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "Graves' disease"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "hematologic cancer"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "multiple sclerosis"
+      },
+      {
+        "relation": "ASSOCIATES_DaG",
+        "direction": "backward",
+        "neighbor_type": "Disease",
+        "neighbor_name": "vitiligo"
+      }
+    ]
+  },
+  {
+    "type": "Disease",
+    "name": "type 1 diabetes",
+    "lookup": {
+      "found": false,
+      "exact": false,
+      "hetio_type": null,
+      "identifier": null,
+      "hetio_name": null,
+      "candidates": [
+        {
+          "labels": [
+            "SideEffect"
+          ],
+          "name": "Type 1 diabetes mellitus",
+          "id": "C0011854"
+        },
+        {
+          "labels": [
+            "Disease"
+          ],
+          "name": "type 1 diabetes mellitus",
+          "id": "DOID:9744"
+        }
+      ]
+    },
+    "relations": []
+  }
+]
