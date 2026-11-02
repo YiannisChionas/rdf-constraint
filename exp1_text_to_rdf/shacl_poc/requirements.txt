@@ -1,0 +1,4 @@
+pyshacl
+rdflib
+matplotlib
+numpy

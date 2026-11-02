@@ -1,9 +1,9 @@
 """Automatic metrics + manual-annotation scaffolding for a run.
 
-Can be invoked standalone on an existing run directory:
+Can be invoked standalone on an existing run directory, after annotation.csv
+and missed_facts.csv have been filled in by hand:
 
     python -m src.evaluate runs/<timestamp>
-    python -m src.evaluate runs/<timestamp> --from-annotation
 """
 from __future__ import annotations
 
@@ -187,32 +187,43 @@ def write_missed_facts_csv(answers: list[dict], path: str | Path) -> None:
             writer.writerow([a.get("question_id"), ""])
 
 
+def _round3(x):
+    if isinstance(x, float):
+        return round(x, 3)
+    if isinstance(x, dict):
+        return {k: _round3(v) for k, v in x.items()}
+    return x
+
+
 def write_report(
     path: str | Path,
     metrics: dict,
     extractions: list[dict],
     annotation_result: dict | None = None,
     missed_facts: list[dict] | None = None,
+    shacl_catch: dict | None = None,
+    missed_facts_chart: str | None = None,
+    shacl_confusion_chart: str | None = None,
 ) -> None:
     lines: list[str] = []
     lines.append("# Experiment 1 Report: Agent Answer -> RDF\n")
 
     lines.append("## Automatic metrics\n")
     lines.append(f"- Answers evaluated: {metrics['n_answers']}")
-    lines.append(f"- Converter JSON parse success rate: {metrics['parse_success_rate']}")
-    lines.append(f"- JSON-schema-valid rate: {metrics['json_schema_valid_rate']}")
-    lines.append(f"- Domain/range correctness rate: {metrics['domain_range_correct_rate']}")
+    lines.append(f"- Converter JSON parse success rate: {_round3(metrics['parse_success_rate'])}")
+    lines.append(f"- JSON-schema-valid rate: {_round3(metrics['json_schema_valid_rate'])}")
+    lines.append(f"- Domain/range correctness rate: {_round3(metrics['domain_range_correct_rate'])}")
     lines.append(f"- Dangling references: {metrics['dangling_reference_count']}")
     lines.append(f"- Duplicate nodes: {metrics['duplicate_node_count']}")
-    lines.append(f"- Turtle round-trip parse success rate: {metrics['turtle_roundtrip_success_rate']}")
-    lines.append(f"- Nodes per answer: {metrics['nodes_per_answer']}")
-    lines.append(f"- Triples per answer: {metrics['triples_per_answer']}")
+    lines.append(f"- Turtle round-trip parse success rate: {_round3(metrics['turtle_roundtrip_success_rate'])}")
+    lines.append(f"- Nodes per answer: {_round3(metrics['nodes_per_answer'])}")
+    lines.append(f"- Triples per answer: {_round3(metrics['triples_per_answer'])}")
     lines.append(f"- Relation counts: {metrics['relation_counts']}")
-    lines.append(f"- % answers with zero extracted relationships: {metrics['pct_zero_relationships']}")
-    lines.append(f"- Agent latency (s): {metrics['agent_latency_s']}")
-    lines.append(f"- Converter latency (s): {metrics['converter_latency_s']}")
-    lines.append(f"- Subject hallucination rate (Text2KGBench SH): {metrics['subject_hallucination_rate']}")
-    lines.append(f"- Object hallucination rate (Text2KGBench OH): {metrics['object_hallucination_rate']}\n")
+    lines.append(f"- % answers with zero extracted relationships: {_round3(metrics['pct_zero_relationships'])}")
+    lines.append(f"- Agent latency (s): {_round3(metrics['agent_latency_s'])}")
+    lines.append(f"- Converter latency (s): {_round3(metrics['converter_latency_s'])}")
+    lines.append(f"- Subject hallucination rate (Text2KGBench SH): {_round3(metrics['subject_hallucination_rate'])}")
+    lines.append(f"- Object hallucination rate (Text2KGBench OH): {_round3(metrics['object_hallucination_rate'])}\n")
 
     lines.append("## Failures\n")
     failures = [
@@ -225,7 +236,7 @@ def write_report(
     if annotation_result is not None:
         lines.append("\n## Manual annotation (annotation.csv)\n")
         lines.append(
-            f"- Precision: {annotation_result['precision']} "
+            f"- Precision: {_round3(annotation_result['precision'])} "
             f"({annotation_result['supported']}/{annotation_result['total']})"
         )
         lines.append(f"- Unsupported triples: {len(annotation_result['unsupported'])}")
@@ -235,11 +246,37 @@ def write_report(
                 f"{row.get('object')} — {row.get('notes')}"
             )
 
+    if shacl_catch is not None:
+        lines.append("\n## SHACL catch rate (of the unsupported triples above)\n")
+        total = shacl_catch["total_unsupported"]
+        caught = shacl_catch["caught_by_shacl"]
+        not_caught = shacl_catch["not_caught_by_shacl"]
+        rate = caught / total if total else None
+        lines.append(f"- Caught structurally by SHACL: {caught}/{total} ({_round3(rate)})")
+        lines.append(f"- NOT caught (needs fact-check, structurally valid): {not_caught}/{total}")
+        lines.append(
+            f"\n- Confusion matrix (all annotation.csv rows): "
+            f"TN={shacl_catch['true_negative']} FP={shacl_catch['false_positive']} "
+            f"FN={shacl_catch['false_negative']} TP={shacl_catch['true_positive']}"
+        )
+        if shacl_confusion_chart is not None:
+            lines.append(f"\n![SHACL vs annotation confusion matrix]({shacl_confusion_chart})")
+        for row in shacl_catch["not_caught_rows"]:
+            lines.append(f"  - {row.get('question_id')}: {row.get('subject')} {row.get('relation')} {row.get('object')}")
+
     if missed_facts is not None:
         lines.append("\n## Missed facts (missed_facts.csv)\n")
+        total_extracted = sum(len((e.get("parsed") or {}).get("relationships", [])) for e in extractions)
+        total_missed = sum(len([f for f in m["missed_facts"].split(";") if f.strip()]) for m in missed_facts)
+        recall = total_extracted / (total_extracted + total_missed) if (total_extracted + total_missed) else None
+        lines.append(f"- Extracted relationships: {total_extracted}")
+        lines.append(f"- Missed facts: {total_missed}")
+        lines.append(f"- Recall ≈ extracted / (extracted + missed): {_round3(recall)}")
         lines.append(f"- Questions with missed facts: {len(missed_facts)}")
         for m in missed_facts:
             lines.append(f"  - {m['question_id']}: {m['missed_facts']}")
+        if missed_facts_chart is not None:
+            lines.append(f"\n![Missed facts per question]({missed_facts_chart})")
 
     Path(path).write_text("\n".join(lines), encoding="utf-8")
 
@@ -272,6 +309,53 @@ def compute_missed_facts(path: str | Path) -> list[dict]:
     return missed
 
 
+def plot_missed_facts_chart(
+    missed_facts: list[dict],
+    question_ids: list[str],
+    path: str | Path,
+    extracted_counts: dict[str, int] | None = None,
+) -> None:
+    """Bar chart of # missed facts per question, x-axis = every question_id
+    (including those with zero missed facts), sorted q01..q<last>.
+
+    If extracted_counts is given (# relationships the converter DID extract,
+    per question), plots it as a second bar next to the missed-facts one, so
+    the two can be compared directly per question."""
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    missed_by_qid = {qid: 0 for qid in question_ids}
+    for m in missed_facts:
+        n = len([f for f in m["missed_facts"].split(";") if f.strip()])
+        missed_by_qid[m["question_id"]] = n
+
+    qids_sorted = sorted(missed_by_qid)
+    missed_counts = [missed_by_qid[q] for q in qids_sorted]
+
+    fig, ax = plt.subplots(figsize=(12, 4.5))
+
+    if extracted_counts is not None:
+        extracted = [extracted_counts.get(q, 0) for q in qids_sorted]
+        x = np.arange(len(qids_sorted))
+        width = 0.4
+        ax.bar(x - width / 2, extracted, width, label="extracted (caught)", color="steelblue")
+        ax.bar(x + width / 2, missed_counts, width, label="missed", color="indianred")
+        ax.set_xticks(x, qids_sorted)
+        ax.legend()
+    else:
+        ax.bar(qids_sorted, missed_counts, color="steelblue")
+
+    ax.set_xlabel("question_id")
+    ax.set_ylabel("# facts")
+    ax.set_title("Extracted vs. missed facts per question")
+    fig.tight_layout()
+    fig.savefig(path)
+    plt.close(fig)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Evaluate a run of Experiment 1. Run this after filling in "
@@ -298,14 +382,39 @@ def main() -> None:
         print(f"Wrote empty {annotation_path} — fill it in, then re-run this command.")
 
     missed_facts_path = run_dir / "missed_facts.csv"
+    missed_facts_chart_name = None
     if missed_facts_path.exists():
         missed_facts = compute_missed_facts(missed_facts_path)
+        question_ids = sorted({a["question_id"] for a in answers})
+        extracted_counts = {
+            e["question_id"]: len((e.get("parsed") or {}).get("relationships", [])) for e in extractions
+        }
+        missed_facts_chart_name = "missed_facts.png"
+        plot_missed_facts_chart(missed_facts, question_ids, run_dir / missed_facts_chart_name, extracted_counts)
     else:
         missed_facts = None
         write_missed_facts_csv(answers, missed_facts_path)
         print(f"Wrote empty {missed_facts_path} — fill it in, then re-run this command.")
 
-    write_report(run_dir / "report.md", metrics, extractions, annotation_result, missed_facts)
+    shacl_catch_path = run_dir / "shacl_catch.json"
+    shacl_catch = json.loads(shacl_catch_path.read_text(encoding="utf-8")) if shacl_catch_path.exists() else None
+    shacl_confusion_chart_name = "shacl_confusion.png" if (run_dir / "shacl_confusion.png").exists() else None
+    if shacl_catch is None:
+        print(
+            f"No {shacl_catch_path} found — run "
+            f"`python shacl_poc/cross_check.py {run_dir}` first to include SHACL catch rate."
+        )
+
+    write_report(
+        run_dir / "report.md",
+        metrics,
+        extractions,
+        annotation_result,
+        missed_facts,
+        shacl_catch,
+        missed_facts_chart_name,
+        shacl_confusion_chart_name,
+    )
     print(f"Wrote {run_dir / 'report.md'}")
 
 

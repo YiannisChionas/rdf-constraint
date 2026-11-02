@@ -3,3 +3,4 @@ rdflib
 jsonschema
 pyyaml
 pandas
+matplotlib

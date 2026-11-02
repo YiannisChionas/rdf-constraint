@@ -15,12 +15,15 @@ Uses a fixed Hetionet-derived vocabulary (node types `Gene`/`Compound`/`Disease`
 relations `treats`/`binds`/`associatedWith`/`interactsWith`). See its own
 README for setup and usage.
 
-### [`shacl_poc/`](shacl_poc/)
+### [`exp1_text_to_rdf/shacl_poc/`](exp1_text_to_rdf/shacl_poc/)
 
-Side proof-of-concept, out of Experiment 1's scope: validates the RDF graphs
-produced by `exp1_text_to_rdf` against hand-written SHACL shapes grounded in
-Hetionet's published metagraph (Himmelstein et al. 2017, eLife). See its own
-README for details and findings.
+Side proof-of-concept, out of Experiment 1's scope (moved inside
+`exp1_text_to_rdf/` since it's the only experiment that runs it): validates
+the RDF graphs produced by `exp1_text_to_rdf` against hand-written SHACL
+shapes grounded in Hetionet's published metagraph (Himmelstein et al. 2017,
+eLife). `exp4_nl_to_shacl` also cites its shapes file as a gold-standard
+reference (see that experiment's own README). See its own README for
+details and findings.
 
 ## Requirements
 

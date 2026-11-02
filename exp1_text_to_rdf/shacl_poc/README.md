@@ -23,7 +23,7 @@ from Hetionet's own published metagraph, not invented ad hoc:
   https://doi.org/10.7554/eLife.26726 — defines the Hetionet metagraph
   (node types Gene/Compound/Disease/..., metaedges CbG, CtD, DaG, GiG,
   and that Gene nodes are identified by official HGNC symbols).
-- `../exp1_text_to_rdf/schema.yaml` — our Hetionet subset (same node
+- `../schema.yaml` — our Hetionet subset (same node
   types + the same four metaedges, renamed treats/binds/associatedWith/
   interactsWith).
 
@@ -49,21 +49,37 @@ file — since none exists for Hetionet.
 
 ## Usage
 
-```
-pip install pyshacl
-python validate.py <path/to/graph.ttl> [more .ttl files...]
-```
-
-Example, against an exp1 run:
+Run from `exp1_text_to_rdf/` as cwd:
 
 ```
-python validate.py ../exp1_text_to_rdf/runs/20261026_161722/merged.ttl
+pip install -r shacl_poc/requirements.txt
+python shacl_poc/validate.py runs/<timestamp>/graphs/*.ttl
+python shacl_poc/cross_check.py runs/<timestamp>   # cross-check vs. annotation.csv
 ```
 
-## Result on `runs/20261026_161722/merged.ttl`
+Each question's graph (`graphs/<qid>.ttl`) is validated separately, not
+merged into one big graph — merging a full run's graphs into one turned
+out to both manufacture spurious violations (e.g. the same entity named
+with different capitalization in two answers gets merged into one node
+with two conflicting `rdfs:label` values) and hide real ones (a wrong
+relation can "borrow" legitimacy from an unrelated answer's correct
+mention of the same entity). See `validate.py`'s docstring.
 
-625 triples validated, **does not conform** — 34 results (see
-`validation_report.txt` for the full pySHACL report):
+## Result on the first exp1 run (historical)
+
+The paragraph below describes the *first* validation ever run on this
+project, against a single merged `merged.ttl` graph (625 triples) — a
+methodology since dropped (see "Usage" above). That run (and the agent
+answers it used — contaminated by a schema/few-shot data-leak bug since
+fixed, see exp1's git history) was deleted once its findings were fully
+captured here and in commit messages; re-validating the same graphs
+per-question (not merged) gave 19 violations / 16 warnings instead of 34
+— 1 more violation than below, because per-question validation also
+catches an isolation error the merged graph had been hiding.
+
+**Original (merged, now superseded) result**: 625 triples validated,
+**does not conform** — 34 results (see `validation_report.txt` for the
+full pySHACL report):
 
 | Count | Severity | Finding |
 |---|---|---|

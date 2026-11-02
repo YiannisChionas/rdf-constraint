@@ -1,0 +1,94 @@
+{
+  "true_negative": 225,
+  "false_positive": 0,
+  "false_negative": 7,
+  "true_positive": 2,
+  "total_unsupported": 9,
+  "caught_by_shacl": 2,
+  "not_caught_by_shacl": 7,
+  "caught_rows": [
+    {
+      "question_id": "q17",
+      "subject": "breast cancer",
+      "relation": "associatedWith",
+      "object": "hereditary cancer syndromes",
+      "supported_by_text": "no",
+      "correct_types": "no",
+      "notes": "Γεγονός: αμφίβολο. Τύποι Disease→Disease (η σχέση θέλει Gene→Disease). Το κείμενο λέει ότι μεταλλάξεις του BRCA2 συνδέονται με κληρονομικά σύνδρομα, όχι ότι η νόσος συνδέεται με αυτά. Το «hereditary cancer syndromes» είναι επίσης πολύ γενικό. Σωστή τριάδα: BRCA2 associatedWith breast cancer."
+    },
+    {
+      "question_id": "q17",
+      "subject": "ovarian cancer",
+      "relation": "associatedWith",
+      "object": "hereditary cancer syndromes",
+      "supported_by_text": "no",
+      "correct_types": "no",
+      "notes": "Γεγονός: αμφίβολο. Τύποι Disease→Disease (η σχέση θέλει Gene→Disease). Το κείμενο λέει ότι μεταλλάξεις του BRCA2 συνδέονται με κληρονομικά σύνδρομα, όχι ότι η νόσος συνδέεται με αυτά. Το «hereditary cancer syndromes» είναι επίσης πολύ γενικό. Σωστή τριάδα: BRCA2 associatedWith ovarian cancer."
+    }
+  ],
+  "not_caught_rows": [
+    {
+      "question_id": "q05",
+      "subject": "omacetaxine mepesuccinate",
+      "relation": "binds",
+      "object": "BCR-ABL",
+      "supported_by_text": "no",
+      "correct_types": "yes",
+      "notes": "Γεγονός: ΛΑΘΟΣ. Το κείμενο δεν το παρουσιάζει ως TKI ούτε λέει ότι στοχεύει το BCR-ABL. Το omacetaxine αναστέλλει τη σύνθεση πρωτεϊνών στο ριβόσωμα."
+    },
+    {
+      "question_id": "q14",
+      "subject": "omalizumab",
+      "relation": "binds",
+      "object": "CHRM3",
+      "supported_by_text": "no",
+      "correct_types": "yes",
+      "notes": "Γεγονός: ΛΑΘΟΣ. Σφάλμα εξαγωγής: το κείμενο λέει «IgE inhibitor». Το CHRM3 φαίνεται να αντιγράφηκε από το tiotropium."
+    },
+    {
+      "question_id": "q14",
+      "subject": "mepolizumab",
+      "relation": "binds",
+      "object": "CHRM3",
+      "supported_by_text": "no",
+      "correct_types": "yes",
+      "notes": "Γεγονός: ΛΑΘΟΣ. Σφάλμα εξαγωγής: το κείμενο λέει «IL-5 inhibitor»."
+    },
+    {
+      "question_id": "q14",
+      "subject": "dupilumab",
+      "relation": "binds",
+      "object": "CHRM3",
+      "supported_by_text": "no",
+      "correct_types": "yes",
+      "notes": "Γεγονός: ΛΑΘΟΣ. Σφάλμα εξαγωγής: το κείμενο λέει «IL-4/IL-13 receptor antagonist» (IL4R)."
+    },
+    {
+      "question_id": "q20",
+      "subject": "aspirin",
+      "relation": "treats",
+      "object": "heart attack",
+      "supported_by_text": "no",
+      "correct_types": "yes",
+      "notes": "Γεγονός: σωστό. Το κείμενο μιλά για πρόληψη («cardiovascular protection in patients at risk»), όχι θεραπεία. Η ασπιρίνη πάντως χορηγείται και στο οξύ έμφραγμα."
+    },
+    {
+      "question_id": "q20",
+      "subject": "aspirin",
+      "relation": "treats",
+      "object": "stroke",
+      "supported_by_text": "no",
+      "correct_types": "yes",
+      "notes": "Γεγονός: αμφίβολο. Το κείμενο μιλά για πρόληψη. Ισχύει για ισχαιμικό επεισόδιο· αντενδείκνυται στο αιμορραγικό."
+    },
+    {
+      "question_id": "q20",
+      "subject": "aspirin",
+      "relation": "treats",
+      "object": "colorectal cancer",
+      "supported_by_text": "no",
+      "correct_types": "yes",
+      "notes": "Γεγονός: ΛΑΘΟΣ. Το κείμενο λέει «prevent». Η ασπιρίνη μελετάται για χημειοπροφύλαξη, δεν θεραπεύει τον καρκίνο."
+    }
+  ]
+}

@@ -12,7 +12,6 @@ import time
 from pathlib import Path
 
 import yaml
-from rdflib import Graph
 
 from .agent import generate_answer
 from .converter import convert_answer, load_few_shot, load_schema
@@ -128,8 +127,8 @@ def main() -> None:
         for e in extractions:
             f.write(json.dumps(e, ensure_ascii=False) + "\n")
 
-    # --- Step 3: JSON -> RDF ---
-    merged = Graph()
+    # --- Step 3: JSON -> RDF (one graph per question; no merged graph — see
+    # shacl_poc/validate.py's docstring for why merging was dropped) ---
     for e in extractions:
         if e["parsed"] is None:
             continue
@@ -137,8 +136,6 @@ def main() -> None:
         for w in warnings:
             print(f"[to_rdf] {e['question_id']}: {w}")
         serialize_graph(g, graphs_dir / f"{e['question_id']}.ttl")
-        merged += g
-    serialize_graph(merged, run_dir / "merged.ttl")
 
     # --- Step 4: write annotation templates (report.md comes later, via `python -m src.evaluate`) ---
     write_annotation_csv(extractions, run_dir / "annotation.csv")
