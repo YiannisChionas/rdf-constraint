@@ -1,0 +1,67 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:cannabidiol a hetio:Compound ;
+    rdfs:label "cannabidiol" ;
+    hetio:treats ent:epilepsy .
+
+ent:carbamazepine a hetio:Compound ;
+    rdfs:label "carbamazepine" ;
+    hetio:treats ent:epilepsy .
+
+ent:diazepam a hetio:Compound ;
+    rdfs:label "diazepam" ;
+    hetio:treats ent:epilepsy .
+
+ent:gabapentin a hetio:Compound ;
+    rdfs:label "gabapentin" ;
+    hetio:treats ent:epilepsy .
+
+ent:lamotrigine a hetio:Compound ;
+    rdfs:label "lamotrigine" ;
+    hetio:treats ent:epilepsy .
+
+ent:levetiracetam a hetio:Compound ;
+    rdfs:label "levetiracetam" ;
+    hetio:binds ent:SV2A ;
+    hetio:treats ent:epilepsy .
+
+ent:lorazepam a hetio:Compound ;
+    rdfs:label "lorazepam" ;
+    hetio:treats ent:epilepsy .
+
+ent:oxcarbazepine a hetio:Compound ;
+    rdfs:label "oxcarbazepine" ;
+    hetio:treats ent:epilepsy .
+
+ent:perampanel a hetio:Compound ;
+    rdfs:label "perampanel" ;
+    hetio:treats ent:epilepsy .
+
+ent:phenobarbital a hetio:Compound ;
+    rdfs:label "phenobarbital" ;
+    hetio:treats ent:epilepsy .
+
+ent:pregabalin a hetio:Compound ;
+    rdfs:label "pregabalin" ;
+    hetio:treats ent:epilepsy .
+
+ent:topiramate a hetio:Compound ;
+    rdfs:label "topiramate" ;
+    hetio:treats ent:epilepsy .
+
+ent:valproate a hetio:Compound ;
+    rdfs:label "valproate" ;
+    hetio:treats ent:epilepsy .
+
+ent:vigabatrin a hetio:Compound ;
+    rdfs:label "vigabatrin" ;
+    hetio:treats ent:epilepsy .
+
+ent:SV2A a hetio:Gene ;
+    rdfs:label "SV2A" .
+
+ent:epilepsy a hetio:Disease ;
+    rdfs:label "epilepsy" .
+

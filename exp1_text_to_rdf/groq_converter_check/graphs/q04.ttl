@@ -1,0 +1,23 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:TP53 a hetio:Gene ;
+    rdfs:label "TP53" ;
+    hetio:interactsWith ent:ATM,
+        ent:BAX,
+        ent:MDM2,
+        ent:TRADD .
+
+ent:ATM a hetio:Gene ;
+    rdfs:label "ATM" .
+
+ent:BAX a hetio:Gene ;
+    rdfs:label "BAX" .
+
+ent:MDM2 a hetio:Gene ;
+    rdfs:label "MDM2" .
+
+ent:TRADD a hetio:Gene ;
+    rdfs:label "TRADD" .
+

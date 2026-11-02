@@ -1,0 +1,7 @@
+base_run: "../runs/20261102_125528"
+
+groq:
+  model: "openai/gpt-oss-120b"
+  max_tokens: 2048
+  temperature: 0.0
+  num_few_shot: 2

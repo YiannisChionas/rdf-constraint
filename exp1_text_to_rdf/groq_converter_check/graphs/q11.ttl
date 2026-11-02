@@ -1,0 +1,27 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:MDM2 a hetio:Gene ;
+    rdfs:label "MDM2" ;
+    hetio:interactsWith ent:CDKN2A,
+        ent:MDM4,
+        ent:TP53,
+        ent:TP73,
+        ent:USP7 .
+
+ent:CDKN2A a hetio:Gene ;
+    rdfs:label "CDKN2A" .
+
+ent:MDM4 a hetio:Gene ;
+    rdfs:label "MDM4" .
+
+ent:TP53 a hetio:Gene ;
+    rdfs:label "TP53" .
+
+ent:TP73 a hetio:Gene ;
+    rdfs:label "TP73" .
+
+ent:USP7 a hetio:Gene ;
+    rdfs:label "USP7" .
+

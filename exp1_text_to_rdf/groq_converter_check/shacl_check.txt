@@ -1,0 +1,61 @@
+--- graphs\q03.ttl (23 triples): violations=0 warnings=1 ---
+Validation Report
+Conforms: False
+Results (1):
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: ent:CKIT
+	Value Node: Literal("c-KIT")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+
+--- graphs\q17.ttl (41 triples): violations=0 warnings=1 ---
+Validation Report
+Conforms: False
+Results (1):
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: ent:CTIP
+	Value Node: Literal("CtIP")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+
+--- graphs\q19.ttl (35 triples): violations=0 warnings=4 ---
+Validation Report
+Conforms: False
+Results (4):
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: ent:HLADQB10201
+	Value Node: Literal("HLA-DQB1*02:01")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: ent:HLADQB10302
+	Value Node: Literal("HLA-DQB1*03:02")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: ent:HLADRB10301
+	Value Node: Literal("HLA-DRB1*03:01")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("") ; sh:message Literal("Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.") ; sh:path rdfs:label ; sh:pattern Literal("^[A-Z][A-Z0-9-]*[0-9A-Z]$|^[A-Z][0-9]*$") ; sh:severity sh:Warning ]
+	Focus Node: ent:HLADRB10401
+	Value Node: Literal("HLA-DRB1*04:01")
+	Result Path: rdfs:label
+	Message: Gene label does not look like an official HGNC gene symbol (e.g. TP53, BRCA1, ABL1); it may be a protein/enzyme name instead.
+
+
+Files checked: 20
+Total violations: 0
+Total warnings: 6

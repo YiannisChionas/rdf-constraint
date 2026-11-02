@@ -1,0 +1,39 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:acarbose a hetio:Compound ;
+    rdfs:label "acarbose" ;
+    hetio:treats ent:type_2_diabetes .
+
+ent:empagliflozin a hetio:Compound ;
+    rdfs:label "empagliflozin" ;
+    hetio:treats ent:type_2_diabetes .
+
+ent:glipizide a hetio:Compound ;
+    rdfs:label "glipizide" ;
+    hetio:treats ent:type_2_diabetes .
+
+ent:liraglutide a hetio:Compound ;
+    rdfs:label "liraglutide" ;
+    hetio:treats ent:type_2_diabetes .
+
+ent:metformin a hetio:Compound ;
+    rdfs:label "metformin" ;
+    hetio:treats ent:type_2_diabetes .
+
+ent:pioglitazone a hetio:Compound ;
+    rdfs:label "pioglitazone" ;
+    hetio:treats ent:type_2_diabetes .
+
+ent:repaglinide a hetio:Compound ;
+    rdfs:label "repaglinide" ;
+    hetio:treats ent:type_2_diabetes .
+
+ent:sitagliptin a hetio:Compound ;
+    rdfs:label "sitagliptin" ;
+    hetio:treats ent:type_2_diabetes .
+
+ent:type_2_diabetes a hetio:Disease ;
+    rdfs:label "type 2 diabetes" .
+

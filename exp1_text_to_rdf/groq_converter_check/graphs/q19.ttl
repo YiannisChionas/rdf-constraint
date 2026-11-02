@@ -1,0 +1,51 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:CD25 a hetio:Gene ;
+    rdfs:label "CD25" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:CTLA4 a hetio:Gene ;
+    rdfs:label "CTLA4" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:ERBB3 a hetio:Gene ;
+    rdfs:label "ERBB3" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:HLADQB10201 a hetio:Gene ;
+    rdfs:label "HLA-DQB1*02:01" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:HLADQB10302 a hetio:Gene ;
+    rdfs:label "HLA-DQB1*03:02" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:HLADRB10301 a hetio:Gene ;
+    rdfs:label "HLA-DRB1*03:01" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:HLADRB10401 a hetio:Gene ;
+    rdfs:label "HLA-DRB1*04:01" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:IFIH1 a hetio:Gene ;
+    rdfs:label "IFIH1" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:IL2RA a hetio:Gene ;
+    rdfs:label "IL2RA" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:INS a hetio:Gene ;
+    rdfs:label "INS" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:PTPN22 a hetio:Gene ;
+    rdfs:label "PTPN22" ;
+    hetio:associatedWith ent:type_1_diabetes .
+
+ent:type_1_diabetes a hetio:Disease ;
+    rdfs:label "type 1 diabetes" .
+
