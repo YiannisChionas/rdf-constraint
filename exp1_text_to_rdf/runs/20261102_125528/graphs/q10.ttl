@@ -1,0 +1,47 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:abatacept a hetio:Compound ;
+    rdfs:label "abatacept" ;
+    hetio:treats ent:rheumatoid_arthritis .
+
+ent:adalimumab a hetio:Compound ;
+    rdfs:label "adalimumab" ;
+    hetio:treats ent:rheumatoid_arthritis .
+
+ent:etanercept a hetio:Compound ;
+    rdfs:label "etanercept" ;
+    hetio:treats ent:rheumatoid_arthritis .
+
+ent:hydroxychloroquine a hetio:Compound ;
+    rdfs:label "hydroxychloroquine" ;
+    hetio:treats ent:rheumatoid_arthritis .
+
+ent:methotrexate a hetio:Compound ;
+    rdfs:label "methotrexate" ;
+    hetio:treats ent:rheumatoid_arthritis .
+
+ent:prednisone a hetio:Compound ;
+    rdfs:label "prednisone" ;
+    hetio:treats ent:rheumatoid_arthritis .
+
+ent:rituximab a hetio:Compound ;
+    rdfs:label "rituximab" ;
+    hetio:treats ent:rheumatoid_arthritis .
+
+ent:sulfasalazine a hetio:Compound ;
+    rdfs:label "sulfasalazine" ;
+    hetio:treats ent:rheumatoid_arthritis .
+
+ent:tocilizumab a hetio:Compound ;
+    rdfs:label "tocilizumab" ;
+    hetio:treats ent:rheumatoid_arthritis .
+
+ent:tofacitinib a hetio:Compound ;
+    rdfs:label "tofacitinib" ;
+    hetio:treats ent:rheumatoid_arthritis .
+
+ent:rheumatoid_arthritis a hetio:Disease ;
+    rdfs:label "rheumatoid arthritis" .
+

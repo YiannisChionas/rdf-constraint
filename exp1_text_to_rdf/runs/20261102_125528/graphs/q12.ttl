@@ -1,0 +1,31 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:DJ1 a hetio:Gene ;
+    rdfs:label "DJ-1" ;
+    hetio:associatedWith ent:parkinsons_disease .
+
+ent:GBA a hetio:Gene ;
+    rdfs:label "GBA" ;
+    hetio:associatedWith ent:parkinsons_disease .
+
+ent:LRRK2 a hetio:Gene ;
+    rdfs:label "LRRK2" ;
+    hetio:associatedWith ent:parkinsons_disease .
+
+ent:PINK1 a hetio:Gene ;
+    rdfs:label "PINK1" ;
+    hetio:associatedWith ent:parkinsons_disease .
+
+ent:PRKN a hetio:Gene ;
+    rdfs:label "PRKN" ;
+    hetio:associatedWith ent:parkinsons_disease .
+
+ent:SNCA a hetio:Gene ;
+    rdfs:label "SNCA" ;
+    hetio:associatedWith ent:parkinsons_disease .
+
+ent:parkinsons_disease a hetio:Disease ;
+    rdfs:label "Parkinson's disease" .
+

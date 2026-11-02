@@ -142,10 +142,9 @@ def main() -> None:
 
     # --- Step 4: evaluate ---
     metrics = compute_metrics(answers, extractions, schema, graphs_dir)
-    answers_by_id = {a["question_id"]: a for a in answers}
-    write_annotation_csv(extractions, answers_by_id, run_dir / "annotation.csv")
+    write_annotation_csv(extractions, run_dir / "annotation.csv")
     write_missed_facts_csv(answers, run_dir / "missed_facts.csv")
-    write_report(run_dir / "report.md", config, metrics, answers, extractions)
+    write_report(run_dir / "report.md", metrics, extractions)
 
     print(f"\nRun complete: {run_dir}")
 

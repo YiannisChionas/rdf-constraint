@@ -1,0 +1,35 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:imatinib a hetio:Compound ;
+    rdfs:label "imatinib" ;
+    hetio:binds ent:BCRABL,
+        ent:CKIT,
+        ent:PDGFRA ;
+    hetio:treats ent:chronic_myeloid_leukemia,
+        ent:dermatofibrosarcoma_protuberans,
+        ent:gastrointestinal_stromal_tumors,
+        ent:philadelphia_chromosomepositive_acute_lymphoblastic_leukemia .
+
+ent:BCRABL a hetio:Gene ;
+    rdfs:label "BCR-ABL" .
+
+ent:CKIT a hetio:Gene ;
+    rdfs:label "c-KIT" .
+
+ent:PDGFRA a hetio:Gene ;
+    rdfs:label "PDGFRA" .
+
+ent:chronic_myeloid_leukemia a hetio:Disease ;
+    rdfs:label "chronic myeloid leukemia" .
+
+ent:dermatofibrosarcoma_protuberans a hetio:Disease ;
+    rdfs:label "dermatofibrosarcoma protuberans" .
+
+ent:gastrointestinal_stromal_tumors a hetio:Disease ;
+    rdfs:label "gastrointestinal stromal tumors" .
+
+ent:philadelphia_chromosomepositive_acute_lymphoblastic_leukemia a hetio:Disease ;
+    rdfs:label "Philadelphia chromosome-positive acute lymphoblastic leukemia" .
+

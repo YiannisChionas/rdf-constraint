@@ -1,0 +1,21 @@
+question_id,missed_facts
+q01,glipizide binds KATP channel; sitagliptin binds DPP4; empagliflozin binds SLC5A2; liraglutide binds GLP1R; acarbose binds alpha-glucosidase; repaglinide binds KATP channel
+q02,TP53 associatedWith breast cancer; PTEN associatedWith breast cancer; BRCA1 associatedWith ovarian cancer; BRCA2 associatedWith ovarian cancer
+q03,BCR-ABL associatedWith chronic myeloid leukemia; KIT associatedWith gastrointestinal stromal tumors; PDGFRA associatedWith gastrointestinal stromal tumors
+q04,—
+q05,BCR-ABL associatedWith chronic myeloid leukemia
+q06,—
+q07,—
+q08,EGFR associatedWith non-small cell lung cancer
+q09,—
+q10,adalimumab binds TNF; etanercept binds TNF; tocilizumab binds IL6R; tofacitinib binds JAK
+q11,—
+q12,FBXO7 associatedWith Parkinson's disease; ATP13A3 associatedWith Parkinson's disease (λάθος της απάντησης: το PARK9 είναι ATP13A2)
+q13,—
+q14,omalizumab binds IgE; mepolizumab binds IL5; dupilumab binds IL4R
+q15,APC associatedWith colorectal cancer; MLH1 associatedWith colorectal cancer; MSH2 associatedWith colorectal cancer; MSH6 associatedWith colorectal cancer; PMS2 associatedWith colorectal cancer; EPCAM associatedWith colorectal cancer
+q16,—
+q17,BRCA2 associatedWith breast cancer; BRCA2 associatedWith ovarian cancer
+q18,lamotrigine binds Nav1.1; lamotrigine binds Nav1.2; lamotrigine binds Nav1.3; oxcarbazepine binds Nav1.1; oxcarbazepine binds Nav1.2; oxcarbazepine binds Nav1.3; diazepam binds GABA-A receptor; lorazepam binds GABA-A receptor; phenobarbital binds GABA-A receptor; perampanel binds AMPA receptor; topiramate binds AMPA/kainate receptor
+q19,—
+q20,—

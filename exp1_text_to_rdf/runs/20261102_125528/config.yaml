@@ -1,0 +1,25 @@
+# Configuration for Experiment 1: Agent Answer -> RDF (Hetionet-derived schema)
+
+ollama:
+  host: "http://localhost:11434"
+
+agent:
+  model: "qwen3:14b"
+  temperature: null          # null = use model default
+  think: true                # the agent may "think"; only the converter forces think=false
+  system_prompt: >
+    You are a concise biomedical assistant. Answer the question in plain prose
+    (no JSON, no bullet lists required), mentioning specific genes, drugs and
+    diseases by name whenever relevant.
+
+converter:
+  model: "qwen3:14b"
+  temperature: 0.0
+  think: false                # disable Qwen3 thinking mode for deterministic structured output
+  num_few_shot: 2
+
+paths:
+  schema_file: "schema.yaml"
+  few_shot_file: "few_shot.json"
+  questions_file: "data/questions.jsonl"
+  runs_dir: "runs"

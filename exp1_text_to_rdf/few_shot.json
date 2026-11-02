@@ -1,11 +1,11 @@
 [
   {
-    "text": "Metformin is the first-line drug for type 2 diabetes. It is thought to act partly through activation of AMPK, encoded by PRKAA1. It is generally well tolerated.",
+    "text": "Sumatriptan is a first-line drug for migraine. It acts by activating HTR1B, a serotonin receptor involved in vasoconstriction. It is used for acute attacks rather than prevention.",
     "output": {
       "nodes": [
-        {"id": "n1", "type": "Compound", "name": "metformin"},
-        {"id": "n2", "type": "Disease", "name": "type 2 diabetes"},
-        {"id": "n3", "type": "Gene", "name": "PRKAA1"}
+        {"id": "n1", "type": "Compound", "name": "sumatriptan"},
+        {"id": "n2", "type": "Disease", "name": "migraine"},
+        {"id": "n3", "type": "Gene", "name": "HTR1B"}
       ],
       "relationships": [
         {"source": "n1", "relation": "treats", "target": "n2"},
@@ -14,13 +14,13 @@
     }
   },
   {
-    "text": "Mutations in BRCA1 are associated with breast cancer and ovarian cancer. The BRCA1 protein interacts with BARD1.",
+    "text": "Mutations in HTT are associated with Huntington's disease and juvenile Huntington's disease. The HTT protein interacts with HAP1.",
     "output": {
       "nodes": [
-        {"id": "n1", "type": "Gene", "name": "BRCA1"},
-        {"id": "n2", "type": "Disease", "name": "breast cancer"},
-        {"id": "n3", "type": "Disease", "name": "ovarian cancer"},
-        {"id": "n4", "type": "Gene", "name": "BARD1"}
+        {"id": "n1", "type": "Gene", "name": "HTT"},
+        {"id": "n2", "type": "Disease", "name": "Huntington's disease"},
+        {"id": "n3", "type": "Disease", "name": "juvenile Huntington's disease"},
+        {"id": "n4", "type": "Gene", "name": "HAP1"}
       ],
       "relationships": [
         {"source": "n1", "relation": "associatedWith", "target": "n2"},

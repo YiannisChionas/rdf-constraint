@@ -145,7 +145,6 @@ def convert_answer(
         parse_error = str(e)
 
     return {
-        "prompt": prompt,
         "raw_content": result.content,
         "parsed": parsed,
         "parse_error": parse_error,

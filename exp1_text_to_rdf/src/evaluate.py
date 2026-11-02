@@ -159,51 +159,41 @@ def compute_metrics(answers: list[dict], extractions: list[dict], schema: dict, 
     }
 
 
-def write_annotation_csv(extractions: list[dict], answers_by_id: dict, path: str | Path) -> None:
+def write_annotation_csv(extractions: list[dict], path: str | Path) -> None:
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(
-            ["question_id", "subject", "relation", "object", "answer_excerpt", "supported_by_text", "correct_types", "notes"]
+            ["question_id", "subject", "relation", "object", "supported_by_text", "correct_types", "notes"]
         )
         for rec in extractions:
             parsed = rec.get("parsed")
             if not parsed:
                 continue
             qid = rec.get("question_id")
-            excerpt = (answers_by_id.get(qid, {}).get("answer", "") or "")[:200]
             nodes_by_id = {n.get("id"): n for n in parsed.get("nodes", [])}
             for rel in parsed.get("relationships", []):
                 src = nodes_by_id.get(rel.get("source"))
                 tgt = nodes_by_id.get(rel.get("target"))
                 subj = src.get("name") if src else rel.get("source")
                 obj = tgt.get("name") if tgt else rel.get("target")
-                writer.writerow([qid, subj, rel.get("relation"), obj, excerpt, "", "", ""])
+                writer.writerow([qid, subj, rel.get("relation"), obj, "", "", ""])
 
 
 def write_missed_facts_csv(answers: list[dict], path: str | Path) -> None:
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["question_id", "answer_text", "missed_facts"])
+        writer.writerow(["question_id", "missed_facts"])
         for a in answers:
-            writer.writerow([a.get("question_id"), a.get("answer", ""), ""])
+            writer.writerow([a.get("question_id"), ""])
 
 
 def write_report(
     path: str | Path,
-    config: dict,
     metrics: dict,
-    answers: list[dict],
     extractions: list[dict],
-    n_examples: int = 5,
 ) -> None:
-    answers_by_id = {a.get("question_id"): a for a in answers}
     lines: list[str] = []
     lines.append("# Experiment 1 Report: Agent Answer -> RDF\n")
-
-    lines.append("## Config\n")
-    lines.append("```yaml")
-    lines.append(yaml.dump(config, sort_keys=False).rstrip())
-    lines.append("```\n")
 
     lines.append("## Automatic metrics\n")
     lines.append(f"- Answers evaluated: {metrics['n_answers']}")
@@ -221,22 +211,6 @@ def write_report(
     lines.append(f"- Converter latency (s): {metrics['converter_latency_s']}")
     lines.append(f"- Subject hallucination rate (Text2KGBench SH): {metrics['subject_hallucination_rate']}")
     lines.append(f"- Object hallucination rate (Text2KGBench OH): {metrics['object_hallucination_rate']}\n")
-
-    lines.append("## Example answers and extractions\n")
-    for rec in extractions[:n_examples]:
-        qid = rec.get("question_id")
-        a = answers_by_id.get(qid, {})
-        lines.append(f"### {qid}")
-        lines.append(f"**Question:** {a.get('question', '')}\n")
-        lines.append(f"**Answer:** {a.get('answer', '')}\n")
-        parsed = rec.get("parsed")
-        if parsed is not None:
-            lines.append("**Extracted JSON:**")
-            lines.append("```json")
-            lines.append(json.dumps(parsed, indent=2))
-            lines.append("```\n")
-        else:
-            lines.append(f"**Parse error:** {rec.get('parse_error')}\n")
 
     lines.append("## Failures\n")
     failures = [
@@ -272,7 +246,7 @@ def compute_missed_facts(path: str | Path) -> list[dict]:
         reader = csv.DictReader(f)
         for row in reader:
             text = (row.get("missed_facts") or "").strip()
-            if text:
+            if text and text != "—":
                 missed.append({"question_id": row.get("question_id"), "missed_facts": text})
     return missed
 
@@ -297,18 +271,16 @@ def main() -> None:
             print(f"  - {m['question_id']}: {m['missed_facts']}")
         return
 
-    config = yaml.safe_load((run_dir / "config.yaml").read_text(encoding="utf-8"))
     schema = yaml.safe_load((run_dir / "schema.yaml").read_text(encoding="utf-8"))
     answers = load_jsonl(run_dir / "answers.jsonl")
     extractions = load_jsonl(run_dir / "extractions.jsonl")
     graphs_dir = run_dir / "graphs"
 
     metrics = compute_metrics(answers, extractions, schema, graphs_dir)
-    answers_by_id = {a.get("question_id"): a for a in answers}
 
-    write_annotation_csv(extractions, answers_by_id, run_dir / "annotation.csv")
+    write_annotation_csv(extractions, run_dir / "annotation.csv")
     write_missed_facts_csv(answers, run_dir / "missed_facts.csv")
-    write_report(run_dir / "report.md", config, metrics, answers, extractions)
+    write_report(run_dir / "report.md", metrics, extractions)
 
     print(f"Wrote report.md, annotation.csv, missed_facts.csv to {run_dir}")
 

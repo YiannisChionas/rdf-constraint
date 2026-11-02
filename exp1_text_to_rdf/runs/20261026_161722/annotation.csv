@@ -1,247 +1,222 @@
-question_id,subject,relation,object,answer_excerpt,supported_by_text,correct_types,notes
-q01,metformin,treats,type 2 diabetes,"Drugs used to treat type 2 diabetes include metformin, which activates AMP-activated protein kinase (AMPK) to enhance glucose uptake and reduce hepatic glucose production. Sulfonylureas like glipizide",,,
-q01,glipizide,treats,type 2 diabetes,"Drugs used to treat type 2 diabetes include metformin, which activates AMP-activated protein kinase (AMPK) to enhance glucose uptake and reduce hepatic glucose production. Sulfonylureas like glipizide",,,
-q01,sitagliptin,treats,type 2 diabetes,"Drugs used to treat type 2 diabetes include metformin, which activates AMP-activated protein kinase (AMPK) to enhance glucose uptake and reduce hepatic glucose production. Sulfonylureas like glipizide",,,
-q01,empagliflozin,treats,type 2 diabetes,"Drugs used to treat type 2 diabetes include metformin, which activates AMP-activated protein kinase (AMPK) to enhance glucose uptake and reduce hepatic glucose production. Sulfonylureas like glipizide",,,
-q01,liraglutide,treats,type 2 diabetes,"Drugs used to treat type 2 diabetes include metformin, which activates AMP-activated protein kinase (AMPK) to enhance glucose uptake and reduce hepatic glucose production. Sulfonylureas like glipizide",,,
-q01,pioglitazone,treats,type 2 diabetes,"Drugs used to treat type 2 diabetes include metformin, which activates AMP-activated protein kinase (AMPK) to enhance glucose uptake and reduce hepatic glucose production. Sulfonylureas like glipizide",,,
-q01,acarbose,treats,type 2 diabetes,"Drugs used to treat type 2 diabetes include metformin, which activates AMP-activated protein kinase (AMPK) to enhance glucose uptake and reduce hepatic glucose production. Sulfonylureas like glipizide",,,
-q01,repaglinide,treats,type 2 diabetes,"Drugs used to treat type 2 diabetes include metformin, which activates AMP-activated protein kinase (AMPK) to enhance glucose uptake and reduce hepatic glucose production. Sulfonylureas like glipizide",,,
-q02,BRCA1,associatedWith,breast cancer,"Breast cancer is associated with several genes, including **BRCA1** and **BRCA2**, which are tumor suppressor genes involved in DNA repair; mutations in these genes significantly increase hereditary b",,,
-q02,BRCA2,associatedWith,breast cancer,"Breast cancer is associated with several genes, including **BRCA1** and **BRCA2**, which are tumor suppressor genes involved in DNA repair; mutations in these genes significantly increase hereditary b",,,
-q02,TP53,associatedWith,breast cancer,"Breast cancer is associated with several genes, including **BRCA1** and **BRCA2**, which are tumor suppressor genes involved in DNA repair; mutations in these genes significantly increase hereditary b",,,
-q02,HER2,associatedWith,breast cancer,"Breast cancer is associated with several genes, including **BRCA1** and **BRCA2**, which are tumor suppressor genes involved in DNA repair; mutations in these genes significantly increase hereditary b",,,
-q02,PTEN,associatedWith,breast cancer,"Breast cancer is associated with several genes, including **BRCA1** and **BRCA2**, which are tumor suppressor genes involved in DNA repair; mutations in these genes significantly increase hereditary b",,,
-q02,CHEK2,associatedWith,breast cancer,"Breast cancer is associated with several genes, including **BRCA1** and **BRCA2**, which are tumor suppressor genes involved in DNA repair; mutations in these genes significantly increase hereditary b",,,
-q02,ATM,associatedWith,breast cancer,"Breast cancer is associated with several genes, including **BRCA1** and **BRCA2**, which are tumor suppressor genes involved in DNA repair; mutations in these genes significantly increase hereditary b",,,
-q02,BRIP1,associatedWith,breast cancer,"Breast cancer is associated with several genes, including **BRCA1** and **BRCA2**, which are tumor suppressor genes involved in DNA repair; mutations in these genes significantly increase hereditary b",,,
-q02,PALB2,associatedWith,breast cancer,"Breast cancer is associated with several genes, including **BRCA1** and **BRCA2**, which are tumor suppressor genes involved in DNA repair; mutations in these genes significantly increase hereditary b",,,
-q02,breast cancer,associatedWith,ovarian cancer,"Breast cancer is associated with several genes, including **BRCA1** and **BRCA2**, which are tumor suppressor genes involved in DNA repair; mutations in these genes significantly increase hereditary b",,,
-q03,imatinib,binds,BCR-ABL,"Imatinib targets the BCR-ABL tyrosine kinase fusion protein, which drives the uncontrolled proliferation of leukemic cells in chronic myeloid leukemia (CML). It also inhibits other tyrosine kinases, i",,,
-q03,imatinib,treats,chronic myeloid leukemia,"Imatinib targets the BCR-ABL tyrosine kinase fusion protein, which drives the uncontrolled proliferation of leukemic cells in chronic myeloid leukemia (CML). It also inhibits other tyrosine kinases, i",,,
-q03,imatinib,binds,c-KIT,"Imatinib targets the BCR-ABL tyrosine kinase fusion protein, which drives the uncontrolled proliferation of leukemic cells in chronic myeloid leukemia (CML). It also inhibits other tyrosine kinases, i",,,
-q03,imatinib,binds,PDGFRA,"Imatinib targets the BCR-ABL tyrosine kinase fusion protein, which drives the uncontrolled proliferation of leukemic cells in chronic myeloid leukemia (CML). It also inhibits other tyrosine kinases, i",,,
-q03,imatinib,treats,gastrointestinal stromal tumors,"Imatinib targets the BCR-ABL tyrosine kinase fusion protein, which drives the uncontrolled proliferation of leukemic cells in chronic myeloid leukemia (CML). It also inhibits other tyrosine kinases, i",,,
-q03,imatinib,treats,Philadelphia chromosome-positive acute lymphoblastic leukemia,"Imatinib targets the BCR-ABL tyrosine kinase fusion protein, which drives the uncontrolled proliferation of leukemic cells in chronic myeloid leukemia (CML). It also inhibits other tyrosine kinases, i",,,
-q03,imatinib,treats,dermatofibrosarcoma protuberans,"Imatinib targets the BCR-ABL tyrosine kinase fusion protein, which drives the uncontrolled proliferation of leukemic cells in chronic myeloid leukemia (CML). It also inhibits other tyrosine kinases, i",,,
-q04,TP53,interactsWith,MDM2,"TP53 interacts with numerous proteins, including MDM2 (a key negative regulator that ubiquitinates and promotes TP53 degradation), p21 (a downstream target involved in cell cycle arrest), BAX (a pro-a",,,
-q04,TP53,interactsWith,p21,"TP53 interacts with numerous proteins, including MDM2 (a key negative regulator that ubiquitinates and promotes TP53 degradation), p21 (a downstream target involved in cell cycle arrest), BAX (a pro-a",,,
-q04,TP53,interactsWith,BAX,"TP53 interacts with numerous proteins, including MDM2 (a key negative regulator that ubiquitinates and promotes TP53 degradation), p21 (a downstream target involved in cell cycle arrest), BAX (a pro-a",,,
-q04,TP53,interactsWith,ATM,"TP53 interacts with numerous proteins, including MDM2 (a key negative regulator that ubiquitinates and promotes TP53 degradation), p21 (a downstream target involved in cell cycle arrest), BAX (a pro-a",,,
-q04,TP53,interactsWith,14-3-3,"TP53 interacts with numerous proteins, including MDM2 (a key negative regulator that ubiquitinates and promotes TP53 degradation), p21 (a downstream target involved in cell cycle arrest), BAX (a pro-a",,,
-q04,TP53,interactsWith,E2F,"TP53 interacts with numerous proteins, including MDM2 (a key negative regulator that ubiquitinates and promotes TP53 degradation), p21 (a downstream target involved in cell cycle arrest), BAX (a pro-a",,,
-q04,TP53,interactsWith,GADD45,"TP53 interacts with numerous proteins, including MDM2 (a key negative regulator that ubiquitinates and promotes TP53 degradation), p21 (a downstream target involved in cell cycle arrest), BAX (a pro-a",,,
-q04,TP53,interactsWith,TRADD,"TP53 interacts with numerous proteins, including MDM2 (a key negative regulator that ubiquitinates and promotes TP53 degradation), p21 (a downstream target involved in cell cycle arrest), BAX (a pro-a",,,
-q05,imatinib,treats,chronic myeloid leukemia,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,dasatinib,treats,chronic myeloid leukemia,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,nilotinib,treats,chronic myeloid leukemia,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,bosutinib,treats,chronic myeloid leukemia,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,ponatinib,treats,chronic myeloid leukemia,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,asciminib,treats,chronic myeloid leukemia,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,omacetaxine mepesuccinate,treats,chronic myeloid leukemia,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,BCR-ABL,binds,imatinib,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,BCR-ABL,binds,dasatinib,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,BCR-ABL,binds,nilotinib,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,BCR-ABL,binds,bosutinib,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,BCR-ABL,binds,ponatinib,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,BCR-ABL,binds,asciminib,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q05,BCR-ABL,binds,omacetaxine mepesuccinate,"Chronic myeloid leukemia (CML) is primarily treated with tyrosine kinase inhibitors (TKIs), which target the BCR-ABL fusion protein caused by the Philadelphia chromosome. First-line therapies include ",,,
-q06,APP,associatedWith,Alzheimer's disease,"Alzheimer's disease is associated with several genes, including **APP** (amyloid precursor protein), **PSEN1** (presenilin 1), and **PSEN2** (presenilin 2), which are linked to early-onset familial Al",,,
-q06,PSEN1,associatedWith,Alzheimer's disease,"Alzheimer's disease is associated with several genes, including **APP** (amyloid precursor protein), **PSEN1** (presenilin 1), and **PSEN2** (presenilin 2), which are linked to early-onset familial Al",,,
-q06,PSEN2,associatedWith,Alzheimer's disease,"Alzheimer's disease is associated with several genes, including **APP** (amyloid precursor protein), **PSEN1** (presenilin 1), and **PSEN2** (presenilin 2), which are linked to early-onset familial Al",,,
-q06,APOE,associatedWith,Alzheimer's disease,"Alzheimer's disease is associated with several genes, including **APP** (amyloid precursor protein), **PSEN1** (presenilin 1), and **PSEN2** (presenilin 2), which are linked to early-onset familial Al",,,
-q06,TREM2,associatedWith,Alzheimer's disease,"Alzheimer's disease is associated with several genes, including **APP** (amyloid precursor protein), **PSEN1** (presenilin 1), and **PSEN2** (presenilin 2), which are linked to early-onset familial Al",,,
-q06,CLU,associatedWith,Alzheimer's disease,"Alzheimer's disease is associated with several genes, including **APP** (amyloid precursor protein), **PSEN1** (presenilin 1), and **PSEN2** (presenilin 2), which are linked to early-onset familial Al",,,
-q06,BIN1,associatedWith,Alzheimer's disease,"Alzheimer's disease is associated with several genes, including **APP** (amyloid precursor protein), **PSEN1** (presenilin 1), and **PSEN2** (presenilin 2), which are linked to early-onset familial Al",,,
-q06,TARDBP,associatedWith,Alzheimer's disease,"Alzheimer's disease is associated with several genes, including **APP** (amyloid precursor protein), **PSEN1** (presenilin 1), and **PSEN2** (presenilin 2), which are linked to early-onset familial Al",,,
-q06,PRNP,associatedWith,Alzheimer's disease,"Alzheimer's disease is associated with several genes, including **APP** (amyloid precursor protein), **PSEN1** (presenilin 1), and **PSEN2** (presenilin 2), which are linked to early-onset familial Al",,,
-q07,lisinopril,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,enalapril,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,losartan,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,valsartan,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,amlodipine,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,verapamil,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,metoprolol,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,atenolol,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,hydrochlorothiazide,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,aliskiren,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,doxazosin,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,spironolactone,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q07,eplerenone,binds,hypertension,"The main drug targets for treating hypertension include:  
-1. **Angiotensin-converting enzyme (ACE)** (e.g., lisinopril, enalapril), which inhibits the conversion of angiotensin I to angiotensin II, r",,,
-q08,erlotinib,binds,EGFR,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,gefitinib,binds,EGFR,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,afatinib,binds,EGFR,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,osimertinib,binds,EGFR,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,cetuximab,binds,EGFR,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,panitumumab,binds,EGFR,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,erlotinib,treats,non-small cell lung cancer,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,gefitinib,treats,non-small cell lung cancer,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,afatinib,treats,non-small cell lung cancer,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,osimertinib,treats,non-small cell lung cancer,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,cetuximab,treats,metastatic colorectal cancer,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,panitumumab,treats,metastatic colorectal cancer,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,cetuximab,treats,head and neck cancers,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q08,panitumumab,treats,head and neck cancers,"Drugs targeting EGFR include tyrosine kinase inhibitors (TKIs) like erlotinib, gefitinib, afatinib, osimertinib, and monoclonal antibodies such as cetuximab and panitumumab. These are primarily used i",,,
-q09,CFTR,associatedWith,cystic fibrosis,"Cystic fibrosis is primarily caused by mutations in the **CFTR** (Cystic Fibrosis Transmembrane Conductance Regulator) gene, which encodes a protein critical for chloride ion transport across epitheli",,,
-q10,methotrexate,treats,rheumatoid arthritis,"Rheumatoid arthritis (RA) is treated with drugs that target inflammation, immune responses, and joint damage. Disease-modifying antirheumatic drugs (DMARDs) like methotrexate, hydroxychloroquine, and ",,,
-q10,hydroxychloroquine,treats,rheumatoid arthritis,"Rheumatoid arthritis (RA) is treated with drugs that target inflammation, immune responses, and joint damage. Disease-modifying antirheumatic drugs (DMARDs) like methotrexate, hydroxychloroquine, and ",,,
-q10,sulfasalazine,treats,rheumatoid arthritis,"Rheumatoid arthritis (RA) is treated with drugs that target inflammation, immune responses, and joint damage. Disease-modifying antirheumatic drugs (DMARDs) like methotrexate, hydroxychloroquine, and ",,,
-q10,adalimumab,treats,rheumatoid arthritis,"Rheumatoid arthritis (RA) is treated with drugs that target inflammation, immune responses, and joint damage. Disease-modifying antirheumatic drugs (DMARDs) like methotrexate, hydroxychloroquine, and ",,,
-q10,etanercept,treats,rheumatoid arthritis,"Rheumatoid arthritis (RA) is treated with drugs that target inflammation, immune responses, and joint damage. Disease-modifying antirheumatic drugs (DMARDs) like methotrexate, hydroxychloroquine, and ",,,
-q10,tocilizumab,treats,rheumatoid arthritis,"Rheumatoid arthritis (RA) is treated with drugs that target inflammation, immune responses, and joint damage. Disease-modifying antirheumatic drugs (DMARDs) like methotrexate, hydroxychloroquine, and ",,,
-q10,rituximab,treats,rheumatoid arthritis,"Rheumatoid arthritis (RA) is treated with drugs that target inflammation, immune responses, and joint damage. Disease-modifying antirheumatic drugs (DMARDs) like methotrexate, hydroxychloroquine, and ",,,
-q10,abatacept,treats,rheumatoid arthritis,"Rheumatoid arthritis (RA) is treated with drugs that target inflammation, immune responses, and joint damage. Disease-modifying antirheumatic drugs (DMARDs) like methotrexate, hydroxychloroquine, and ",,,
-q10,tofacitinib,treats,rheumatoid arthritis,"Rheumatoid arthritis (RA) is treated with drugs that target inflammation, immune responses, and joint damage. Disease-modifying antirheumatic drugs (DMARDs) like methotrexate, hydroxychloroquine, and ",,,
-q10,prednisone,treats,rheumatoid arthritis,"Rheumatoid arthritis (RA) is treated with drugs that target inflammation, immune responses, and joint damage. Disease-modifying antirheumatic drugs (DMARDs) like methotrexate, hydroxychloroquine, and ",,,
-q11,MDM2,interactsWith,TP53,"MDM2 interacts with several key proteins, including p53 (a tumor suppressor), where it functions as an E3 ubiquitin ligase to promote p53 degradation. It also interacts with p14ARF (a protein that inh",,,
-q11,MDM2,interactsWith,p14ARF,"MDM2 interacts with several key proteins, including p53 (a tumor suppressor), where it functions as an E3 ubiquitin ligase to promote p53 degradation. It also interacts with p14ARF (a protein that inh",,,
-q11,MDM2,interactsWith,p73,"MDM2 interacts with several key proteins, including p53 (a tumor suppressor), where it functions as an E3 ubiquitin ligase to promote p53 degradation. It also interacts with p14ARF (a protein that inh",,,
-q11,MDM2,interactsWith,MDMX,"MDM2 interacts with several key proteins, including p53 (a tumor suppressor), where it functions as an E3 ubiquitin ligase to promote p53 degradation. It also interacts with p14ARF (a protein that inh",,,
-q11,MDM2,interactsWith,USP7,"MDM2 interacts with several key proteins, including p53 (a tumor suppressor), where it functions as an E3 ubiquitin ligase to promote p53 degradation. It also interacts with p14ARF (a protein that inh",,,
-q11,MDM2,interactsWith,TRAF,"MDM2 interacts with several key proteins, including p53 (a tumor suppressor), where it functions as an E3 ubiquitin ligase to promote p53 degradation. It also interacts with p14ARF (a protein that inh",,,
-q12,SNCA,associatedWith,Parkinson's disease,"Genes associated with Parkinson's disease include SNCA (encoding alpha-synuclein), LRRK2 (leucine-rich repeat kinase 2), PRKN (parkin RBR E3 ubiquitin protein ligase), PINK1 (PTEN-induced putative kin",,,
-q12,LRRK2,associatedWith,Parkinson's disease,"Genes associated with Parkinson's disease include SNCA (encoding alpha-synuclein), LRRK2 (leucine-rich repeat kinase 2), PRKN (parkin RBR E3 ubiquitin protein ligase), PINK1 (PTEN-induced putative kin",,,
-q12,PRKN,associatedWith,Parkinson's disease,"Genes associated with Parkinson's disease include SNCA (encoding alpha-synuclein), LRRK2 (leucine-rich repeat kinase 2), PRKN (parkin RBR E3 ubiquitin protein ligase), PINK1 (PTEN-induced putative kin",,,
-q12,PINK1,associatedWith,Parkinson's disease,"Genes associated with Parkinson's disease include SNCA (encoding alpha-synuclein), LRRK2 (leucine-rich repeat kinase 2), PRKN (parkin RBR E3 ubiquitin protein ligase), PINK1 (PTEN-induced putative kin",,,
-q12,DJ-1,associatedWith,Parkinson's disease,"Genes associated with Parkinson's disease include SNCA (encoding alpha-synuclein), LRRK2 (leucine-rich repeat kinase 2), PRKN (parkin RBR E3 ubiquitin protein ligase), PINK1 (PTEN-induced putative kin",,,
-q12,GBA,associatedWith,Parkinson's disease,"Genes associated with Parkinson's disease include SNCA (encoding alpha-synuclein), LRRK2 (leucine-rich repeat kinase 2), PRKN (parkin RBR E3 ubiquitin protein ligase), PINK1 (PTEN-induced putative kin",,,
-q13,atorvastatin,treats,hyperlipidemia,"Atorvastatin is a statin medication that inhibits HMG-CoA reductase, a key enzyme in the liver responsible for cholesterol synthesis. By blocking this enzyme, it reduces the production of mevalonic ac",,,
-q13,atorvastatin,treats,coronary artery disease,"Atorvastatin is a statin medication that inhibits HMG-CoA reductase, a key enzyme in the liver responsible for cholesterol synthesis. By blocking this enzyme, it reduces the production of mevalonic ac",,,
-q13,atorvastatin,treats,diabetes,"Atorvastatin is a statin medication that inhibits HMG-CoA reductase, a key enzyme in the liver responsible for cholesterol synthesis. By blocking this enzyme, it reduces the production of mevalonic ac",,,
-q13,atorvastatin,treats,familial hypercholesterolemia,"Atorvastatin is a statin medication that inhibits HMG-CoA reductase, a key enzyme in the liver responsible for cholesterol synthesis. By blocking this enzyme, it reduces the production of mevalonic ac",,,
-q13,atorvastatin,binds,HMGCR,"Atorvastatin is a statin medication that inhibits HMG-CoA reductase, a key enzyme in the liver responsible for cholesterol synthesis. By blocking this enzyme, it reduces the production of mevalonic ac",,,
-q14,fluticasone,binds,NR3C1,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,budesonide,binds,NR3C1,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,salmeterol,binds,ADRB2,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,formoterol,binds,ADRB2,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,montelukast,binds,CysLT1,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,omalizumab,binds,FCER1,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,mepolizumab,binds,IL5,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,dupilumab,binds,IL4,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,dupilumab,binds,IL13,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,albuterol,binds,ADRB2,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,tiotropium,binds,CHRM3,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,fluticasone,treats,asthma,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,budesonide,treats,asthma,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,salmeterol,treats,asthma,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,formoterol,treats,asthma,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,montelukast,treats,asthma,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,omalizumab,treats,asthma,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,mepolizumab,treats,asthma,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,dupilumab,treats,asthma,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,albuterol,treats,asthma,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q14,tiotropium,treats,asthma,"Asthma is managed with drugs targeting airway inflammation and bronchoconstriction. Inhaled corticosteroids (e.g., fluticasone, budesonide) reduce inflammation by binding glucocorticoid receptors. Lon",,,
-q15,APC,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,KRAS,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,TP53,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,MLH1,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,MSH2,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,MSH6,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,PMS2,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,EPCAM,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,SMAD4,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,BRAF,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,PTEN,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,PIK3CA,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,CTNNB1,associatedWith,colorectal cancer,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,MLH1,associatedWith,Lynch syndrome,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,MSH2,associatedWith,Lynch syndrome,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,MSH6,associatedWith,Lynch syndrome,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,PMS2,associatedWith,Lynch syndrome,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q15,EPCAM,associatedWith,Lynch syndrome,"Genes linked to colorectal cancer include **APC** (mutations cause familial adenomatous polyposis), **KRAS** (activating mutations drive tumor growth), **TP53** (loss of function promotes uncontrolled",,,
-q16,trastuzumab,treats,HER2-positive breast cancer,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,pertuzumab,treats,HER2-positive breast cancer,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,ado-trastuzumab emtansine,treats,HER2-positive breast cancer,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,lapatinib,treats,HER2-positive breast cancer,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,neratinib,treats,HER2-positive breast cancer,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,tucatinib,treats,HER2-positive breast cancer,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,trastuzumab deruxtecan,treats,HER2-positive breast cancer,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,capecitabine,treats,HER2-positive breast cancer,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,trastuzumab,binds,HER2,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,pertuzumab,binds,HER2,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,ado-trastuzumab emtansine,binds,HER2,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,lapatinib,binds,HER2,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,neratinib,binds,HER2,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,tucatinib,binds,HER2,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q16,trastuzumab deruxtecan,binds,HER2,"HER2-positive breast cancer is treated with drugs targeting the HER2 protein, including trastuzumab (a monoclonal antibody), pertuzumab (another monoclonal antibody often combined with trastuzumab), a",,,
-q17,BRCA2,interactsWith,RAD51,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,interactsWith,PALB2,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,interactsWith,DSS1,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,interactsWith,MRE11,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,interactsWith,RAD50,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,interactsWith,NBS1,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,interactsWith,CtIP,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,interactsWith,FANCD2,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,interactsWith,FANCI,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,interactsWith,BARD1,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,associatedWith,breast cancer,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q17,BRCA2,associatedWith,ovarian cancer,"BRCA2 interacts with several proteins critical for DNA repair and genomic stability. Key interactions include:  
-- **RAD51**: BRCA2 facilitates RAD51 recruitment to single-stranded DNA during homologo",,,
-q18,carbamazepine,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,lamotrigine,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,oxcarbazepine,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,carbamazepine,binds,Nav1.1,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,carbamazepine,binds,Nav1.2,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,carbamazepine,binds,Nav1.3,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,benzodiazepines,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,diazepam,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,lorazepam,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,barbiturates,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,phenobarbital,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,valproate,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,levetiracetam,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,levetiracetam,binds,SV2A,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,gabapentin,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,gabapentin,binds,alpha2delta,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,pregabalin,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,pregabalin,binds,alpha2delta,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,perampanel,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,topiramate,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,cannabidiol,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,cannabidiol,binds,CB1,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,cannabidiol,binds,TRPV1,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,vigabatrin,treats,epilepsy,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q18,vigabatrin,binds,GABA transaminase,"Drugs used to treat epilepsy include sodium channel blockers (e.g., carbamazepine, lamotrigine, oxcarbazepine), which inhibit voltage-gated sodium channels (Nav1.1, Nav1.2, Nav1.3) to reduce neuronal ",,,
-q19,HLA-DRB1*03:01,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q19,HLA-DQB1*02:01,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q19,HLA-DRB1*04:01,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q19,HLA-DQB1*03:02,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q19,INS,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q19,PTPN22,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q19,CTLA4,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q19,CD25,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q19,IFIH1,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q19,ERBB3,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q19,IL2RA,associatedWith,type 1 diabetes,"Type 1 diabetes (T1D) is strongly associated with genetic variants in the **HLA (Human Leukocyte Antigen)** complex, particularly **HLA-DRB1*03:01** and **HLA-DQB1*02:01**, which are linked to increas",,,
-q20,aspirin,treats,headaches,"Aspirin primarily targets cyclooxygenase (COX) enzymes, specifically COX-1 and COX-2, which are involved in the synthesis of prostaglandins and thromboxane A2. By inhibiting these enzymes, aspirin red",,,
-q20,aspirin,treats,arthritis,"Aspirin primarily targets cyclooxygenase (COX) enzymes, specifically COX-1 and COX-2, which are involved in the synthesis of prostaglandins and thromboxane A2. By inhibiting these enzymes, aspirin red",,,
-q20,aspirin,treats,muscle pain,"Aspirin primarily targets cyclooxygenase (COX) enzymes, specifically COX-1 and COX-2, which are involved in the synthesis of prostaglandins and thromboxane A2. By inhibiting these enzymes, aspirin red",,,
-q20,aspirin,treats,fever,"Aspirin primarily targets cyclooxygenase (COX) enzymes, specifically COX-1 and COX-2, which are involved in the synthesis of prostaglandins and thromboxane A2. By inhibiting these enzymes, aspirin red",,,
-q20,aspirin,treats,rheumatoid arthritis,"Aspirin primarily targets cyclooxygenase (COX) enzymes, specifically COX-1 and COX-2, which are involved in the synthesis of prostaglandins and thromboxane A2. By inhibiting these enzymes, aspirin red",,,
-q20,aspirin,treats,heart attack,"Aspirin primarily targets cyclooxygenase (COX) enzymes, specifically COX-1 and COX-2, which are involved in the synthesis of prostaglandins and thromboxane A2. By inhibiting these enzymes, aspirin red",,,
-q20,aspirin,treats,stroke,"Aspirin primarily targets cyclooxygenase (COX) enzymes, specifically COX-1 and COX-2, which are involved in the synthesis of prostaglandins and thromboxane A2. By inhibiting these enzymes, aspirin red",,,
-q20,aspirin,treats,colorectal cancer,"Aspirin primarily targets cyclooxygenase (COX) enzymes, specifically COX-1 and COX-2, which are involved in the synthesis of prostaglandins and thromboxane A2. By inhibiting these enzymes, aspirin red",,,
+question_id,subject,relation,object,supported_by_text,correct_types,notes
+q01,metformin,treats,type 2 diabetes,yes,yes,"Γεγονός: σωστό. Δεν εξήχθησαν οι τριάδες binds που αναφέρει το κείμενο (π.χ. sitagliptin–DPP4, empagliflozin–SLC5A2, pioglitazone–PPARG, glipizide–KATP)."
+q01,glipizide,treats,type 2 diabetes,yes,yes,Γεγονός: σωστό.
+q01,sitagliptin,treats,type 2 diabetes,yes,yes,Γεγονός: σωστό.
+q01,empagliflozin,treats,type 2 diabetes,yes,yes,Γεγονός: σωστό.
+q01,liraglutide,treats,type 2 diabetes,yes,yes,Γεγονός: σωστό.
+q01,pioglitazone,treats,type 2 diabetes,yes,yes,Γεγονός: σωστό.
+q01,acarbose,treats,type 2 diabetes,yes,yes,Γεγονός: σωστό.
+q01,repaglinide,treats,type 2 diabetes,yes,yes,Γεγονός: σωστό.
+q02,BRCA1,associatedWith,breast cancer,yes,yes,Γεγονός: σωστό.
+q02,BRCA2,associatedWith,breast cancer,yes,yes,Γεγονός: σωστό.
+q02,TP53,associatedWith,breast cancer,yes,yes,Γεγονός: σωστό. Li-Fraumeni.
+q02,HER2,associatedWith,breast cancer,yes,yes,Γεγονός: σωστό. Σωματική ενίσχυση· σύμβολο ERBB2.
+q02,PTEN,associatedWith,breast cancer,yes,yes,Γεγονός: σωστό. Cowden.
+q02,CHEK2,associatedWith,breast cancer,yes,yes,Γεγονός: σωστό.
+q02,ATM,associatedWith,breast cancer,yes,yes,Γεγονός: σωστό.
+q02,BRIP1,associatedWith,breast cancer,yes,yes,Γεγονός: αμφίβολο. Ισχυρή σύνδεση κυρίως με καρκίνο ωοθηκών· για μαστό η ένδειξη είναι ασθενής.
+q02,PALB2,associatedWith,breast cancer,yes,yes,Γεγονός: σωστό.
+q02,breast cancer,associatedWith,ovarian cancer,no,no,"Γεγονός: αμφίβολο. Το κείμενο λέει ότι τα BRCA1/2 αυξάνουν τον κίνδυνο «hereditary breast and ovarian cancer», όχι ότι οι δύο νόσοι συνδέονται μεταξύ τους. Τύποι Disease→Disease. Οι σωστές τριάδες θα ήταν BRCA1/BRCA2 associatedWith ovarian cancer, που λείπουν."
+q03,imatinib,binds,BCR-ABL,yes,yes,Γεγονός: σωστό.
+q03,imatinib,treats,chronic myeloid leukemia,yes,yes,Γεγονός: σωστό.
+q03,imatinib,binds,c-KIT,yes,yes,Γεγονός: σωστό. Σύμβολο KIT.
+q03,imatinib,binds,PDGFRA,yes,yes,Γεγονός: σωστό.
+q03,imatinib,treats,gastrointestinal stromal tumors,yes,yes,Γεγονός: σωστό.
+q03,imatinib,treats,Philadelphia chromosome-positive acute lymphoblastic leukemia,yes,yes,Γεγονός: σωστό.
+q03,imatinib,treats,dermatofibrosarcoma protuberans,yes,yes,Γεγονός: σωστό.
+q04,TP53,interactsWith,MDM2,yes,yes,Γεγονός: σωστό.
+q04,TP53,interactsWith,p21,yes,yes,"Γεγονός: αμφίβολο. Το κείμενο το λέει «downstream target»: μεταγραφική ρύθμιση, όχι φυσική αλληλεπίδραση. Σύμβολο CDKN1A."
+q04,TP53,interactsWith,BAX,yes,yes,Γεγονός: αμφίβολο. Το κείμενο λέει «activated by TP53» (κυρίως μεταγραφικά)· υπάρχει και αναφερόμενη άμεση πρόσδεση στα μιτοχόνδρια.
+q04,TP53,interactsWith,ATM,yes,yes,Γεγονός: σωστό. Το ATM φωσφορυλιώνει το p53.
+q04,TP53,interactsWith,14-3-3,yes,yes,"Γεγονός: σωστό. Οικογένεια πρωτεϊνών, όχι μία οντότητα."
+q04,TP53,interactsWith,E2F,yes,yes,Γεγονός: αμφίβολο. Το κείμενο λέει «E2F family members»· κυρίως έμμεση σχέση μέσω p21/RB.
+q04,TP53,interactsWith,GADD45,yes,yes,"Γεγονός: αμφίβολο. Μεταγραφικός στόχος, όχι άμεση αλληλεπίδραση· σύμβολο GADD45A."
+q04,TP53,interactsWith,TRADD,yes,yes,Γεγονός: ΛΑΘΟΣ. Δεν υπάρχει καθιερωμένη άμεση αλληλεπίδραση TP53–TRADD.
+q05,imatinib,treats,chronic myeloid leukemia,yes,yes,Γεγονός: σωστό.
+q05,dasatinib,treats,chronic myeloid leukemia,yes,yes,Γεγονός: σωστό.
+q05,nilotinib,treats,chronic myeloid leukemia,yes,yes,Γεγονός: σωστό.
+q05,bosutinib,treats,chronic myeloid leukemia,yes,yes,Γεγονός: σωστό.
+q05,ponatinib,treats,chronic myeloid leukemia,yes,yes,Γεγονός: σωστό.
+q05,asciminib,treats,chronic myeloid leukemia,yes,yes,"Γεγονός: σωστό. Η απάντηση δίνει λάθος εμπορικό όνομα (Blincyto = blinatumomab· το asciminib είναι Scemblix), αλλά αυτό δεν επηρεάζει την τριάδα."
+q05,omacetaxine mepesuccinate,treats,chronic myeloid leukemia,yes,yes,Γεγονός: σωστό. Λάθος εμπορικό όνομα στην απάντηση (Mylophore· το σωστό είναι Synribo).
+q05,BCR-ABL,binds,imatinib,yes,no,"Γεγονός: σωστό. Το κείμενο λέει ότι τα TKIs στοχεύουν το BCR-ABL, αλλά η κατεύθυνση είναι αντεστραμμένη (Protein→Drug). Σωστή μορφή: imatinib binds BCR-ABL."
+q05,BCR-ABL,binds,dasatinib,yes,no,"Γεγονός: σωστό. Το κείμενο λέει ότι τα TKIs στοχεύουν το BCR-ABL, αλλά η κατεύθυνση είναι αντεστραμμένη (Protein→Drug). Σωστή μορφή: dasatinib binds BCR-ABL."
+q05,BCR-ABL,binds,nilotinib,yes,no,"Γεγονός: σωστό. Το κείμενο λέει ότι τα TKIs στοχεύουν το BCR-ABL, αλλά η κατεύθυνση είναι αντεστραμμένη (Protein→Drug). Σωστή μορφή: nilotinib binds BCR-ABL."
+q05,BCR-ABL,binds,bosutinib,yes,no,"Γεγονός: σωστό. Το κείμενο λέει ότι τα TKIs στοχεύουν το BCR-ABL, αλλά η κατεύθυνση είναι αντεστραμμένη (Protein→Drug). Σωστή μορφή: bosutinib binds BCR-ABL."
+q05,BCR-ABL,binds,ponatinib,yes,no,"Γεγονός: σωστό. Το κείμενο λέει ότι τα TKIs στοχεύουν το BCR-ABL, αλλά η κατεύθυνση είναι αντεστραμμένη (Protein→Drug). Σωστή μορφή: ponatinib binds BCR-ABL."
+q05,BCR-ABL,binds,asciminib,yes,no,"Γεγονός: σωστό. Το κείμενο λέει ότι τα TKIs στοχεύουν το BCR-ABL, αλλά η κατεύθυνση είναι αντεστραμμένη (Protein→Drug). Σωστή μορφή: asciminib binds BCR-ABL."
+q05,BCR-ABL,binds,omacetaxine mepesuccinate,no,no,Γεγονός: ΛΑΘΟΣ. Το κείμενο δεν το λέει (το omacetaxine δεν παρουσιάζεται ως TKI). Αντεστραμμένη κατεύθυνση· επιπλέον το omacetaxine αναστέλλει τη σύνθεση πρωτεϊνών στο ριβόσωμα και δεν δεσμεύει το BCR-ABL.
+q06,APP,associatedWith,Alzheimer's disease,yes,yes,Γεγονός: σωστό.
+q06,PSEN1,associatedWith,Alzheimer's disease,yes,yes,Γεγονός: σωστό.
+q06,PSEN2,associatedWith,Alzheimer's disease,yes,yes,Γεγονός: σωστό.
+q06,APOE,associatedWith,Alzheimer's disease,yes,yes,Γεγονός: σωστό.
+q06,TREM2,associatedWith,Alzheimer's disease,yes,yes,Γεγονός: σωστό.
+q06,CLU,associatedWith,Alzheimer's disease,yes,yes,Γεγονός: σωστό.
+q06,BIN1,associatedWith,Alzheimer's disease,yes,yes,Γεγονός: σωστό.
+q06,TARDBP,associatedWith,Alzheimer's disease,yes,yes,"Γεγονός: αμφίβολο. Η απάντηση το αποδίδει σε GWAS, αλλά το TARDBP δεν είναι γνωστό GWAS locus για AD· η παθολογία TDP-43 απλώς συνυπάρχει (κυρίως ALS/FTD)."
+q06,PRNP,associatedWith,Alzheimer's disease,yes,yes,"Γεγονός: ΛΑΘΟΣ. Η απάντηση λέει ότι μεταλλάξεις PRNP προκαλούν πρώιμη AD· στην πραγματικότητα προκαλούν νόσους πριόντων, που μπορεί απλώς να μιμούνται AD."
+q07,lisinopril,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες lisinopril treats hypertension και lisinopril binds ACE, που λείπουν."
+q07,enalapril,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες enalapril treats hypertension και enalapril binds ACE, που λείπουν."
+q07,losartan,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες losartan treats hypertension και losartan binds AGTR1, που λείπουν."
+q07,valsartan,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες valsartan treats hypertension και valsartan binds AGTR1, που λείπουν."
+q07,amlodipine,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες amlodipine treats hypertension και amlodipine binds CACNA1C, που λείπουν."
+q07,verapamil,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες verapamil treats hypertension και verapamil binds CACNA1C, που λείπουν."
+q07,metoprolol,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες metoprolol treats hypertension και metoprolol binds ADRB1, που λείπουν."
+q07,atenolol,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες atenolol treats hypertension και atenolol binds ADRB1, που λείπουν."
+q07,hydrochlorothiazide,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες hydrochlorothiazide treats hypertension και hydrochlorothiazide binds SLC12A3, που λείπουν. Η απάντηση λέει λανθασμένα «sodium channels»· ο στόχος είναι ο συμμεταφορέας NCC (SLC12A3)."
+q07,aliskiren,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες aliskiren treats hypertension και aliskiren binds REN, που λείπουν."
+q07,doxazosin,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες doxazosin treats hypertension και doxazosin binds ADRA1A, που λείπουν."
+q07,spironolactone,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες spironolactone treats hypertension και spironolactone binds NR3C2, που λείπουν."
+q07,eplerenone,binds,hypertension,no,no,"Γεγονός: ΛΑΘΟΣ. Ένα φάρμακο δεν «δεσμεύει» νόσο. Το κείμενο στηρίζει τις σωστές τριάδες eplerenone treats hypertension και eplerenone binds NR3C2, που λείπουν."
+q08,erlotinib,binds,EGFR,yes,yes,Γεγονός: σωστό.
+q08,gefitinib,binds,EGFR,yes,yes,Γεγονός: σωστό.
+q08,afatinib,binds,EGFR,yes,yes,Γεγονός: σωστό.
+q08,osimertinib,binds,EGFR,yes,yes,Γεγονός: σωστό.
+q08,cetuximab,binds,EGFR,yes,yes,Γεγονός: σωστό.
+q08,panitumumab,binds,EGFR,yes,yes,Γεγονός: σωστό.
+q08,erlotinib,treats,non-small cell lung cancer,yes,yes,Γεγονός: σωστό.
+q08,gefitinib,treats,non-small cell lung cancer,yes,yes,Γεγονός: σωστό.
+q08,afatinib,treats,non-small cell lung cancer,yes,yes,Γεγονός: σωστό.
+q08,osimertinib,treats,non-small cell lung cancer,yes,yes,Γεγονός: σωστό.
+q08,cetuximab,treats,metastatic colorectal cancer,yes,yes,Γεγονός: σωστό. Σε όγκους RAS wild-type.
+q08,panitumumab,treats,metastatic colorectal cancer,yes,yes,Γεγονός: σωστό. Σε όγκους RAS wild-type.
+q08,cetuximab,treats,head and neck cancers,yes,yes,Γεγονός: σωστό.
+q08,panitumumab,treats,head and neck cancers,yes,yes,"Γεγονός: ΛΑΘΟΣ. Το λέει η απάντηση, αλλά το panitumumab δεν έχει έγκριση για καρκίνο κεφαλής-τραχήλου (μόνο το cetuximab)."
+q09,CFTR,associatedWith,cystic fibrosis,yes,yes,Γεγονός: σωστό. Σωστά δεν εξήχθησαν τα SLC26A9 και ABCG5/ABCG8 που αναφέρει η απάντηση: είναι τροποποιητές ή άσχετα (ABCG5/8 = σιτοστερολαιμία).
+q10,methotrexate,treats,rheumatoid arthritis,yes,yes,Γεγονός: σωστό.
+q10,hydroxychloroquine,treats,rheumatoid arthritis,yes,yes,Γεγονός: σωστό.
+q10,sulfasalazine,treats,rheumatoid arthritis,yes,yes,Γεγονός: σωστό.
+q10,adalimumab,treats,rheumatoid arthritis,yes,yes,"Γεγονός: σωστό. Δεν εξήχθησαν οι τριάδες binds που αναφέρει το κείμενο (adalimumab/etanercept–TNF, tocilizumab–IL6R, rituximab–MS4A1/CD20, tofacitinib–JAK)."
+q10,etanercept,treats,rheumatoid arthritis,yes,yes,Γεγονός: σωστό.
+q10,tocilizumab,treats,rheumatoid arthritis,yes,yes,Γεγονός: σωστό.
+q10,rituximab,treats,rheumatoid arthritis,yes,yes,Γεγονός: σωστό.
+q10,abatacept,treats,rheumatoid arthritis,yes,yes,Γεγονός: σωστό.
+q10,tofacitinib,treats,rheumatoid arthritis,yes,yes,Γεγονός: σωστό.
+q10,prednisone,treats,rheumatoid arthritis,yes,yes,Γεγονός: σωστό.
+q11,MDM2,interactsWith,TP53,yes,yes,Γεγονός: σωστό. Το κείμενο γράφει «p53».
+q11,MDM2,interactsWith,p14ARF,yes,yes,Γεγονός: σωστό. Σύμβολο CDKN2A.
+q11,MDM2,interactsWith,p73,yes,yes,Γεγονός: σωστό. Σύμβολο TP73.
+q11,MDM2,interactsWith,MDMX,yes,yes,Γεγονός: σωστό. Σύμβολο MDM4.
+q11,MDM2,interactsWith,USP7,yes,yes,Γεγονός: σωστό.
+q11,MDM2,interactsWith,TRAF,yes,yes,"Γεγονός: αμφίβολο. Το κείμενο λέει «TRAF family members»: οικογένεια, όχι συγκεκριμένη οντότητα· υπάρχουν αναφορές για TRAF2/TRAF6."
+q12,SNCA,associatedWith,Parkinson's disease,yes,yes,Γεγονός: σωστό.
+q12,LRRK2,associatedWith,Parkinson's disease,yes,yes,Γεγονός: σωστό.
+q12,PRKN,associatedWith,Parkinson's disease,yes,yes,Γεγονός: σωστό.
+q12,PINK1,associatedWith,Parkinson's disease,yes,yes,Γεγονός: σωστό.
+q12,DJ-1,associatedWith,Parkinson's disease,yes,yes,Γεγονός: σωστό. Σύμβολο PARK7.
+q12,GBA,associatedWith,Parkinson's disease,yes,yes,"Γεγονός: σωστό. Σύμβολο GBA1. Δεν εξήχθησαν τα ATP13A3 και FBXO7 που αναφέρει η απάντηση· το «ATP13A3 (PARK9)» είναι λάθος της απάντησης (το PARK9 είναι ATP13A2), το FBXO7 είναι σωστό και λείπει."
+q13,atorvastatin,treats,hyperlipidemia,yes,yes,Γεγονός: σωστό.
+q13,atorvastatin,treats,coronary artery disease,yes,yes,Γεγονός: σωστό. Ως πρόληψη καρδιαγγειακών συμβαμάτων.
+q13,atorvastatin,treats,diabetes,yes,yes,"Γεγονός: ΛΑΘΟΣ. Η απάντηση το λέει («manage conditions such as ... diabetes»), αλλά οι στατίνες δεν θεραπεύουν τον διαβήτη· δίνονται σε διαβητικούς για τον καρδιαγγειακό κίνδυνο."
+q13,atorvastatin,treats,familial hypercholesterolemia,yes,yes,Γεγονός: σωστό.
+q13,atorvastatin,binds,HMGCR,yes,yes,Γεγονός: σωστό. «HMG-CoA reductase» → HMGCR.
+q14,fluticasone,binds,NR3C1,yes,yes,Γεγονός: σωστό. «glucocorticoid receptors» → NR3C1.
+q14,budesonide,binds,NR3C1,yes,yes,Γεγονός: σωστό. «glucocorticoid receptors» → NR3C1.
+q14,salmeterol,binds,ADRB2,yes,yes,Γεγονός: σωστό.
+q14,formoterol,binds,ADRB2,yes,yes,Γεγονός: σωστό.
+q14,montelukast,binds,CysLT1,yes,yes,Γεγονός: σωστό. Σύμβολο CYSLTR1.
+q14,omalizumab,binds,FCER1,no,yes,Γεγονός: ΛΑΘΟΣ. Το κείμενο λέει σωστά «IgE inhibitor»· η εξαγωγή το μετέτρεψε λανθασμένα σε FCER1. Σωστό: omalizumab binds IgE (IGHE).
+q14,mepolizumab,binds,IL5,yes,yes,Γεγονός: σωστό.
+q14,dupilumab,binds,IL4,no,yes,"Γεγονός: ΛΑΘΟΣ. Το κείμενο λέει σωστά «IL-4/IL-13 receptor antagonist»· το dupilumab δεσμεύει τον IL4R, όχι την κυτοκίνη IL-4."
+q14,dupilumab,binds,IL13,no,yes,Γεγονός: ΛΑΘΟΣ. Το κείμενο λέει «receptor antagonist»· δεν δεσμεύει την IL-13. Σωστό: dupilumab binds IL4R.
+q14,albuterol,binds,ADRB2,yes,yes,Γεγονός: σωστό. Συνάγεται από το «short-acting beta-2 agonists».
+q14,tiotropium,binds,CHRM3,yes,yes,Γεγονός: σωστό. Το κείμενο λέει γενικά «muscarinic receptors»· το CHRM3 είναι εύλογη εξειδίκευση.
+q14,fluticasone,treats,asthma,yes,yes,Γεγονός: σωστό.
+q14,budesonide,treats,asthma,yes,yes,Γεγονός: σωστό.
+q14,salmeterol,treats,asthma,yes,yes,Γεγονός: σωστό. Μόνο σε συνδυασμό με εισπνεόμενο κορτικοστεροειδές.
+q14,formoterol,treats,asthma,yes,yes,Γεγονός: σωστό.
+q14,montelukast,treats,asthma,yes,yes,Γεγονός: σωστό.
+q14,omalizumab,treats,asthma,yes,yes,Γεγονός: σωστό.
+q14,mepolizumab,treats,asthma,yes,yes,Γεγονός: σωστό.
+q14,dupilumab,treats,asthma,yes,yes,Γεγονός: σωστό.
+q14,albuterol,treats,asthma,yes,yes,Γεγονός: σωστό.
+q14,tiotropium,treats,asthma,yes,yes,Γεγονός: σωστό.
+q15,APC,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό.
+q15,KRAS,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό.
+q15,TP53,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό.
+q15,MLH1,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό.
+q15,MSH2,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό.
+q15,MSH6,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό.
+q15,PMS2,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό.
+q15,EPCAM,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό. Μέσω επιγενετικής σίγησης του MSH2.
+q15,SMAD4,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό.
+q15,BRAF,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό.
+q15,PTEN,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό. Ασθενέστερη σύνδεση.
+q15,PIK3CA,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό.
+q15,CTNNB1,associatedWith,colorectal cancer,yes,yes,Γεγονός: σωστό. Σωματικές μεταλλάξεις.
+q15,MLH1,associatedWith,Lynch syndrome,yes,yes,Γεγονός: σωστό.
+q15,MSH2,associatedWith,Lynch syndrome,yes,yes,Γεγονός: σωστό.
+q15,MSH6,associatedWith,Lynch syndrome,yes,yes,Γεγονός: σωστό.
+q15,PMS2,associatedWith,Lynch syndrome,yes,yes,Γεγονός: σωστό.
+q15,EPCAM,associatedWith,Lynch syndrome,yes,yes,Γεγονός: σωστό.
+q16,trastuzumab,treats,HER2-positive breast cancer,yes,yes,Γεγονός: σωστό.
+q16,pertuzumab,treats,HER2-positive breast cancer,yes,yes,Γεγονός: σωστό.
+q16,ado-trastuzumab emtansine,treats,HER2-positive breast cancer,yes,yes,Γεγονός: σωστό.
+q16,lapatinib,treats,HER2-positive breast cancer,yes,yes,Γεγονός: σωστό.
+q16,neratinib,treats,HER2-positive breast cancer,yes,yes,Γεγονός: σωστό.
+q16,tucatinib,treats,HER2-positive breast cancer,yes,yes,Γεγονός: σωστό.
+q16,trastuzumab deruxtecan,treats,HER2-positive breast cancer,yes,yes,Γεγονός: σωστό.
+q16,capecitabine,treats,HER2-positive breast cancer,yes,yes,Γεγονός: σωστό. Η απάντηση το αναφέρει ως συνδυαστική χημειοθεραπεία· σωστά δεν υπάρχει binds HER2.
+q16,trastuzumab,binds,HER2,yes,yes,Γεγονός: σωστό. Σύμβολο ERBB2.
+q16,pertuzumab,binds,HER2,yes,yes,Γεγονός: σωστό. Σύμβολο ERBB2.
+q16,ado-trastuzumab emtansine,binds,HER2,yes,yes,Γεγονός: σωστό. Σύμβολο ERBB2.
+q16,lapatinib,binds,HER2,yes,yes,Γεγονός: σωστό. Σύμβολο ERBB2.
+q16,neratinib,binds,HER2,yes,yes,Γεγονός: σωστό. Σύμβολο ERBB2.
+q16,tucatinib,binds,HER2,yes,yes,Γεγονός: σωστό. Σύμβολο ERBB2.
+q16,trastuzumab deruxtecan,binds,HER2,yes,yes,Γεγονός: σωστό. Σύμβολο ERBB2.
+q17,BRCA2,interactsWith,RAD51,yes,yes,Γεγονός: σωστό.
+q17,BRCA2,interactsWith,PALB2,yes,yes,Γεγονός: σωστό.
+q17,BRCA2,interactsWith,DSS1,yes,yes,Γεγονός: σωστό. Σύμβολο SEM1. Η απάντηση αναπτύσσει λάθος το όνομα («Damage-Specific DNA Binding Protein 1» είναι το DDB1).
+q17,BRCA2,interactsWith,MRE11,yes,yes,"Γεγονός: αμφίβολο. Η απάντηση το αναφέρει ως σύμπλοκο MRN· το MRN συνεργάζεται κυρίως με το BRCA1, χωρίς καθιερωμένη άμεση αλληλεπίδραση με BRCA2."
+q17,BRCA2,interactsWith,RAD50,yes,yes,"Γεγονός: αμφίβολο. Η απάντηση το αναφέρει ως σύμπλοκο MRN· το MRN συνεργάζεται κυρίως με το BRCA1, χωρίς καθιερωμένη άμεση αλληλεπίδραση με BRCA2."
+q17,BRCA2,interactsWith,NBS1,yes,yes,"Γεγονός: αμφίβολο. Η απάντηση το αναφέρει ως σύμπλοκο MRN· το MRN συνεργάζεται κυρίως με το BRCA1, χωρίς καθιερωμένη άμεση αλληλεπίδραση με BRCA2. Σύμβολο NBN."
+q17,BRCA2,interactsWith,CtIP,yes,yes,"Γεγονός: ΛΑΘΟΣ. Το CtIP (RBBP8) είναι κλασικός εταίρος του BRCA1, όχι του BRCA2."
+q17,BRCA2,interactsWith,FANCD2,yes,yes,Γεγονός: σωστό. Αναφερόμενη αλληλεπίδραση.
+q17,BRCA2,interactsWith,FANCI,yes,yes,"Γεγονός: αμφίβολο. Ασθενής/έμμεση, μέσω FANCD2-FANCI."
+q17,BRCA2,interactsWith,BARD1,yes,yes,Γεγονός: ΛΑΘΟΣ. Η ίδια η απάντηση το χαρακτηρίζει «less well-characterized»· το BARD1 είναι εταίρος του BRCA1.
+q17,BRCA2,associatedWith,breast cancer,yes,yes,Γεγονός: σωστό. Εκτός του ερωτήματος (αλληλεπιδράσεις).
+q17,BRCA2,associatedWith,ovarian cancer,yes,yes,Γεγονός: σωστό. Εκτός του ερωτήματος (αλληλεπιδράσεις).
+q18,carbamazepine,treats,epilepsy,yes,yes,Γεγονός: σωστό.
+q18,lamotrigine,treats,epilepsy,yes,yes,Γεγονός: σωστό.
+q18,oxcarbazepine,treats,epilepsy,yes,yes,Γεγονός: σωστό.
+q18,carbamazepine,binds,Nav1.1,yes,yes,"Γεγονός: σωστό. Σύμβολο SCN1A. Το κείμενο στηρίζει επίσης lamotrigine/oxcarbazepine binds Nav1.x, που λείπουν."
+q18,carbamazepine,binds,Nav1.2,yes,yes,"Γεγονός: σωστό. Σύμβολο SCN2A. Το κείμενο στηρίζει επίσης lamotrigine/oxcarbazepine binds Nav1.x, που λείπουν."
+q18,carbamazepine,binds,Nav1.3,yes,yes,"Γεγονός: σωστό. Σύμβολο SCN3A. Το κείμενο στηρίζει επίσης lamotrigine/oxcarbazepine binds Nav1.x, που λείπουν."
+q18,benzodiazepines,treats,epilepsy,yes,yes,"Γεγονός: σωστό. Κατηγορία φαρμάκων, όχι συγκεκριμένο φάρμακο (θέμα κοκκομέτρησης). Λείπουν οι τριάδες binds GABA-A για benzodiazepines/phenobarbital."
+q18,diazepam,treats,epilepsy,yes,yes,Γεγονός: σωστό.
+q18,lorazepam,treats,epilepsy,yes,yes,Γεγονός: σωστό. Status epilepticus.
+q18,barbiturates,treats,epilepsy,yes,yes,"Γεγονός: σωστό. Κατηγορία φαρμάκων, όχι συγκεκριμένο φάρμακο."
+q18,phenobarbital,treats,epilepsy,yes,yes,Γεγονός: σωστό.
+q18,valproate,treats,epilepsy,yes,yes,Γεγονός: σωστό.
+q18,levetiracetam,treats,epilepsy,yes,yes,Γεγονός: σωστό.
+q18,levetiracetam,binds,SV2A,yes,yes,Γεγονός: σωστό.
+q18,gabapentin,treats,epilepsy,yes,yes,Γεγονός: σωστό. Επικουρικό για εστιακές κρίσεις.
+q18,gabapentin,binds,alpha2delta,yes,yes,Γεγονός: σωστό. Σύμβολο CACNA2D1.
+q18,pregabalin,treats,epilepsy,yes,yes,Γεγονός: σωστό. Επικουρικό (έγκριση ΕΕ).
+q18,pregabalin,binds,alpha2delta,yes,yes,Γεγονός: σωστό. Σύμβολο CACNA2D1.
+q18,perampanel,treats,epilepsy,yes,yes,"Γεγονός: σωστό. Λείπει η τριάδα perampanel binds AMPA receptor (GRIA), που στηρίζει το κείμενο."
+q18,topiramate,treats,epilepsy,yes,yes,Γεγονός: σωστό.
+q18,cannabidiol,treats,epilepsy,yes,yes,"Γεγονός: σωστό. Dravet, Lennox-Gastaut."
+q18,cannabidiol,binds,CB1,yes,yes,"Γεγονός: αμφίβολο. Το λέει η απάντηση, αλλά η CBD έχει πολύ χαμηλή συγγένεια για CB1 και η αντιεπιληπτική δράση δεν οφείλεται σε αυτόν."
+q18,cannabidiol,binds,TRPV1,yes,yes,Γεγονός: σωστό. Προτεινόμενος μηχανισμός.
+q18,vigabatrin,treats,epilepsy,yes,yes,Γεγονός: σωστό.
+q18,vigabatrin,binds,GABA transaminase,yes,yes,Γεγονός: σωστό. Σύμβολο ABAT.
+q19,HLA-DRB1*03:01,associatedWith,type 1 diabetes,yes,yes,"Γεγονός: σωστό. Αλληλόμορφο (Variant), όχι γονίδιο."
+q19,HLA-DQB1*02:01,associatedWith,type 1 diabetes,yes,yes,"Γεγονός: σωστό. Αλληλόμορφο (Variant), όχι γονίδιο."
+q19,HLA-DRB1*04:01,associatedWith,type 1 diabetes,yes,yes,"Γεγονός: σωστό. Η σύνδεση ισχύει, αλλά η απάντηση το λέει λανθασμένα «protective»: είναι αλληλόμορφο ΚΙΝΔΥΝΟΥ (απλότυπος DR4-DQ8). Αλληλόμορφο (Variant)."
+q19,HLA-DQB1*03:02,associatedWith,type 1 diabetes,yes,yes,"Γεγονός: σωστό. Η σύνδεση ισχύει, αλλά η απάντηση το λέει λανθασμένα «protective»: είναι αλληλόμορφο ΚΙΝΔΥΝΟΥ (απλότυπος DR4-DQ8). Αλληλόμορφο (Variant)."
+q19,INS,associatedWith,type 1 diabetes,yes,yes,Γεγονός: σωστό.
+q19,PTPN22,associatedWith,type 1 diabetes,yes,yes,Γεγονός: σωστό.
+q19,CTLA4,associatedWith,type 1 diabetes,yes,yes,Γεγονός: σωστό.
+q19,CD25,associatedWith,type 1 diabetes,yes,yes,Γεγονός: σωστό. Διπλότυπο: CD25 = IL2RA (υπάρχει και ως ξεχωριστή γραμμή).
+q19,IFIH1,associatedWith,type 1 diabetes,yes,yes,Γεγονός: σωστό.
+q19,ERBB3,associatedWith,type 1 diabetes,yes,yes,Γεγονός: σωστό. Εύρημα GWAS· η εξήγηση της απάντησης («insulin receptor signaling») είναι ανακριβής.
+q19,IL2RA,associatedWith,type 1 diabetes,yes,yes,Γεγονός: σωστό.
+q20,aspirin,treats,headaches,yes,yes,"Γεγονός: σωστό. Λείπουν οι τριάδες aspirin binds PTGS1/PTGS2 (COX-1/COX-2), που είναι ο κύριος στόχος στο κείμενο."
+q20,aspirin,treats,arthritis,yes,yes,Γεγονός: σωστό. Γενικός όρος.
+q20,aspirin,treats,muscle pain,yes,yes,Γεγονός: σωστό.
+q20,aspirin,treats,fever,yes,yes,Γεγονός: σωστό.
+q20,aspirin,treats,rheumatoid arthritis,yes,yes,Γεγονός: αμφίβολο. Ιστορικά χρησιμοποιήθηκε· δεν συνιστάται πλέον.
+q20,aspirin,treats,heart attack,no,yes,"Γεγονός: σωστό. Το κείμενο μιλά για «cardiovascular protection in patients at risk», δηλαδή πρόληψη και όχι θεραπεία. Η ασπιρίνη πάντως χορηγείται και στο οξύ έμφραγμα."
+q20,aspirin,treats,stroke,no,yes,"Γεγονός: αμφίβολο. Το κείμενο μιλά για πρόληψη, όχι θεραπεία. Ισχύει για ισχαιμικό επεισόδιο· αντενδείκνυται στο αιμορραγικό."
+q20,aspirin,treats,colorectal cancer,no,yes,"Γεγονός: ΛΑΘΟΣ. Το κείμενο λέει «prevent», όχι «treat». Η ασπιρίνη μελετάται για χημειοπροφύλαξη, δεν θεραπεύει τον καρκίνο."

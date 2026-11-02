@@ -1,0 +1,49 @@
+@prefix ent: <http://example.org/hetio/entity/> .
+@prefix hetio: <http://example.org/hetio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ent:adotrastuzumab_emtansine a hetio:Compound ;
+    rdfs:label "ado-trastuzumab emtansine" ;
+    hetio:binds ent:HER2 ;
+    hetio:treats ent:her2positive_breast_cancer .
+
+ent:capecitabine a hetio:Compound ;
+    rdfs:label "capecitabine" ;
+    hetio:treats ent:her2positive_breast_cancer .
+
+ent:lapatinib a hetio:Compound ;
+    rdfs:label "lapatinib" ;
+    hetio:binds ent:HER2 ;
+    hetio:treats ent:her2positive_breast_cancer .
+
+ent:neratinib a hetio:Compound ;
+    rdfs:label "neratinib" ;
+    hetio:binds ent:HER2 ;
+    hetio:treats ent:her2positive_breast_cancer .
+
+ent:pertuzumab a hetio:Compound ;
+    rdfs:label "pertuzumab" ;
+    hetio:binds ent:HER2 ;
+    hetio:treats ent:her2positive_breast_cancer .
+
+ent:trastuzumab a hetio:Compound ;
+    rdfs:label "trastuzumab" ;
+    hetio:binds ent:HER2 ;
+    hetio:treats ent:her2positive_breast_cancer .
+
+ent:trastuzumab_deruxtecan a hetio:Compound ;
+    rdfs:label "trastuzumab deruxtecan" ;
+    hetio:binds ent:HER2 ;
+    hetio:treats ent:her2positive_breast_cancer .
+
+ent:tucatinib a hetio:Compound ;
+    rdfs:label "tucatinib" ;
+    hetio:binds ent:HER2 ;
+    hetio:treats ent:her2positive_breast_cancer .
+
+ent:HER2 a hetio:Gene ;
+    rdfs:label "HER2" .
+
+ent:her2positive_breast_cancer a hetio:Disease ;
+    rdfs:label "HER2-positive breast cancer" .
+

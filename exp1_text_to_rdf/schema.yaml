@@ -11,13 +11,13 @@ namespaces:
 node_types:
   Gene:
     description: "A human gene (or the protein it encodes); use the official gene symbol."
-    examples: ["TP53", "BRCA1", "ABL1"]
+    examples: ["F8", "SMN1", "CYP2D6"]
   Compound:
     description: "A drug or chemical compound."
-    examples: ["metformin", "imatinib"]
+    examples: ["warfarin", "levothyroxine"]
   Disease:
     description: "A human disease."
-    examples: ["type 2 diabetes", "breast cancer"]
+    examples: ["venous thromboembolism", "hypothyroidism"]
 
 relations:
   treats:
