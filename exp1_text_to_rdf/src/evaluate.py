@@ -191,6 +191,8 @@ def write_report(
     path: str | Path,
     metrics: dict,
     extractions: list[dict],
+    annotation_result: dict | None = None,
+    missed_facts: list[dict] | None = None,
 ) -> None:
     lines: list[str] = []
     lines.append("# Experiment 1 Report: Agent Answer -> RDF\n")
@@ -219,6 +221,25 @@ def write_report(
         if rec.get("parsed") is None
     ]
     lines.extend(failures or ["- none"])
+
+    if annotation_result is not None:
+        lines.append("\n## Manual annotation (annotation.csv)\n")
+        lines.append(
+            f"- Precision: {annotation_result['precision']} "
+            f"({annotation_result['supported']}/{annotation_result['total']})"
+        )
+        lines.append(f"- Unsupported triples: {len(annotation_result['unsupported'])}")
+        for row in annotation_result["unsupported"]:
+            lines.append(
+                f"  - {row.get('question_id')}: {row.get('subject')} {row.get('relation')} "
+                f"{row.get('object')} — {row.get('notes')}"
+            )
+
+    if missed_facts is not None:
+        lines.append("\n## Missed facts (missed_facts.csv)\n")
+        lines.append(f"- Questions with missed facts: {len(missed_facts)}")
+        for m in missed_facts:
+            lines.append(f"  - {m['question_id']}: {m['missed_facts']}")
 
     Path(path).write_text("\n".join(lines), encoding="utf-8")
 
@@ -252,24 +273,14 @@ def compute_missed_facts(path: str | Path) -> list[dict]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Evaluate a run of Experiment 1.")
+    parser = argparse.ArgumentParser(
+        description="Evaluate a run of Experiment 1. Run this after filling in "
+        "annotation.csv / missed_facts.csv so the report includes them."
+    )
     parser.add_argument("run_dir", help="Path to runs/<timestamp>")
-    parser.add_argument("--from-annotation", action="store_true", help="Recompute precision from filled annotation.csv / missed_facts.csv")
     args = parser.parse_args()
 
     run_dir = Path(args.run_dir)
-
-    if args.from_annotation:
-        result = compute_precision_from_annotation(run_dir / "annotation.csv")
-        missed = compute_missed_facts(run_dir / "missed_facts.csv")
-        print(f"Precision: {result['precision']} ({result['supported']}/{result['total']})")
-        print(f"Unsupported (possibly hallucinated/self-corrected) triples: {len(result['unsupported'])}")
-        for row in result["unsupported"]:
-            print(f"  - {row}")
-        print(f"Missed facts logged: {len(missed)}")
-        for m in missed:
-            print(f"  - {m['question_id']}: {m['missed_facts']}")
-        return
 
     schema = yaml.safe_load((run_dir / "schema.yaml").read_text(encoding="utf-8"))
     answers = load_jsonl(run_dir / "answers.jsonl")
@@ -278,11 +289,24 @@ def main() -> None:
 
     metrics = compute_metrics(answers, extractions, schema, graphs_dir)
 
-    write_annotation_csv(extractions, run_dir / "annotation.csv")
-    write_missed_facts_csv(answers, run_dir / "missed_facts.csv")
-    write_report(run_dir / "report.md", metrics, extractions)
+    annotation_path = run_dir / "annotation.csv"
+    if annotation_path.exists():
+        annotation_result = compute_precision_from_annotation(annotation_path)
+    else:
+        annotation_result = None
+        write_annotation_csv(extractions, annotation_path)
+        print(f"Wrote empty {annotation_path} — fill it in, then re-run this command.")
 
-    print(f"Wrote report.md, annotation.csv, missed_facts.csv to {run_dir}")
+    missed_facts_path = run_dir / "missed_facts.csv"
+    if missed_facts_path.exists():
+        missed_facts = compute_missed_facts(missed_facts_path)
+    else:
+        missed_facts = None
+        write_missed_facts_csv(answers, missed_facts_path)
+        print(f"Wrote empty {missed_facts_path} — fill it in, then re-run this command.")
+
+    write_report(run_dir / "report.md", metrics, extractions, annotation_result, missed_facts)
+    print(f"Wrote {run_dir / 'report.md'}")
 
 
 if __name__ == "__main__":

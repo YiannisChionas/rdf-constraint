@@ -16,7 +16,7 @@ from rdflib import Graph
 
 from .agent import generate_answer
 from .converter import convert_answer, load_few_shot, load_schema
-from .evaluate import compute_metrics, load_jsonl, write_annotation_csv, write_missed_facts_csv, write_report
+from .evaluate import load_jsonl, write_annotation_csv, write_missed_facts_csv
 from .llm import OllamaClient
 from .to_rdf import json_to_graph, serialize_graph
 
@@ -140,13 +140,13 @@ def main() -> None:
         merged += g
     serialize_graph(merged, run_dir / "merged.ttl")
 
-    # --- Step 4: evaluate ---
-    metrics = compute_metrics(answers, extractions, schema, graphs_dir)
+    # --- Step 4: write annotation templates (report.md comes later, via `python -m src.evaluate`) ---
     write_annotation_csv(extractions, run_dir / "annotation.csv")
     write_missed_facts_csv(answers, run_dir / "missed_facts.csv")
-    write_report(run_dir / "report.md", metrics, extractions)
 
     print(f"\nRun complete: {run_dir}")
+    print("Fill in annotation.csv / missed_facts.csv, then run:")
+    print(f"  python -m src.evaluate {run_dir}")
 
 
 if __name__ == "__main__":
