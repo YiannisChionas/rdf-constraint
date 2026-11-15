@@ -12,3 +12,6 @@ Thumbs.db
 # Editors
 .vscode/
 .idea/
+
+# Downloaded third-party datasets (re-downloadable, not our data)
+expv2-1_tog_kqapro/data/*.json
